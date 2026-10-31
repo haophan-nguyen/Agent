@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "examples/lvgl_examples/lvgl_sdk",
+		"source" : "D:/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/examples/lvgl_examples/lvgl_sdk"
+	}
+}

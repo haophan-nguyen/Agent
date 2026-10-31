@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "components/v2x_base",
+		"source" : "D:/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/v2x_base"
+	}
+}

@@ -1,0 +1,4 @@
+D:/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/drivers/fsl_clock.h:1235:20:CLOCK_EnableClock	24	static
+D:/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/port/fsl_port.h:360:20:PORT_SetPinConfig	32	static
+D:/work_space/NXP/work/frdmmcxn236_led_blinky/frdmmcxn236/led_blinky/pin_mux.c:36:6:BOARD_InitBootPins	8	static
+D:/work_space/NXP/work/frdmmcxn236_led_blinky/frdmmcxn236/led_blinky/pin_mux.c:61:6:BOARD_InitPins	24	static

@@ -1,0 +1,23 @@
+
+# Binary and executable files
+*.bin
+*.elf
+
+# Object files
+*.o
+*.obj
+
+# Static libraries
+*.a
+*.lib
+
+# Build directories
+build/
+Build/
+Debug/
+Release/
+
+# Temporary files
+*.tmp
+*.log
+*.bak

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "middleware/cadence",
+		"source" : "D:/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/middleware/cadence"
+	}
+}

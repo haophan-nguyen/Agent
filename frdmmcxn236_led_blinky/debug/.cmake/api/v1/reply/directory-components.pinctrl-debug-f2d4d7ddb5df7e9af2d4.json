@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "components/pinctrl",
+		"source" : "D:/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/pinctrl"
+	}
+}

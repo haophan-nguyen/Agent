@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "drivers/flexio/mculcd",
+		"source" : "D:/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/flexio/mculcd"
+	}
+}

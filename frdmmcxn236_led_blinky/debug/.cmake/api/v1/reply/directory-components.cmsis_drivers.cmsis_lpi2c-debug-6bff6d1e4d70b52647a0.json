@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "components/cmsis_drivers/cmsis_lpi2c",
+		"source" : "D:/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/cmsis_drivers/cmsis_lpi2c"
+	}
+}

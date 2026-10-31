@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rtos/freertos/freertos-drivers/lpflexcomm/lpspi",
+		"source" : "D:/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/rtos/freertos/freertos-drivers/lpflexcomm/lpspi"
+	}
+}

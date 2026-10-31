@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "components/mx25l_flash",
+		"source" : "D:/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/mx25l_flash"
+	}
+}

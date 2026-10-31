@@ -1,0 +1,1 @@
+D:\work_space\NXP\work\frdmmcxn236_led_blinky\debug\mcux_config.h

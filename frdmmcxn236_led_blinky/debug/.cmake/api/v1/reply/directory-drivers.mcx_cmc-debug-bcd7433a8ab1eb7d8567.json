@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "drivers/mcx_cmc",
+		"source" : "D:/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/mcx_cmc"
+	}
+}

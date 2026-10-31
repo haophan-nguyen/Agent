@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "components/mt48lc4m16a2",
+		"source" : "D:/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/mt48lc4m16a2"
+	}
+}

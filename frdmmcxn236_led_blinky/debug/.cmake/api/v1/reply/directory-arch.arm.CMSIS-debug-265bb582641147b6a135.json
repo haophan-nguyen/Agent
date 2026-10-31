@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "arch/arm/CMSIS",
+		"source" : "D:/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/arch/arm/CMSIS"
+	}
+}
