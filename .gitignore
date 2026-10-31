@@ -17,6 +17,9 @@ Build/
 Debug/
 Release/
 
+# MCUXpresso generated build directory
+debug/
+
 # Temporary files
 *.tmp
 *.log

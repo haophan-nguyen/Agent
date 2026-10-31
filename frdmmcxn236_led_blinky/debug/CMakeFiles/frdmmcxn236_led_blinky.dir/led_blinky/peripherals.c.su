@@ -1,3 +1,0 @@
-D:/work_space/NXP/work/frdmmcxn236_led_blinky/led_blinky/peripherals.c:114:13:SysTick0_init	4	static
-D:/work_space/NXP/work/frdmmcxn236_led_blinky/led_blinky/peripherals.c:124:6:BOARD_InitPeripherals	8	static
-D:/work_space/NXP/work/frdmmcxn236_led_blinky/led_blinky/peripherals.c:133:6:BOARD_InitBootPeripherals	8	static

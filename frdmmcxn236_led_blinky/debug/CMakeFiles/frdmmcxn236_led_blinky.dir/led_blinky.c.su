@@ -1,3 +1,0 @@
-D:/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/gpio/fsl_gpio.h:405:20:GPIO_PortToggle	16	static
-D:/work_space/NXP/work/frdmmcxn236_led_blinky/led_blinky.c:26:6:SysTick_Handler	8	static
-D:/work_space/NXP/work/frdmmcxn236_led_blinky/led_blinky.c:35:5:main	8	static
