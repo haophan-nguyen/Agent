@@ -301,7 +301,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x21 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/drivers/fsl_reset.c.obj
  .debug_line    0x00000000      0x347 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/drivers/fsl_reset.c.obj
- .debug_str     0x00000000     0x1089 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/drivers/fsl_reset.c.obj
+ .debug_str     0x00000000     0x108c CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/drivers/fsl_reset.c.obj
  .comment       0x00000000       0x46 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/drivers/fsl_reset.c.obj
  .debug_frame   0x00000000       0x7c CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/drivers/fsl_reset.c.obj
  .ARM.attributes
@@ -320,7 +320,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x1a CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/common/fsl_common.c.obj
  .debug_line    0x00000000      0x331 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/common/fsl_common.c.obj
- .debug_str     0x00000000      0x2d5 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/common/fsl_common.c.obj
+ .debug_str     0x00000000      0x2d8 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/common/fsl_common.c.obj
  .comment       0x00000000       0x46 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/common/fsl_common.c.obj
  .debug_frame   0x00000000       0x58 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/common/fsl_common.c.obj
  .ARM.attributes
@@ -348,7 +348,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x26 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/common/fsl_common_arm.c.obj
  .debug_line    0x00000000      0x2f7 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/common/fsl_common_arm.c.obj
- .debug_str     0x00000000      0x3b5 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/common/fsl_common_arm.c.obj
+ .debug_str     0x00000000      0x3b8 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/common/fsl_common_arm.c.obj
  .comment       0x00000000       0x46 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/common/fsl_common_arm.c.obj
  .debug_frame   0x00000000       0xa0 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/common/fsl_common_arm.c.obj
  .ARM.attributes
@@ -680,7 +680,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x100 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/lpflexcomm/lpuart/fsl_lpuart.c.obj
  .debug_line    0x00000000     0x1756 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/lpflexcomm/lpuart/fsl_lpuart.c.obj
- .debug_str     0x00000000     0x2fb7 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/lpflexcomm/lpuart/fsl_lpuart.c.obj
+ .debug_str     0x00000000     0x2fba CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/lpflexcomm/lpuart/fsl_lpuart.c.obj
  .comment       0x00000000       0x46 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/lpflexcomm/lpuart/fsl_lpuart.c.obj
  .debug_frame   0x00000000      0x5ac CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/lpflexcomm/lpuart/fsl_lpuart.c.obj
  .ARM.attributes
@@ -725,7 +725,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x55 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/misc_utilities/fsl_syscall_stub.c.obj
  .debug_line    0x00000000      0x35a CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/misc_utilities/fsl_syscall_stub.c.obj
- .debug_str     0x00000000      0x3c1 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/misc_utilities/fsl_syscall_stub.c.obj
+ .debug_str     0x00000000      0x3c4 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/misc_utilities/fsl_syscall_stub.c.obj
  .comment       0x00000000       0x46 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/misc_utilities/fsl_syscall_stub.c.obj
  .debug_frame   0x00000000      0x1b8 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/misc_utilities/fsl_syscall_stub.c.obj
  .ARM.attributes
@@ -743,7 +743,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x13 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/misc_utilities/fsl_sbrk.c.obj
  .debug_line    0x00000000      0x261 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/misc_utilities/fsl_sbrk.c.obj
- .debug_str     0x00000000      0x241 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/misc_utilities/fsl_sbrk.c.obj
+ .debug_str     0x00000000      0x244 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/misc_utilities/fsl_sbrk.c.obj
  .comment       0x00000000       0x46 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/misc_utilities/fsl_sbrk.c.obj
  .debug_frame   0x00000000       0x34 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/misc_utilities/fsl_sbrk.c.obj
  .ARM.attributes
@@ -816,7 +816,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0xca CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/str/fsl_str.c.obj
  .debug_line    0x00000000      0xbdb CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/str/fsl_str.c.obj
- .debug_str     0x00000000      0x64c CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/str/fsl_str.c.obj
+ .debug_str     0x00000000      0x64f CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/str/fsl_str.c.obj
  .comment       0x00000000       0x46 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/str/fsl_str.c.obj
  .debug_frame   0x00000000      0x414 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/str/fsl_str.c.obj
  .ARM.attributes
@@ -860,7 +860,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x41 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
  .debug_line    0x00000000      0x570 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
- .debug_str     0x00000000     0x17c7 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
+ .debug_str     0x00000000     0x17ca CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
  .comment       0x00000000       0x46 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
  .debug_frame   0x00000000      0x138 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
  .ARM.attributes
@@ -880,7 +880,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x19 CMakeFiles/frdmmcxn236_led_blinky.dir/frdmmcxn236/frdmmcxn236/board.c.obj
  .debug_line    0x00000000      0x36d CMakeFiles/frdmmcxn236_led_blinky.dir/frdmmcxn236/frdmmcxn236/board.c.obj
- .debug_str     0x00000000     0x262c CMakeFiles/frdmmcxn236_led_blinky.dir/frdmmcxn236/frdmmcxn236/board.c.obj
+ .debug_str     0x00000000     0x262f CMakeFiles/frdmmcxn236_led_blinky.dir/frdmmcxn236/frdmmcxn236/board.c.obj
  .comment       0x00000000       0x46 CMakeFiles/frdmmcxn236_led_blinky.dir/frdmmcxn236/frdmmcxn236/board.c.obj
  .debug_frame   0x00000000       0x58 CMakeFiles/frdmmcxn236_led_blinky.dir/frdmmcxn236/frdmmcxn236/board.c.obj
  .ARM.attributes
@@ -2032,18 +2032,18 @@ OUTPUT(frdmmcxn236_led_blinky.elf elf32-littlearm)
 LOAD linker stubs
 
 .debug_line_str
-                0x00000000      0x2be
+                0x00000000      0x2c1
  .debug_line_str
-                0x00000000      0x2be C:/Users/LENOVO/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crt0.o
+                0x00000000      0x2c1 C:/Users/LENOVO/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crt0.o
                                  0xde (size before relaxing)
  .debug_line_str
-                0x000002be       0x8e CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/gcc/startup_MCXN236.S.obj
+                0x000002c1       0x91 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/gcc/startup_MCXN236.S.obj
  .debug_line_str
-                0x000002be       0x86 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/misc_utilities/fsl_memcpy.S.obj
+                0x000002c1       0x89 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/misc_utilities/fsl_memcpy.S.obj
  .debug_line_str
-                0x000002be       0x86 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/misc_utilities/fsl_memset.S.obj
+                0x000002c1       0x89 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/misc_utilities/fsl_memset.S.obj
  .debug_line_str
-                0x000002be       0xf3 C:/Users/LENOVO/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strlen.o)
+                0x000002c1       0xf3 C:/Users/LENOVO/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strlen.o)
 
 .debug_info     0x00000000    0x10bd7
  .debug_info    0x00000000     0x165f CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/system_MCXN236.c.obj
@@ -2138,7 +2138,7 @@ LOAD linker stubs
  .debug_rnglists
                 0x000005cd       0x1f CMakeFiles/frdmmcxn236_led_blinky.dir/led_blinky/peripherals.c.obj
 
-.debug_line     0x00000000     0x6438
+.debug_line     0x00000000     0x6441
  .debug_line    0x00000000      0x401 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/system_MCXN236.c.obj
  .debug_line    0x00000401      0x3b9 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/gcc/startup_MCXN236.S.obj
  .debug_line    0x000007ba     0x22ba CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/drivers/fsl_clock.c.obj
@@ -2151,27 +2151,27 @@ LOAD linker stubs
  .debug_line    0x00005495       0x77 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/misc_utilities/fsl_memset.S.obj
  .debug_line    0x0000550c      0x500 CMakeFiles/frdmmcxn236_led_blinky.dir/frdmmcxn236/frdmmcxn236/clock_config.c.obj
  .debug_line    0x00005a0c      0x42f CMakeFiles/frdmmcxn236_led_blinky.dir/frdmmcxn236/led_blinky/pin_mux.c.obj
- .debug_line    0x00005e3b      0x13d CMakeFiles/frdmmcxn236_led_blinky.dir/frdmmcxn236/led_blinky/hardware_init.c.obj
- .debug_line    0x00005f78      0x29b CMakeFiles/frdmmcxn236_led_blinky.dir/led_blinky.c.obj
- .debug_line    0x00006213      0x225 CMakeFiles/frdmmcxn236_led_blinky.dir/led_blinky/peripherals.c.obj
+ .debug_line    0x00005e3b      0x143 CMakeFiles/frdmmcxn236_led_blinky.dir/frdmmcxn236/led_blinky/hardware_init.c.obj
+ .debug_line    0x00005f7e      0x29e CMakeFiles/frdmmcxn236_led_blinky.dir/led_blinky.c.obj
+ .debug_line    0x0000621c      0x225 CMakeFiles/frdmmcxn236_led_blinky.dir/led_blinky/peripherals.c.obj
 
-.debug_str      0x00000000     0xba7e
- .debug_str     0x00000000     0xba7e CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/system_MCXN236.c.obj
-                               0x18c1 (size before relaxing)
- .debug_str     0x0000ba7e     0x1f07 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/gcc/startup_MCXN236.S.obj
- .debug_str     0x0000ba7e     0x5490 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/drivers/fsl_clock.c.obj
- .debug_str     0x0000ba7e     0x1ef1 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/gpio/fsl_gpio.c.obj
- .debug_str     0x0000ba7e     0x311d CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/lpflexcomm/fsl_lpflexcomm.c.obj
- .debug_str     0x0000ba7e     0x1d1d CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/mcx_spc/fsl_spc.c.obj
- .debug_str     0x0000ba7e      0x27f CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/assert/fsl_assert.c.obj
- .debug_str     0x0000ba7e     0x1467 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/debug_console_lite/fsl_debug_console.c.obj
- .debug_str     0x0000ba7e       0x94 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/misc_utilities/fsl_memcpy.S.obj
- .debug_str     0x0000ba7e       0x94 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/misc_utilities/fsl_memset.S.obj
- .debug_str     0x0000ba7e     0x341f CMakeFiles/frdmmcxn236_led_blinky.dir/frdmmcxn236/frdmmcxn236/clock_config.c.obj
- .debug_str     0x0000ba7e     0x16d2 CMakeFiles/frdmmcxn236_led_blinky.dir/frdmmcxn236/led_blinky/pin_mux.c.obj
- .debug_str     0x0000ba7e      0x239 CMakeFiles/frdmmcxn236_led_blinky.dir/frdmmcxn236/led_blinky/hardware_init.c.obj
- .debug_str     0x0000ba7e      0x2c8 CMakeFiles/frdmmcxn236_led_blinky.dir/led_blinky.c.obj
- .debug_str     0x0000ba7e      0x24c CMakeFiles/frdmmcxn236_led_blinky.dir/led_blinky/peripherals.c.obj
+.debug_str      0x00000000     0xba81
+ .debug_str     0x00000000     0xba81 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/system_MCXN236.c.obj
+                               0x18c4 (size before relaxing)
+ .debug_str     0x0000ba81     0x1f0a CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/gcc/startup_MCXN236.S.obj
+ .debug_str     0x0000ba81     0x5493 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/drivers/fsl_clock.c.obj
+ .debug_str     0x0000ba81     0x1ef4 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/gpio/fsl_gpio.c.obj
+ .debug_str     0x0000ba81     0x3120 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/lpflexcomm/fsl_lpflexcomm.c.obj
+ .debug_str     0x0000ba81     0x1d20 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/drivers/mcx_spc/fsl_spc.c.obj
+ .debug_str     0x0000ba81      0x282 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/assert/fsl_assert.c.obj
+ .debug_str     0x0000ba81     0x146a CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/debug_console_lite/fsl_debug_console.c.obj
+ .debug_str     0x0000ba81       0x97 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/misc_utilities/fsl_memcpy.S.obj
+ .debug_str     0x0000ba81       0x97 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/components/misc_utilities/fsl_memset.S.obj
+ .debug_str     0x0000ba81     0x3422 CMakeFiles/frdmmcxn236_led_blinky.dir/frdmmcxn236/frdmmcxn236/clock_config.c.obj
+ .debug_str     0x0000ba81     0x16d5 CMakeFiles/frdmmcxn236_led_blinky.dir/frdmmcxn236/led_blinky/pin_mux.c.obj
+ .debug_str     0x0000ba81      0x23c CMakeFiles/frdmmcxn236_led_blinky.dir/frdmmcxn236/led_blinky/hardware_init.c.obj
+ .debug_str     0x0000ba81      0x2cb CMakeFiles/frdmmcxn236_led_blinky.dir/led_blinky.c.obj
+ .debug_str     0x0000ba81      0x24f CMakeFiles/frdmmcxn236_led_blinky.dir/led_blinky/peripherals.c.obj
 
 .comment        0x00000000       0x45
  .comment       0x00000000       0x45 CMakeFiles/frdmmcxn236_led_blinky.dir/D_/work_space/NXP/SDK/frdm_mcxn236/mcuxsdk/devices/MCX/MCXN/MCXN236/system_MCXN236.c.obj

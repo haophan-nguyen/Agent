@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug"
+			"value" : "D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug"
 		},
 		{
 			"name" : "APPLICATION_SOURCE_DIR",
@@ -23,7 +23,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "D:/work_space/NXP/work/frdmmcxn236_led_blinky"
+			"value" : "D:/work_space/Agent/Agent/frdmmcxn236_led_blinky"
 		},
 		{
 			"name" : "APP_DIR",
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "D:/work_space/NXP/work/frdmmcxn236_led_blinky"
+			"value" : "D:/work_space/Agent/Agent/frdmmcxn236_led_blinky"
 		},
 		{
 			"name" : "CACHED_BOARD",
@@ -179,7 +179,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : " -include D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/mcux_config.h -include D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/mcuxsdk_version.h -mthumb -mcpu=cortex-m33 -mfloat-abi=hard -mfpu=fpv5-sp-d16 -DCPU_MCXN236VDF -DMCXN236_SERIES -g -D__STARTUP_CLEAR_BSS -DMCUXPRESSO_SDK"
+			"value" : " -include D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/mcux_config.h -include D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/mcuxsdk_version.h -mthumb -mcpu=cortex-m33 -mfloat-abi=hard -mfpu=fpv5-sp-d16 -DCPU_MCXN236VDF -DMCXN236_SERIES -g -D__STARTUP_CLEAR_BSS -DMCUXPRESSO_SDK"
 		},
 		{
 			"name" : "CMAKE_ASM_FLAGS_DEBUG",
@@ -267,7 +267,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/work_space/NXP/work/frdmmcxn236_led_blinky/debug"
+			"value" : "D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -403,7 +403,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : " -include D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/mcux_config.h -include D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/mcuxsdk_version.h --specs=nano.specs -Wall -fno-common -ffunction-sections -fdata-sections -fno-builtin -mthumb -mapcs -fno-rtti -fno-exceptions -Werror -fstack-usage -mcpu=cortex-m33 -mfloat-abi=hard -mfpu=fpv5-sp-d16 -DCPU_MCXN236VDF -DMCXN236_SERIES -g -O0 -DDEBUG -DMCUX_META_BUILD -DMCUXPRESSO_SDK -DSDK_DEBUGCONSOLE=1"
+			"value" : " -include D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/mcux_config.h -include D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/mcuxsdk_version.h --specs=nano.specs -Wall -fno-common -ffunction-sections -fdata-sections -fno-builtin -mthumb -mapcs -fno-rtti -fno-exceptions -Werror -fstack-usage -mcpu=cortex-m33 -mfloat-abi=hard -mfpu=fpv5-sp-d16 -DCPU_MCXN236VDF -DMCXN236_SERIES -g -O0 -DDEBUG -DMCUX_META_BUILD -DMCUXPRESSO_SDK -DSDK_DEBUGCONSOLE=1"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS_DEBUG",
@@ -531,7 +531,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : " -include D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/mcux_config.h -include D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/mcuxsdk_version.h --specs=nano.specs -Wall -fno-common -ffunction-sections -fdata-sections -fno-builtin -mthumb -mapcs -std=gnu99 -Werror -fstack-usage -mcpu=cortex-m33 -mfloat-abi=hard -mfpu=fpv5-sp-d16 -DCPU_MCXN236VDF -DMCXN236_SERIES -g -O0 -D__STARTUP_CLEAR_BSS -DDEBUG -DMCUX_META_BUILD -DMCUXPRESSO_SDK -DSDK_DEBUGCONSOLE=1"
+			"value" : " -include D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/mcux_config.h -include D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/mcuxsdk_version.h --specs=nano.specs -Wall -fno-common -ffunction-sections -fdata-sections -fno-builtin -mthumb -mapcs -std=gnu99 -Werror -fstack-usage -mcpu=cortex-m33 -mfloat-abi=hard -mfpu=fpv5-sp-d16 -DCPU_MCXN236VDF -DMCXN236_SERIES -g -O0 -D__STARTUP_CLEAR_BSS -DDEBUG -DMCUX_META_BUILD -DMCUXPRESSO_SDK -DSDK_DEBUGCONSOLE=1"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_DEBUG",
@@ -751,7 +751,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/CMakeFiles/pkgRedirects"
+			"value" : "D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GDB",
@@ -835,7 +835,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/work_space/NXP/work/frdmmcxn236_led_blinky"
+			"value" : "D:/work_space/Agent/Agent/frdmmcxn236_led_blinky"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1435,7 +1435,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/work_space/NXP/work/frdmmcxn236_led_blinky/prj.conf"
+			"value" : "D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/prj.conf"
 		},
 		{
 			"name" : "MCUXPRESSO_CONFIG_TOOL_GENERATED_CMAKE_FILE_PATH",
@@ -1447,7 +1447,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/work_space/NXP/work/frdmmcxn236_led_blinky/frdmmcxn236/cfg_tools_generated.cmake"
+			"value" : "D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/frdmmcxn236/cfg_tools_generated.cmake"
 		},
 		{
 			"name" : "MCUXPRESSO_CONFIG_TOOL_MEX_PATH",
@@ -1459,7 +1459,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "D:/work_space/NXP/work/frdmmcxn236_led_blinky/frdmmcxn236"
+			"value" : "D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/frdmmcxn236"
 		},
 		{
 			"name" : "MCUX_SKIP_COMPILER_CHECKS",
@@ -1591,7 +1591,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/runners.yaml"
+			"value" : "D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/runners.yaml"
 		},
 		{
 			"name" : "_Python3_Compiler_REASON_FAILURE",
@@ -1771,7 +1771,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug"
+			"value" : "D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug"
 		},
 		{
 			"name" : "frdmmcxn236_led_blinky_IS_TOP_LEVEL",
@@ -1795,7 +1795,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/work_space/NXP/work/frdmmcxn236_led_blinky"
+			"value" : "D:/work_space/Agent/Agent/frdmmcxn236_led_blinky"
 		},
 		{
 			"name" : "multicore_foldername",

@@ -2621,8 +2621,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug",
-		"source" : "D:/work_space/NXP/work/frdmmcxn236_led_blinky"
+		"build" : "D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug",
+		"source" : "D:/work_space/Agent/Agent/frdmmcxn236_led_blinky"
 	},
 	"version" : 
 	{

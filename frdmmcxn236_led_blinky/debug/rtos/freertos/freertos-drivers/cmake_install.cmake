@@ -39,106 +39,106 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/dspi/cmake_install.cmake")
+  include("D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/dspi/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/ecspi/cmake_install.cmake")
+  include("D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/ecspi/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/i2c/cmake_install.cmake")
+  include("D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/i2c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/ii2c/cmake_install.cmake")
+  include("D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/ii2c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/iuart/cmake_install.cmake")
+  include("D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/iuart/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/lpc_i2c/cmake_install.cmake")
+  include("D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/lpc_i2c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/lpc_vspi/cmake_install.cmake")
+  include("D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/lpc_vspi/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/lpc_vusart/cmake_install.cmake")
+  include("D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/lpc_vusart/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/lpflexcomm/lpi2c/cmake_install.cmake")
+  include("D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/lpflexcomm/lpi2c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/lpflexcomm/lpspi/cmake_install.cmake")
+  include("D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/lpflexcomm/lpspi/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/lpflexcomm/lpuart/cmake_install.cmake")
+  include("D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/lpflexcomm/lpuart/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/lpi2c/cmake_install.cmake")
+  include("D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/lpi2c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/lpsci/cmake_install.cmake")
+  include("D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/lpsci/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/lpspi/cmake_install.cmake")
+  include("D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/lpspi/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/lpuart/cmake_install.cmake")
+  include("D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/lpuart/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/smartcard/cmake_install.cmake")
+  include("D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/smartcard/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/spi/cmake_install.cmake")
+  include("D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/spi/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/uart/cmake_install.cmake")
+  include("D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/uart/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/flexcomm/usart/cmake_install.cmake")
+  include("D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/flexcomm/usart/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/flexcomm/spi/cmake_install.cmake")
+  include("D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/flexcomm/spi/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/flexcomm/i2c/cmake_install.cmake")
+  include("D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/rtos/freertos/freertos-drivers/flexcomm/i2c/cmake_install.cmake")
 endif()
 

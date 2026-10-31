@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/middleware/multicore/erpc/mcux/cmake_install.cmake")
+  include("D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/middleware/multicore/erpc/mcux/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/middleware/multicore/remoteproc/cmake_install.cmake")
+  include("D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/middleware/multicore/remoteproc/cmake_install.cmake")
 endif()
 

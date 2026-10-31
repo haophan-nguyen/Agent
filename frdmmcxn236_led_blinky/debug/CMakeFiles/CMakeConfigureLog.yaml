@@ -62,7 +62,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
       
       The C compiler identification is GNU, found in:
-        D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/CMakeFiles/3.30.0/CompilerIdC/CMakeCCompilerId.o
+        D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/CMakeFiles/3.30.0/CompilerIdC/CMakeCCompilerId.o
       
   -
     kind: "message-v1"
@@ -116,7 +116,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
       
       The CXX compiler identification is GNU, found in:
-        D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/CMakeFiles/3.30.0/CompilerIdCXX/CMakeCXXCompilerId.o
+        D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/CMakeFiles/3.30.0/CompilerIdCXX/CMakeCXXCompilerId.o
       
   -
     kind: "message-v1"

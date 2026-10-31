@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/components/storage/stream/cmake_install.cmake")
+  include("D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/components/storage/stream/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/work_space/NXP/work/frdmmcxn236_led_blinky/debug/components/storage/flash_map/cmake_install.cmake")
+  include("D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/components/storage/flash_map/cmake_install.cmake")
 endif()
 
