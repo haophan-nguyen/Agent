@@ -1,0 +1,23 @@
+{
+  "recordedAt": "2026-11-01T10:49:25.5423362+07:00",
+  "testId": "T07",
+  "requirementId": "R4",
+  "executionId": "TD01-P3-T07-A01-R1",
+  "repetition": 1,
+  "operator": "Engineer/user visual observation; Codex recorded response",
+  "response": "Initial ON; ≥3 complete cycles over ≥5 s; no observed stalls/faults",
+  "reference": "request_user_input_async call_181ef0acd549475da89bf922b78015f0 question 0",
+  "observationEventTimestamp": "Not supplied",
+  "method": "Engineer visual observation following H4-authorized reset; not an instrument measurement",
+  "initialRedLED": "ON",
+  "completeCyclesObservedAtLeast": 3,
+  "observationSecondsAtLeast": 5,
+  "observedStallsOrFaults": "None reported",
+  "quantitativeTimingEstablished": false,
+  "imageSha256": "2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391",
+  "loadedImageEvidence": "verify-after-load-review.json",
+  "target": "Same engineer FRDM-MCXN236 via probe SPOBEAQ0BCREX",
+  "sufficientForPlannedContinuation": true,
+  "perRepetitionEvaluation": "Required qualitative startup/pattern observation supports continuation; whole T07 still awaits repetitions 2 and 3",
+  "recoveryAttemptsConsumed": 0
+}

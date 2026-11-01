@@ -1,0 +1,103 @@
+{
+  "recordedAt": "2026-11-01T11:20:22.1340676+07:00",
+  "executionId": "TD01-P3-T09-A03",
+  "nativeResultReference": "exec chunk 6138c6",
+  "nativePermission": "Concrete require_escalated invocation completed; separate approver/event timestamp not exposed",
+  "outerExitCode": 0,
+  "method": "Independent offline evaluation of retained raw MI reply bytes, core text and server closure; no target access",
+  "rawInputs": [
+    "t09-fixed-capture.json",
+    "t09-fixed-gdb-stdout.log",
+    "t09-fixed-server-stdout.log"
+  ],
+  "status": "PASS",
+  "rawRegisterValues": {
+    "priority": [
+      0,
+      0
+    ],
+    "ctrl": [
+      7,
+      7
+    ],
+    "load": [
+      11999999,
+      5999999
+    ],
+    "systemCoreClock": [
+      12000000,
+      12000000
+    ]
+  },
+  "bankedMasks": {
+    "PriMask": {
+      "before": 0,
+      "after": 0
+    },
+    "BasePri": {
+      "before": 0,
+      "after": 0
+    },
+    "FaultMask": {
+      "before": 0,
+      "after": 0
+    },
+    "PriMask_NS": {
+      "before": 0,
+      "after": 0
+    },
+    "BasePri_NS": {
+      "before": 0,
+      "after": 0
+    },
+    "FaultMask_NS": {
+      "before": 0,
+      "after": 0
+    },
+    "PriMask_S": {
+      "before": 0,
+      "after": 0
+    },
+    "BasePri_S": {
+      "before": 0,
+      "after": 0
+    },
+    "FaultMask_S": {
+      "before": 0,
+      "after": 0
+    }
+  },
+  "checks": {
+    "priorityPreserved": true,
+    "ctrlEnabledAndPreserved": true,
+    "load5999999": true,
+    "coreClock12MHz": true,
+    "allGenericSecureAndNonsecureMasksPreserved": true,
+    "allThreeImageRegionsMatched": true,
+    "correctBreakpointPCs": true,
+    "loadInvokedOnce": true,
+    "explicitMonitorResetOnce": true,
+    "noInvalidWideReadAddress": true,
+    "stopDisconnectCompleted": true,
+    "gdbExitCompleted": true,
+    "serverClosed": true
+  },
+  "imageSha256": "2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391",
+  "testedSourceRevision": "b630da3bd67d84150d1cc574c2959be5e8e73039",
+  "workingSourceSha256": "46AD8D67DE632F9FDFFB8D8366AA9E832FAC03D81BAAC0A44C8A4D1976E588AF",
+  "target": "Engineer same FRDM-MCXN236 via SPOBEAQ0BCREX, NXP MCXN236 / Cortex-M33 observed",
+  "timingEvidence": "None; halted debug run, not quantitative timing",
+  "lastKnownTargetState": "Halted at after-update PC0x1EA4; owned breakpoints removed, disconnect stop and GDB exit completed; owned server closed. No restoration reset/run.",
+  "recoveryCounts": {
+    "P3F05Consumed": 4,
+    "P3F05Limit": 4,
+    "P3F07Consumed": 1,
+    "P3F07Limit": 3,
+    "P3F08Consumed": 1,
+    "P3F08Limit": 3,
+    "P3F02Consumed": 2,
+    "P3F02Limit": 3
+  },
+  "actualProgrammingOperationsThisResume": 3,
+  "conservativelyChargedLoadContainingDispatches": 4
+}

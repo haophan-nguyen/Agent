@@ -1,0 +1,19 @@
+{
+  "recordedAt": "2026-11-01T10:48:09.9854617+07:00",
+  "testId": "T07",
+  "executionId": "TD01-P3-T07-A01-R1",
+  "state": "AWAITING_ENGINEER_OBSERVATION",
+  "channel": "functions.request_user_input_async",
+  "submissionResult": "accepted: true",
+  "question": "T07 reset 1 completed successfully. After watching from reset release for at least 5 seconds, what did you actually observe? Confirm initial red ON, then at least three complete ON/OFF cycles with no observed stalls/faults. Record missed initial state, different behavior or incomplete observation explicitly. Visual evidence does not establish quantitative timing.",
+  "response": null,
+  "nextResetIssued": false,
+  "H4Authority": "Approved for remaining planned resets, contingent on sufficient actual prior observation",
+  "recoveryCounts": {
+    "P3F05Consumed": 1,
+    "P3F05Remaining": 2,
+    "P3F02Consumed": 2,
+    "P3F02Remaining": 1
+  },
+  "reporting": "Nonterminal checkpoint; no final report solely because observation response is pending"
+}

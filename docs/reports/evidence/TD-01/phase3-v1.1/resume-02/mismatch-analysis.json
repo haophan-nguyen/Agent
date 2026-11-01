@@ -1,0 +1,200 @@
+{
+  "recordedAt": "2026-11-01T10:35:07.7474805+07:00",
+  "diagnosticId": "TD01-P3-RESUME-D01",
+  "failureId": "P3-F05",
+  "method": "Offline ELF32 PT_LOAD mapping of mismatch addresses from retained V01 output; no target read, no tool relaunch",
+  "rawInput": "../verify-output.log",
+  "image": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf",
+  "imageSha256": "2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391",
+  "loadSegments": [
+    {
+      "fileOffset": 4096,
+      "virtualAddress": 0,
+      "physicalAddress": 0,
+      "fileBytes": 688,
+      "memoryBytes": 688
+    },
+    {
+      "fileOffset": 5120,
+      "virtualAddress": 1024,
+      "physicalAddress": 1024,
+      "fileBytes": 8040,
+      "memoryBytes": 8040
+    },
+    {
+      "fileOffset": 16384,
+      "virtualAddress": 536870912,
+      "physicalAddress": 9064,
+      "fileBytes": 4,
+      "memoryBytes": 3384
+    }
+  ],
+  "mismatches": [
+    {
+      "address": "0x0000044C",
+      "savedFileWord": "0x0020FD5D",
+      "currentFileWord": "0x0020FD5D",
+      "historicalFlashWord": "0x0020FD43",
+      "fileWordMatchesCurrent": true,
+      "unsignedDifference": 26
+    },
+    {
+      "address": "0x00000458",
+      "savedFileWord": "0xBF00FD45",
+      "currentFileWord": "0xBF00FD45",
+      "historicalFlashWord": "0xBF00FD2B",
+      "fileWordMatchesCurrent": true,
+      "unsignedDifference": 26
+    },
+    {
+      "address": "0x000004EC",
+      "savedFileWord": "0x00002368",
+      "currentFileWord": "0x00002368",
+      "historicalFlashWord": "0x00002334",
+      "fileWordMatchesCurrent": true,
+      "unsignedDifference": 52
+    },
+    {
+      "address": "0x00000A94",
+      "savedFileWord": "0x00002340",
+      "currentFileWord": "0x00002340",
+      "historicalFlashWord": "0x0000230C",
+      "fileWordMatchesCurrent": true,
+      "unsignedDifference": 52
+    },
+    {
+      "address": "0x00000AB8",
+      "savedFileWord": "0x00002340",
+      "currentFileWord": "0x00002340",
+      "historicalFlashWord": "0x0000230C",
+      "fileWordMatchesCurrent": true,
+      "unsignedDifference": 52
+    },
+    {
+      "address": "0x00000CB8",
+      "savedFileWord": "0x00001F54",
+      "currentFileWord": "0x00001F54",
+      "historicalFlashWord": "0x00001F20",
+      "fileWordMatchesCurrent": true,
+      "unsignedDifference": 52
+    },
+    {
+      "address": "0x00000CBC",
+      "savedFileWord": "0x00002218",
+      "currentFileWord": "0x00002218",
+      "historicalFlashWord": "0x000021E4",
+      "fileWordMatchesCurrent": true,
+      "unsignedDifference": 52
+    },
+    {
+      "address": "0x00000CC0",
+      "savedFileWord": "0x00001F70",
+      "currentFileWord": "0x00001F70",
+      "historicalFlashWord": "0x00001F3C",
+      "fileWordMatchesCurrent": true,
+      "unsignedDifference": 52
+    },
+    {
+      "address": "0x00000F44",
+      "savedFileWord": "0x00002228",
+      "currentFileWord": "0x00002228",
+      "historicalFlashWord": "0x000021F4",
+      "fileWordMatchesCurrent": true,
+      "unsignedDifference": 52
+    },
+    {
+      "address": "0x00000F48",
+      "savedFileWord": "0x00002018",
+      "currentFileWord": "0x00002018",
+      "historicalFlashWord": "0x00001FE4",
+      "fileWordMatchesCurrent": true,
+      "unsignedDifference": 52
+    },
+    {
+      "address": "0x00000F4C",
+      "savedFileWord": "0x00002264",
+      "currentFileWord": "0x00002264",
+      "historicalFlashWord": "0x00002230",
+      "fileWordMatchesCurrent": true,
+      "unsignedDifference": 52
+    },
+    {
+      "address": "0x00000F50",
+      "savedFileWord": "0x0000203C",
+      "currentFileWord": "0x0000203C",
+      "historicalFlashWord": "0x00002008",
+      "fileWordMatchesCurrent": true,
+      "unsignedDifference": 52
+    },
+    {
+      "address": "0x00000FA8",
+      "savedFileWord": "0x00002080",
+      "currentFileWord": "0x00002080",
+      "historicalFlashWord": "0x0000204C",
+      "fileWordMatchesCurrent": true,
+      "unsignedDifference": 52
+    },
+    {
+      "address": "0x00000FAC",
+      "savedFileWord": "0x00002278",
+      "currentFileWord": "0x00002278",
+      "historicalFlashWord": "0x00002244",
+      "fileWordMatchesCurrent": true,
+      "unsignedDifference": 52
+    },
+    {
+      "address": "0x00000FB0",
+      "savedFileWord": "0x0000203C",
+      "currentFileWord": "0x0000203C",
+      "historicalFlashWord": "0x00002008",
+      "fileWordMatchesCurrent": true,
+      "unsignedDifference": 52
+    },
+    {
+      "address": "0x00000FB4",
+      "savedFileWord": "0x00002258",
+      "currentFileWord": "0x00002258",
+      "historicalFlashWord": "0x00002224",
+      "fileWordMatchesCurrent": true,
+      "unsignedDifference": 52
+    },
+    {
+      "address": "0x00001024",
+      "savedFileWord": "0x000020A8",
+      "currentFileWord": "0x000020A8",
+      "historicalFlashWord": "0x00002074",
+      "fileWordMatchesCurrent": true,
+      "unsignedDifference": 52
+    },
+    {
+      "address": "0x00001028",
+      "savedFileWord": "0x00002290",
+      "currentFileWord": "0x00002290",
+      "historicalFlashWord": "0x0000225C",
+      "fileWordMatchesCurrent": true,
+      "unsignedDifference": 52
+    },
+    {
+      "address": "0x0000102C",
+      "savedFileWord": "0x0000203C",
+      "currentFileWord": "0x0000203C",
+      "historicalFlashWord": "0x00002008",
+      "fileWordMatchesCurrent": true,
+      "unsignedDifference": 52
+    },
+    {
+      "address": "0x00001054",
+      "savedFileWord": "0x000022A0",
+      "currentFileWord": "0x000022A0",
+      "historicalFlashWord": "0x0000226C",
+      "fileWordMatchesCurrent": true,
+      "unsignedDifference": 52
+    }
+  ],
+  "reportedMismatchCount": 20,
+  "allLoggedFileWordsMatchCurrent": true,
+  "classification": "TEST_INFRASTRUCTURE: confirmed image attribution mismatch; cause of different programmed image UNKNOWN",
+  "conclusion": "Retained verifier compared against words present in the exact designated file; it demonstrated different flash contents, not a TD functional failure. Repeating unchanged verify would not establish the designated image. Propose exact-image load and validating verify after fresh authorization.",
+  "limitations": "Only the reported mismatches are available; log is not a full flash dump. Cannot identify the old full image, establish why it differs, or assert current live state. No firmware defect is proven.",
+  "recoveryAttemptsConsumed": 0
+}

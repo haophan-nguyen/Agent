@@ -1,0 +1,107 @@
+[
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\authorizations-and-setup.md",
+    "bytes": 3551,
+    "sha256": "628D837A67B84EF15143EBCFFA80D51900FE4722D69A726BCDCA41E291DF9720"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\cache-diagnostic.json",
+    "bytes": 456,
+    "sha256": "732025094E2A0503275EEEF7AE14FA384E23D4E0F52495A23099D2FF922E2E37"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\candidate-compile-entry.json",
+    "bytes": 2245,
+    "sha256": "8F8287945835EB350352973BDF957340EFC1AD18F2596A3835A984E326ADE5EA"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\diagnostic-notes.md",
+    "bytes": 4016,
+    "sha256": "8253DA06E836AF39DFDA41DE40C3FAF78F201B6E8B173622FFC636F5F6AD54EC"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\execution-ledger.json",
+    "bytes": 30409,
+    "sha256": "49804110D801A4047266C3BE101FD0EB39E10709D399723E721EEFD8305960DF"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\failure-ledger.json",
+    "bytes": 16539,
+    "sha256": "CF1D25A997B4AF25E26AD7BFAE881DCDB66B10A77D34DD3D2E3E3248E26F7B8B"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\final-validation.json",
+    "bytes": 5295,
+    "sha256": "208D005BAD308180DD0A6C5DD730FE2C246452C08C21882FC3AA4EC12855AADB"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\hardware-hook-inputs.json",
+    "bytes": 394,
+    "sha256": "818A9EEF140D1415DACECD06B60BF56D574DF6BFAB30381BD7028BE36DCF96C8"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\host-discovery-escalated.json",
+    "bytes": 4905,
+    "sha256": "DC29674DE3351A8A8B3EB8E95B202DDF20F411B8CA5B733E52B6E556B5216134"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\host-discovery.json",
+    "bytes": 5286,
+    "sha256": "1BB82BF5AB94B686FE5CB6D18B94F83642F59204E6E42D268F5B93ED23FB9B71"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\host-tools-escalated.json",
+    "bytes": 24153,
+    "sha256": "158522416801703BEAD6941FC661C42D5751FBEB1D04653AD7C8E5BD12ECAE2C"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\identity-checks.json",
+    "bytes": 1656,
+    "sha256": "C99A1C06CAD80B39E122B5725D728E8AD69F2FF879C78CC4DE833221A0566DC2"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\inspected-inputs.json",
+    "bytes": 8391,
+    "sha256": "5CC5F38E419BF2768D17C08AFE0420BCBC4418506E1DE30B7AE3B0918AE0ECBF"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\linkserver-help.json",
+    "bytes": 1120,
+    "sha256": "DC2532A6F307A51BC669ECAA1D9A312D2E2EC0B75E72712EAA7ED9DCC839FC34"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\offline-elf.json",
+    "bytes": 1458,
+    "sha256": "DD4FAE1CF1C80BE52960C5CDEC9909B5AF68881318E05FE4A1F62AA0B89B16E6"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\phase2-audit-hash-comparison.json",
+    "bytes": 8520,
+    "sha256": "DF9763C6BAF557ABD80DEA669CA5DCA498E25C499CE09C032C71366D76C3442C"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\phase2-evidence-current-hashes.json",
+    "bytes": 2601,
+    "sha256": "CB20867F652C5E9F03F3F28545B45D00229BFFD98C23191F8ECAB1A74235EA57"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\probe-discovery.json",
+    "bytes": 13418,
+    "sha256": "FB1B6C526B55E54C7B7F2D6B36AD557027658E7238338777334990AD7E2173E4"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\starting-inventory.json",
+    "bytes": 215901,
+    "sha256": "FEE4EAF3664F142E4EF5CD91226D83A51C838D27EC0C30DCDBACA56C341DCD73"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\starting-source.diff",
+    "bytes": 830,
+    "sha256": "0BBA14D9AECEF50E29A2F4381CFB7BDB453C22C911CBB003B5B4C97687973147"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\starting-state.json",
+    "bytes": 799,
+    "sha256": "3CFF2F5506D301E634D10D0A4DE0C1E81C41CE6115FC2422EED33D20A2AE18B9"
+  }
+]

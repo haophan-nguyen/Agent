@@ -1,0 +1,12 @@
+{
+  "recordedAt": "2026-11-01T11:00:09.6538475+07:00",
+  "purpose": "Operation-critical H5 freshness check, not repeated discovery",
+  "frozenInputCount": 8,
+  "changed": [],
+  "imageMatchesApproval": true,
+  "physicalSetupAndPreservation": "Explicit current H5 approval confirms stated facts",
+  "nativePermission": "Pending concrete request",
+  "currentP3F05Consumed": 1,
+  "plannedLoadDispatchAttempt": 2,
+  "currentP3F02Consumed": 2
+}

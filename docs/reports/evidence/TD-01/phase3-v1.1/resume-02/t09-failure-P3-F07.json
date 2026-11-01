@@ -1,0 +1,44 @@
+{
+  "failureId": "P3-F07",
+  "testIds": [
+    "T09"
+  ],
+  "executionIds": [
+    "TD01-P3-T09-A01"
+  ],
+  "primaryCategory": "ENVIRONMENT_TOOL",
+  "contributingCategories": [
+    "TEST_INFRASTRUCTURE"
+  ],
+  "confidence": "Confirmed host capability mismatch",
+  "classificationHistory": [
+    {
+      "category": "ENVIRONMENT_TOOL",
+      "recordedAt": "2026-11-01T11:05:06.6713613+07:00",
+      "evidence": "t09-gdb-stderr.log"
+    }
+  ],
+  "relatedIssues": [
+    "P3-F05"
+  ],
+  "symptom": "Installed GDB reports Python scripting is not supported",
+  "testStatus": "BLOCKED, not a firmware FAIL",
+  "supportingEvidence": [
+    "t09-session-result.json",
+    "t09-gdb-stdout.log",
+    "t09-gdb-stderr.log",
+    "t09-capture.gdb",
+    "t09-capture.py"
+  ],
+  "rootCauseHypothesis": "Capture helper assumed Python support absent from the actual GDB build. Confirmed by native GDB error before helper executed.",
+  "diagnosticActions": "Inspect retained command error and prepared helper entry point. Native GDB launched successfully; this is not recurrence of P3-F02 DLL relocation. No target-select, load, monitor reset or capture was issued by the helper.",
+  "recoveryAttempts": [],
+  "consumed": 0,
+  "limit": 3,
+  "remaining": 3,
+  "humanApprovals": "H5 client scope consumed by its one invocation; no replacement client or helper retest authorized",
+  "retestResults": "Not performed",
+  "finalDisposition": "Awaiting new scoped native-command helper/retest decision",
+  "nextDecision": "Prepare native GDB/MI capture with no Python installation/update, then request one new bounded H6 scope",
+  "residualRisk": "Owned H5 server continues waiting on loopback port3337; current physical target execution state not inspected after failure. T07 is last normal-running observation."
+}

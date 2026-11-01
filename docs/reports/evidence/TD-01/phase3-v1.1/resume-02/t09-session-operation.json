@@ -1,0 +1,51 @@
+{
+  "executionId": "TD01-P3-T09-A01",
+  "testId": "T09",
+  "requirementId": "R5",
+  "checkpointIds": [
+    "TD01-P3-R3",
+    "TD01-P3-H5"
+  ],
+  "issuedAt": "2026-11-01T11:00:31.5711662+07:00",
+  "operator": "Codex",
+  "workingDirectory": "D:\\work_space\\Agent\\Agent",
+  "serverCommand": {
+    "executable": "C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe",
+    "arguments": [
+      "gdbserver",
+      "--probe",
+      "SPOBEAQ0BCREX",
+      "--update-mode",
+      "none",
+      "--no-boot",
+      "--gdb-port",
+      "3337",
+      "--semihost-port",
+      "-1",
+      "--no-rtos",
+      "MCXN236:FRDM-MCXN236"
+    ]
+  },
+  "clientCommand": {
+    "executable": "C:\\Users\\LENOVO\\.mcuxpressotools\\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gdb.exe",
+    "arguments": [
+      "--nx",
+      "--nh",
+      "--batch",
+      "-x",
+      "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-capture.gdb",
+      "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf"
+    ]
+  },
+  "imageSha256": "2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391",
+  "state": "STARTING_SERVER",
+  "serverReadyDeadlineSeconds": 15,
+  "clientObservationDeadlineSeconds": 120,
+  "automaticRetry": false,
+  "forcedInterruptionAuthorized": false,
+  "recoveryCounterBefore": 1,
+  "loadInterventionIssued": false,
+  "stdout": "t09-gdb-stdout.log",
+  "stderr": "t09-gdb-stderr.log",
+  "nativePermission": "Concrete require_escalated invocation; native result records actual outcome"
+}

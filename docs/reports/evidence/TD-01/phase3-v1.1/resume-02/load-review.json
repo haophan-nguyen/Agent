@@ -1,0 +1,17 @@
+{
+  "recordedAt": "2026-11-01T10:42:37.0697469+07:00",
+  "executionId": "TD01-P3-L01",
+  "operator": "Codex",
+  "nativeResultReference": "exec result chunk 045637",
+  "nativePermission": "Concrete require_escalated invocation completed; separate approver/event timestamp not exposed",
+  "rawEvidence": [
+    "load-result.json",
+    "load-stdout.log",
+    "load-stderr.log"
+  ],
+  "actualObserved": "Load exit 0, named probe and NXP MCXN236 matched. Vector segment 0x00000000/0x2B0 and image segment 0x00000400/0x1F6C reported loaded successfully. Flash sectors 0 and 1 written; reset/halt and driver SOFTRESETs observed.",
+  "eligibleForVerify": true,
+  "nextScope": "Only one H3 associated verify of exact unchanged image, after its native permission",
+  "targetPostState": "Unknown; --no-reset used, no standalone reset/run issued",
+  "recoveryAccounting": "P3-F05 attempt 1/3 issued; validating verify pending, no second recovery attempt"
+}

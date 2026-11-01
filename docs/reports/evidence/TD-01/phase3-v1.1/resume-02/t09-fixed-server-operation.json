@@ -1,0 +1,25 @@
+{
+  "executionId": "TD01-P3-T09-A03",
+  "checkpointId": "TD01-P3-H7",
+  "issuedAt": "2026-11-01T11:18:01.7062673+07:00",
+  "command": {
+    "executable": "C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe",
+    "arguments": [
+      "gdbserver",
+      "--probe",
+      "SPOBEAQ0BCREX",
+      "--update-mode",
+      "none",
+      "--no-boot",
+      "--gdb-port",
+      "3339",
+      "--semihost-port",
+      "-1",
+      "--no-rtos",
+      "MCXN236:FRDM-MCXN236"
+    ]
+  },
+  "state": "READY",
+  "automaticRetry": false,
+  "processId": 5928
+}

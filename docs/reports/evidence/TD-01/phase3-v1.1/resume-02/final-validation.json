@@ -1,0 +1,155 @@
+{
+  "recordedAt": "2026-11-01T11:26:07.7403646+07:00",
+  "workflowState": "PARTIALLY_COMPLETE_FOR_ENGINEER_REVIEW",
+  "terminalReportIssued": true,
+  "report": {
+    "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\phase3-TD-01-v1.1.md",
+    "bytes": 39966,
+    "sha256": "0D1B8F035E531855753313C63B7A3A07947F4C17456F737CDC5DF807E2B737A9"
+  },
+  "priorEvidenceFilesChecked": 41,
+  "protectedEntriesChecked": 87,
+  "changedProtectedPaths": [],
+  "startingEvidenceAndInputsPreserved": true,
+  "headUnchanged": true,
+  "currentHead": "b630da3bd67d84150d1cc574c2959be5e8e73039",
+  "stagedUnchanged": true,
+  "sourceBlobUnchanged": true,
+  "requiredHeadings": [
+    {
+      "heading": "## 1. Task Understanding & Entry Gate",
+      "count": 1
+    },
+    {
+      "heading": "## 2. Execution Plan and Decision Rationale",
+      "count": 1
+    },
+    {
+      "heading": "## 3. Key Actions, Tool Calls and Observations",
+      "count": 1
+    },
+    {
+      "heading": "## 4. Failure Classification, Debugging and Recovery History",
+      "count": 1
+    },
+    {
+      "heading": "## 5. Human Approvals and Interventions",
+      "count": 1
+    },
+    {
+      "heading": "## 6. Test Results & Requirement Traceability",
+      "count": 1
+    },
+    {
+      "heading": "## 7. Evidence References",
+      "count": 1
+    },
+    {
+      "heading": "## 8. Remaining Issues, Risks and Blockers",
+      "count": 1
+    },
+    {
+      "heading": "## 9. Final Status & Phase 4 Handoff",
+      "count": 1
+    }
+  ],
+  "localEvidenceLinksChecked": 71,
+  "missingLinks": [],
+  "jsonFilesParsed": 50,
+  "reportTrailingWhitespace": false,
+  "reportForbiddenTimezoneText": false,
+  "gitDiffCheckExitCode": 0,
+  "gitDiffCheckOutput": "warning: in the working copy of 'frdmmcxn236_led_blinky/led_blinky.c', LF will be replaced by CRLF the next time Git touches it",
+  "finalTestCounts": {
+    "applicablePhase3UniqueTests": 5,
+    "PASS": 2,
+    "FAIL": 0,
+    "BLOCKED": 3,
+    "NOT_RUN": 0,
+    "earlierPhaseNotRerun": [
+      "T01",
+      "T02",
+      "T03",
+      "T08"
+    ],
+    "TDTestAttempts": 4,
+    "T07Attempts": 1,
+    "T07PlannedResetRepetitions": 3,
+    "T09Attempts": 3,
+    "T09AttemptStatuses": [
+      "BLOCKED",
+      "BLOCKED",
+      "PASS"
+    ],
+    "actualProgrammingOperationsThisResume": 3,
+    "conservativelyChargedLoadDispatches": 4
+  },
+  "recoveryCounters": [
+    {
+      "failureId": "P3-F01",
+      "consumed": 0,
+      "limit": 3,
+      "remaining": 3
+    },
+    {
+      "failureId": "P3-F02",
+      "consumed": 2,
+      "limit": 3,
+      "remaining": 1
+    },
+    {
+      "failureId": "P3-F03",
+      "consumed": 0,
+      "limit": 3,
+      "remaining": 3
+    },
+    {
+      "failureId": "P3-F04",
+      "consumed": 0,
+      "limit": 3,
+      "remaining": 3
+    },
+    {
+      "failureId": "P3-F05",
+      "consumed": 4,
+      "limit": 4,
+      "remaining": 0
+    },
+    {
+      "failureId": "P3-F06",
+      "consumed": 0,
+      "limit": 3,
+      "remaining": 3
+    },
+    {
+      "failureId": "A01",
+      "consumed": 0,
+      "limit": 3,
+      "remaining": 3
+    },
+    {
+      "failureId": "A02",
+      "consumed": 0,
+      "limit": 3,
+      "remaining": 3
+    },
+    {
+      "failureId": "P3-F07",
+      "consumed": 1,
+      "limit": 3,
+      "remaining": 2
+    },
+    {
+      "failureId": "P3-F08",
+      "consumed": 1,
+      "limit": 3,
+      "remaining": 2
+    }
+  ],
+  "operationalDecisionsPending": [],
+  "lastKnownTargetState": "Halted atPC0x1EA4, owned hardware breakpoints removed, disconnect-stop and GDB exit completed; server3339 closure confirmed in raw log. No restoration reset/run.",
+  "hardwareAfterFinalCapture": "None; all finishing work is filesystem/Git/evidence inspection/reporting",
+  "Phase4": "Not started; engineer acceptance pending",
+  "retention": "Report/JSON/helpers are uncommitted local files. Firmware/build/Phase2 evidence and *.log raw files are ignored; no durable remote retention claimed. Original files were not overwritten.",
+  "finalReportLedgerAssociationsVerified": true
+}

@@ -1,0 +1,7 @@
+{
+  "lfSha256": "6A4FC4DBF052868B0DED5DC3CAB071ABDB6F380D3D1E1834E3C87065A162169E",
+  "crlfSha256": "B5DDFE3306EE488491294AF9D3E6891AE9387397B94B13100B6CDB0DE9C4A647",
+  "matchesEitherHistorical": false,
+  "historicalSha256": "8495EAC00B5C8D3EB07ADD4C77F2611D1D418426C0D3DD1AC14907717506104D",
+  "note": "Neither LF nor CRLF normalization of the current UTF-8 cache matches the historical audit hash; old cache bytes are not retained separately."
+}

@@ -1,0 +1,21 @@
+{
+  "executionId": "TD01-P3-T09-A02",
+  "testId": "T09",
+  "checkpointId": "TD01-P3-H6",
+  "issuedAt": "2026-11-01T11:10:37.0549164+07:00",
+  "workingDirectory": "D:\\work_space\\Agent\\Agent",
+  "clientCommand": {
+    "executable": "C:\\Users\\LENOVO\\.mcuxpressotools\\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gdb.exe",
+    "arguments": [
+      "--nx",
+      "--nh",
+      "--interpreter=mi3"
+    ]
+  },
+  "server": "Explicitly authorized reuse of owned H5 PID22292 at 127.0.0.1:3337",
+  "scope": "One native MI client, one load/readback, one planned monitor reset, two capture points, cleanup stop/disconnect",
+  "P3F05Attempt": 3,
+  "P3F07Attempt": 1,
+  "automaticRetry": false,
+  "nativePermission": "Concrete require_escalated invocation; actual result retained by native tool"
+}

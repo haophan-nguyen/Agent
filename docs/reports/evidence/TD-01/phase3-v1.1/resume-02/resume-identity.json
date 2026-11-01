@@ -1,0 +1,491 @@
+{
+  "recordedAt": "2026-11-01T10:35:07.4882435+07:00",
+  "purpose": "Targeted resume identity and preservation checkpoint; no tool discovery, hardware access, firmware build or test execution",
+  "head": "b630da3bd67d84150d1cc574c2959be5e8e73039",
+  "previousHead": "fcc0898c30a32d0091f347dc434029f9debec17c",
+  "headChange": [
+    ".agents/skills/phase2-development-build/SKILL.md",
+    ".agents/skills/phase2-development-build/references/report-format.md",
+    ".agents/skills/phase3-execution-debug/SKILL.md",
+    ".agents/skills/phase3-execution-debug/references/failure-playbook.md",
+    ".agents/skills/phase3-execution-debug/references/report-format.md"
+  ],
+  "sourceWorkingBlob": "a8ac886e5385cf0ffd0421ac1f0dec0322523e55",
+  "stagedStatus": [],
+  "startingStatus": [
+    " M frdmmcxn236_led_blinky/led_blinky.c",
+    "?? .vscode/settings.json",
+    "?? docs/reports/evidence/TD-01/phase3-v1.0/authorizations-and-setup.md",
+    "?? docs/reports/evidence/TD-01/phase3-v1.0/cache-diagnostic.json",
+    "?? docs/reports/evidence/TD-01/phase3-v1.0/candidate-compile-entry.json",
+    "?? docs/reports/evidence/TD-01/phase3-v1.0/diagnostic-notes.md",
+    "?? docs/reports/evidence/TD-01/phase3-v1.0/evidence-manifest.json",
+    "?? docs/reports/evidence/TD-01/phase3-v1.0/execution-ledger.json",
+    "?? docs/reports/evidence/TD-01/phase3-v1.0/failure-ledger.json",
+    "?? docs/reports/evidence/TD-01/phase3-v1.0/final-validation.json",
+    "?? docs/reports/evidence/TD-01/phase3-v1.0/hardware-hook-inputs.json",
+    "?? docs/reports/evidence/TD-01/phase3-v1.0/host-discovery-escalated.json",
+    "?? docs/reports/evidence/TD-01/phase3-v1.0/host-discovery.json",
+    "?? docs/reports/evidence/TD-01/phase3-v1.0/host-tools-escalated.json",
+    "?? docs/reports/evidence/TD-01/phase3-v1.0/identity-checks.json",
+    "?? docs/reports/evidence/TD-01/phase3-v1.0/inspected-inputs.json",
+    "?? docs/reports/evidence/TD-01/phase3-v1.0/linkserver-help.json",
+    "?? docs/reports/evidence/TD-01/phase3-v1.0/offline-elf.json",
+    "?? docs/reports/evidence/TD-01/phase3-v1.0/phase2-audit-hash-comparison.json",
+    "?? docs/reports/evidence/TD-01/phase3-v1.0/phase2-evidence-current-hashes.json",
+    "?? docs/reports/evidence/TD-01/phase3-v1.0/probe-discovery.json",
+    "?? docs/reports/evidence/TD-01/phase3-v1.0/starting-inventory.json",
+    "?? docs/reports/evidence/TD-01/phase3-v1.0/starting-source.diff",
+    "?? docs/reports/evidence/TD-01/phase3-v1.0/starting-state.json",
+    "?? docs/reports/evidence/TD-01/phase3-v1.1/approval-ledger.json",
+    "?? docs/reports/evidence/TD-01/phase3-v1.1/failure-continuation.json",
+    "?? docs/reports/evidence/TD-01/phase3-v1.1/verify-operation.json",
+    "?? docs/reports/evidence/TD-01/phase3-v1.1/verify-preflight.json",
+    "?? docs/reports/evidence/TD-01/phase3-v1.1/verify-result.json",
+    "?? docs/reports/phase2-TD-01-v1.0.md",
+    "?? docs/reports/phase3-TD-01-v1.0.md"
+  ],
+  "trackedInputs": [
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\.agents\\skills\\phase2-development-build\\SKILL.md",
+      "bytes": 9329,
+      "sha256": "98C5579D36B9B7F2F2326A611941C99E703E2F99E1805EBECD7C60CE839D0D9B"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\.agents\\skills\\phase2-development-build\\references\\report-format.md",
+      "bytes": 9691,
+      "sha256": "AC490C36591300A88B8D95B105814DC71F68262C7E2DAD85476AA325A21ED469"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\.agents\\skills\\phase3-execution-debug\\SKILL.md",
+      "bytes": 22610,
+      "sha256": "38C79B54160154F0D03BBC667C12AF063C40ABFB20E3B17D98B86735EE79AC67"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\.agents\\skills\\phase3-execution-debug\\references\\failure-playbook.md",
+      "bytes": 18261,
+      "sha256": "085E29910FDCBFAB1D6B1E84E1C2F8863D2D05A4D6E6158CEB35BC0CB1917CD1"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\.agents\\skills\\phase3-execution-debug\\references\\report-format.md",
+      "bytes": 20501,
+      "sha256": "5011C449E1585F9604CB3EF44863F697131CFF87A7D1C8E0EF808062579467AE"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\.gitignore",
+      "bytes": 260,
+      "sha256": "040B9F693D080F58C3891EEACD70DAC33BF7FAFE1B85D497E42F48D740187DC9"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\AGENTS.md",
+      "bytes": 549,
+      "sha256": "C7F8FD1C44A4A15902930923DE8E797BDCCBE9EDB9113942DD284FA2A5A6FAB0"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\README.md",
+      "bytes": 54,
+      "sha256": "CB2C51A54C09AE62B04C153089F0E531301CE6ABE524F7632ED428D5D7BF5E45"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\test_design\\TD-01.md",
+      "bytes": 16172,
+      "sha256": "E47D6874068D5B06853D529028650B66BD6647CCD9B89B58328400FC0FF26623"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\.vscode\\c_cpp_properties.json",
+      "bytes": 303,
+      "sha256": "1DB193A1E90AF217CAA5E373E827F7D5542E895BC714D9074B5D01D8FF996D54"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\.vscode\\launch.json",
+      "bytes": 606,
+      "sha256": "F3D63715EFD6F2B507FA03824EFEFE4753EC575919A68619F3D72D4B4A111FFE"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\.vscode\\mcuxpresso-tools.json",
+      "bytes": 473,
+      "sha256": "D85EE71F3F9B642945D800BB668BE3339B6EAFBD1D9092DA7EF5C7CE7033F84A"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\.vscode\\settings.json",
+      "bytes": 422,
+      "sha256": "3C8CCD307FCE14C9F49FBEBE078FB953EAACE4F2F2131A9C50CAEA1D27D8D30A"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\.vscode\\tasks.json",
+      "bytes": 596,
+      "sha256": "22B657A1E9FF396845BF821F1FB67FF286FE4964ADEF4230D369C6EF31820648"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\CMakeLists.txt",
+      "bytes": 818,
+      "sha256": "8AB0530949057BC59B6B3E50F75DA8983224083F01FBD207423C2E026F713741"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\CMakePresets.json",
+      "bytes": 1962,
+      "sha256": "17F964BE092257EC0C7DEE6D53B0BC8A5C4E08B5AFCAC9D80D51590CCC528DC7"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\Kconfig",
+      "bytes": 83,
+      "sha256": "DB00BBA00DA86A8D94766CF1389612CBA1409383A315A84277C9956F74E61AC9"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\example.yml",
+      "bytes": 956,
+      "sha256": "E478C8B5FBAE6D95F73EB276E269A4CC067C79971FFD80A312A1B22450E9BD0C"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\frdmmcxn236\\Kconfig.trace",
+      "bytes": 439,
+      "sha256": "192444E7F6694C989143939A7A6BC0E0A01762E8BC4A03B81AD0BA260216CF50"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\frdmmcxn236\\board_files.cmake",
+      "bytes": 736,
+      "sha256": "BB55F8BB1725E3C3E0F5A3AAF919F4D4CBCD7D614096C33B2DB8E7F86E070F9F"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\frdmmcxn236\\frdmmcxn236\\FreeRTOSConfigBoard.h",
+      "bytes": 3481,
+      "sha256": "A2732FBDCCE5A8FFE9416ACE5C1DBE0294A5F4C6C8206A2CC7BDBD3E0A7C80D1"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\frdmmcxn236\\frdmmcxn236\\board.c",
+      "bytes": 7715,
+      "sha256": "4B6A7449C4F02565E31603DC27C3612FDFD9C4DB1C220122D0D907F65060B3D4"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\frdmmcxn236\\frdmmcxn236\\board.h",
+      "bytes": 8552,
+      "sha256": "C513F150C5D7BF0A4F1DBFB606BD7FA2014A9815D434D49AF1403505B53F379E"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\frdmmcxn236\\frdmmcxn236\\clock_config.c",
+      "bytes": 20121,
+      "sha256": "01A0CA3C9E2EA7FA2ED559D4AF52CB14A20F329F0C92D0515A727A8E261BDEAA"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\frdmmcxn236\\frdmmcxn236\\clock_config.h",
+      "bytes": 6851,
+      "sha256": "3E3F8690D9B9D7B71603E19EEB1822E4DDD892EFA4BE4440C47DCAAF8D2EF5F1"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\frdmmcxn236\\led_blinky.mex",
+      "bytes": 23205,
+      "sha256": "AF43F300A9D262433B2ADF1AD54B0E7B1BEA2ABD9757376440AAEC2023203E7C"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\frdmmcxn236\\led_blinky\\app.h",
+      "bytes": 736,
+      "sha256": "14A62526B4FDBF1912717070C7E11CE4C71F2C7811E4FC812B74211371E1CC2D"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\frdmmcxn236\\led_blinky\\hardware_init.c",
+      "bytes": 358,
+      "sha256": "32679C474ED4AE117ECD4BB4D497385B1E88C209B4E2406D81D5E282C61F3161"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\frdmmcxn236\\led_blinky\\pin_mux.c",
+      "bytes": 7000,
+      "sha256": "0D25C39656BCB323041F23EC9027FEBEA9F621EDBB5F5698E11CBF2A505655ED"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\frdmmcxn236\\led_blinky\\pin_mux.h",
+      "bytes": 1424,
+      "sha256": "2A23A407411F271D3732DF9879016F482ACECED91792D80B59DA6073238557FB"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\frdmmcxn236\\prj.conf",
+      "bytes": 1230,
+      "sha256": "1D97C5CAA435CB153F7F9CE5E570094A75EF4DD24D889D040892C40D2ECAF905"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\led_blinky.c",
+      "bytes": 1568,
+      "sha256": "46AD8D67DE632F9FDFFB8D8366AA9E832FAC03D81BAAC0A44C8A4D1976E588AF"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\led_blinky\\peripherals.c",
+      "bytes": 5211,
+      "sha256": "6ACCA54BBDC6A6B70E41E90C6449F0A0291D3F45E86B4A2CADCC1635ECE96B23"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\led_blinky\\peripherals.h",
+      "bytes": 2344,
+      "sha256": "3B056C019D0F77AB9C7ACBB4143D506C89D6E5FF4FCBF5D7E3204B26E4932B6B"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\mcux_include.json",
+      "bytes": 1390,
+      "sha256": "CD103AC112F81B6C058D4CAE8C5E179AA7ED1AA3F6018C9597458DD727038FF3"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\prj.conf",
+      "bytes": 68,
+      "sha256": "C121B12DD56FB0B529A4CAD45B52F0C8D9565D291D68B6BA924E3EBCB6788FDB"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\readme.md",
+      "bytes": 1404,
+      "sha256": "F6F6E4093EF323BACC1964A16C7554D96ABCB02FA868B7F47A3BD54E7D5E1CE8"
+    }
+  ],
+  "protectedAdditionalInputs": [
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf",
+      "bytes": 199936,
+      "sha256": "2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.bin",
+      "bytes": 9068,
+      "sha256": "3096C02A4CE9642B7850AE649F0D1D66F3429E384E41BE5FEFFB19E130A634C2"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\CMakeCache.txt",
+      "bytes": 24516,
+      "sha256": "B5DDFE3306EE488491294AF9D3E6891AE9387397B94B13100B6CDB0DE9C4A647"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\build.ninja",
+      "bytes": 673526,
+      "sha256": "EB1A6CF3398DE06525A43548A3E662D4F9936AF611A0874F7AA702018BB38DA6"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\compile_commands.json",
+      "bytes": 57332,
+      "sha256": "406296FF5335C5DF37EE2719C831C715B867D36FEAFB1B25A71AAD649635D1BF"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\.vscode\\settings.json",
+      "bytes": 85,
+      "sha256": "948AE00546B1308DFAA985AC096FDE35FFF2F954F1E922D9C2555C4E87FB05F0"
+    },
+    {
+      "path": "C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe",
+      "bytes": 313240,
+      "sha256": "0C1C8B614C4763FD1A75C86A5937A3FBDA99FCEF11F8A72AC5D2C8CA8CE177C2"
+    },
+    {
+      "path": "C:\\NXP\\LinkServer_26.9.130\\binaries\\ToolScripts\\LS_preconnect_MCXN2XX.scp",
+      "bytes": 808,
+      "sha256": "5C44CED0594EAE9367BFDC75342C57721858686EDD7536518DC2D5D474CA480B"
+    },
+    {
+      "path": "C:\\NXP\\LinkServer_26.9.130\\docs\\FlashDrivers.md",
+      "bytes": 19286,
+      "sha256": "B8DB78907C674810A5567D347902A1FEF9F96693A33D6DDE2A877C7918E9AFB0"
+    }
+  ],
+  "priorEvidence": [
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\authorizations-and-setup.md",
+      "bytes": 3551,
+      "sha256": "628D837A67B84EF15143EBCFFA80D51900FE4722D69A726BCDCA41E291DF9720"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\cache-diagnostic.json",
+      "bytes": 456,
+      "sha256": "732025094E2A0503275EEEF7AE14FA384E23D4E0F52495A23099D2FF922E2E37"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\candidate-compile-entry.json",
+      "bytes": 2245,
+      "sha256": "8F8287945835EB350352973BDF957340EFC1AD18F2596A3835A984E326ADE5EA"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\diagnostic-notes.md",
+      "bytes": 4016,
+      "sha256": "8253DA06E836AF39DFDA41DE40C3FAF78F201B6E8B173622FFC636F5F6AD54EC"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\evidence-manifest.json",
+      "bytes": 4793,
+      "sha256": "C2904E19C7157992B5340174EE276F86ABE5064916D2D080A2DEA3A9071E9D50"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\execution-ledger.json",
+      "bytes": 30409,
+      "sha256": "49804110D801A4047266C3BE101FD0EB39E10709D399723E721EEFD8305960DF"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\failure-ledger.json",
+      "bytes": 16539,
+      "sha256": "CF1D25A997B4AF25E26AD7BFAE881DCDB66B10A77D34DD3D2E3E3248E26F7B8B"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\final-validation.json",
+      "bytes": 5295,
+      "sha256": "208D005BAD308180DD0A6C5DD730FE2C246452C08C21882FC3AA4EC12855AADB"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\hardware-hook-inputs.json",
+      "bytes": 394,
+      "sha256": "818A9EEF140D1415DACECD06B60BF56D574DF6BFAB30381BD7028BE36DCF96C8"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\host-discovery-escalated.json",
+      "bytes": 4905,
+      "sha256": "DC29674DE3351A8A8B3EB8E95B202DDF20F411B8CA5B733E52B6E556B5216134"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\host-discovery.json",
+      "bytes": 5286,
+      "sha256": "1BB82BF5AB94B686FE5CB6D18B94F83642F59204E6E42D268F5B93ED23FB9B71"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\host-tools-escalated.json",
+      "bytes": 24153,
+      "sha256": "158522416801703BEAD6941FC661C42D5751FBEB1D04653AD7C8E5BD12ECAE2C"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\identity-checks.json",
+      "bytes": 1656,
+      "sha256": "C99A1C06CAD80B39E122B5725D728E8AD69F2FF879C78CC4DE833221A0566DC2"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\inspected-inputs.json",
+      "bytes": 8391,
+      "sha256": "5CC5F38E419BF2768D17C08AFE0420BCBC4418506E1DE30B7AE3B0918AE0ECBF"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\linkserver-help.json",
+      "bytes": 1120,
+      "sha256": "DC2532A6F307A51BC669ECAA1D9A312D2E2EC0B75E72712EAA7ED9DCC839FC34"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\offline-elf.json",
+      "bytes": 1458,
+      "sha256": "DD4FAE1CF1C80BE52960C5CDEC9909B5AF68881318E05FE4A1F62AA0B89B16E6"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\phase2-audit-hash-comparison.json",
+      "bytes": 8520,
+      "sha256": "DF9763C6BAF557ABD80DEA669CA5DCA498E25C499CE09C032C71366D76C3442C"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\phase2-evidence-current-hashes.json",
+      "bytes": 2601,
+      "sha256": "CB20867F652C5E9F03F3F28545B45D00229BFFD98C23191F8ECAB1A74235EA57"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\probe-discovery.json",
+      "bytes": 13418,
+      "sha256": "FB1B6C526B55E54C7B7F2D6B36AD557027658E7238338777334990AD7E2173E4"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\starting-inventory.json",
+      "bytes": 215901,
+      "sha256": "FEE4EAF3664F142E4EF5CD91226D83A51C838D27EC0C30DCDBACA56C341DCD73"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\starting-source.diff",
+      "bytes": 830,
+      "sha256": "0BBA14D9AECEF50E29A2F4381CFB7BDB453C22C911CBB003B5B4C97687973147"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.0\\starting-state.json",
+      "bytes": 799,
+      "sha256": "3CFF2F5506D301E634D10D0A4DE0C1E81C41CE6115FC2422EED33D20A2AE18B9"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\approval-ledger.json",
+      "bytes": 22255,
+      "sha256": "39C4B8E9BFE52FE7A605A304EFBF378430E1824D26B582A21A611B893D1ADFCB"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\failure-continuation.json",
+      "bytes": 1966,
+      "sha256": "B1ECE935A7DA69A9F10F69D04B43962CDA65D4A2F3FA93BCF74A3D2D3A86D897"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\verify-operation.json",
+      "bytes": 877,
+      "sha256": "08C545B51CC69C6FAB1BF3756DD91BB94B07611223A2C9AD8520FDCBFCCD4C51"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\verify-output.log",
+      "bytes": 6638,
+      "sha256": "62281BBBE46D71B8A85DF0B2BC6D00296D9BE8DBE82350008BCE28BEBF232775"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\verify-preflight.json",
+      "bytes": 415,
+      "sha256": "033FFD88ABE2ED5EEE34FE9B5D67C139AE7EA4BC3A338430A557475D2EB2EFF4"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\verify-result.json",
+      "bytes": 972,
+      "sha256": "C537D311CA458766853B01A3C92FDBE84877D54DEA6441A40FAC7F62CDC01791"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\build\\phase2-evidence\\build-results.json",
+      "bytes": 167,
+      "sha256": "2DBD3A2E0E958194B5BBDD67BAB756FC00F3096B82D1C43010E5D1F963CF4C0C"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\build\\phase2-evidence\\compile-flags.json",
+      "bytes": 373,
+      "sha256": "D0C80356A0A61062E42A7291E8CEF7ECD7FABCECC038FA34150DB48A9AE91064"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\build\\phase2-evidence\\debug-build.log",
+      "bytes": 1047,
+      "sha256": "1315B720E8C204A8238FB6C414074B6DCC54D35B470417AEB7B84034F54C873B"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\build\\phase2-evidence\\debug-configure.log",
+      "bytes": 3905,
+      "sha256": "572D946FE3C37FF329098035E6678702A3407EC3295483C065F3890315800ABF"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\build\\phase2-evidence\\git-final.txt",
+      "bytes": 931,
+      "sha256": "AA9C61EC5F3928E9581236BF3602A6A83A59E055A94124A3C5A0C38565425F7F"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\build\\phase2-evidence\\image-manifest.json",
+      "bytes": 1432,
+      "sha256": "41B743ED44AEDA2CDA87F511E5D2A1C22F5AA789CBB48B236F8194EF7CF40F08"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\build\\phase2-evidence\\implementation.diff",
+      "bytes": 830,
+      "sha256": "0BBA14D9AECEF50E29A2F4381CFB7BDB453C22C911CBB003B5B4C97687973147"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\build\\phase2-evidence\\presets.log",
+      "bytes": 150,
+      "sha256": "70E9BEBD55511CC2945E16F1D7AB274469C96F7FAA037C2A0604E15D24AEB55E"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\build\\phase2-evidence\\release-build.log",
+      "bytes": 3743,
+      "sha256": "6852A4A5B660B2CE58F2345997617A4C241C129E446BF97B61BC384D1206B206"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\build\\phase2-evidence\\release-configure.log",
+      "bytes": 4964,
+      "sha256": "27D71891A1C855D6358CE58FBFCFBA69168AA9F372594DF538755DA695125D5D"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\build\\phase2-evidence\\report.md",
+      "bytes": 10271,
+      "sha256": "D636A40417E4B294CA65EA110FB4B1F06FF232A23E0624D9F5C50FF655474CF3"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\build\\phase2-evidence\\source-checks.txt",
+      "bytes": 1911,
+      "sha256": "36F661B8883C3399401157B650B995D1BCF07BE9AAFD7312F670BD6777988A85"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\build\\phase2-evidence\\toolchain.txt",
+      "bytes": 667,
+      "sha256": "AD97DA5DD5EE63364984FA99EEC36F2D347ECD5B5837AA13E73B776A4A5B7707"
+    }
+  ],
+  "historicalProvenanceCaveat": "Current identity does not reconstruct historical SDK/toolchain inputs or prove target execution",
+  "priorEvidenceCount": 41
+}

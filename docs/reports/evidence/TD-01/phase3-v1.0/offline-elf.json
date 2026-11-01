@@ -1,0 +1,22 @@
+{
+  "id": "P3-D10",
+  "operator": "Codex",
+  "startedAt": "2026-11-01T09:43:09.9302362+07:00",
+  "endedAt": "2026-11-01T09:43:10.1266092+07:00",
+  "executable": "C:\\Users\\LENOVO\\.mcuxpressotools\\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-readelf.exe",
+  "arguments": [
+    "--version"
+  ],
+  "workingDirectory": "D:\\work_space\\Agent\\Agent",
+  "timeoutMs": 10000,
+  "safeStop": "Terminate only this offline file-inspection process tree on timeout",
+  "exitCode": null,
+  "timedOut": false,
+  "launchError": "Exception calling \"Start\" with \"0\" argument(s): \"An error occurred trying to start process 'C:\\Users\\LENOVO\\.mcuxpressotools\\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-readelf.exe' with working directory 'D:\\work_space\\Agent\\Agent'. {Illegal System DLL Relocation}\r\nThe system DLL %hs was relocated in memory. The application will not run properly.\r\nThe relocation occurred because the DLL %hs occupied an address range reserved for Windows system DLLs. The vendor supplying the DLL should be contacted for a new DLL.\"",
+  "stdout": "",
+  "stderr": "",
+  "operationType": "Offline ELF inspection; no target access",
+  "imagePath": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf",
+  "imageSha256": "2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391",
+  "recoveryAttempts": 0
+}

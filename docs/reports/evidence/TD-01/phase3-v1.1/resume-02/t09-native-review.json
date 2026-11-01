@@ -1,0 +1,36 @@
+{
+  "recordedAt": "2026-11-01T11:13:11.7769744+07:00",
+  "executionId": "TD01-P3-T09-A02",
+  "nativeResultReference": "exec chunk c30dd7",
+  "nativePermission": "Concrete require_escalated invocation completed; separate actor/event timestamp not exposed",
+  "outerExitCode": 1,
+  "actualLoad": "Executed once; all three image regions read and matched before application continue",
+  "T09": "BLOCKED",
+  "actualBreakpoint": "Hardware breakpoint at0x1e7a reached; monitor core output retained",
+  "partialValues": {
+    "PC": "0x1E7A",
+    "PriMask": 0,
+    "BasePri": 0,
+    "FaultMask": 0
+  },
+  "failedCommand": "21-data-read-memory-bytes 0xFFFFFFFFE000ED23 1",
+  "actualRootCause": "P3-F08 capture-helper signed address formatting",
+  "cleanup": [
+    "Error path cleanup only while no command/continue was in progress; stop/disconnect, no restoration"
+  ],
+  "serverLog": "t09-server-stdout.log reports Gdbserver on port3337 has closed",
+  "lastObservedTarget": "Halted at before-update PC0x1e7a, stop/disconnect policy; no restoration/reset/run",
+  "recoveryCounts": {
+    "P3F05": 3,
+    "P3F05Limit": 3,
+    "P3F07": 1,
+    "P3F07Limit": 3,
+    "P3F02": 2,
+    "P3F02Limit": 3,
+    "P3F08": 0,
+    "P3F08Limit": 3
+  },
+  "actualProgrammingOperationsThisResume": 2,
+  "conservativelyChargedLoadDispatchesThisResume": 3,
+  "noFurtherHardwareOperation": "No new command after owned cleanup"
+}

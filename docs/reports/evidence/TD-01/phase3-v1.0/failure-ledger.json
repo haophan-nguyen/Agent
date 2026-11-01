@@ -1,0 +1,421 @@
+{
+  "schema": "TD-01 Phase 3 failure ledger v1.0",
+  "createdAt": "2026-11-01T09:52:50.6923533+07:00",
+  "issues": [
+    {
+      "failureId": "P3-F01",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "executionIds": [
+        "P3-D01",
+        "P3-D03",
+        "P3-D01-E",
+        "P3-D03-E"
+      ],
+      "primaryCategory": "PERMISSION",
+      "contributingCategories": [
+        null
+      ],
+      "confidence": "High",
+      "classificationHistory": [
+        {
+          "category": "PERMISSION",
+          "event": "Initial classification in current report; date 2026-11-01, exact classification time not recorded",
+          "evidence": [
+            "host-discovery.json",
+            "host-discovery-escalated.json"
+          ]
+        }
+      ],
+      "relatedIssues": [
+        null
+      ],
+      "symptom": "CIM access unavailable in sandbox",
+      "testStatus": "Host diagnostic issue; not a TD firmware result",
+      "supportingEvidence": [
+        "host-discovery.json",
+        "host-discovery-escalated.json"
+      ],
+      "rootCauseHypothesis": "Native permission boundary; exact host policy not established",
+      "diagnosticActions": "Exact passive re-query after native request completed; no TD test retry or state intervention",
+      "recoveryAttempts": [],
+      "consumed": 0,
+      "limit": 3,
+      "remaining": 3,
+      "humanApprovals": "Concrete native diagnostic requests completed; see A-NATIVE. No target authority.",
+      "retestResults": "Passive re-query succeeded; no TD retest",
+      "finalDisposition": "Resolved for these host inventories only; target permission remains absent",
+      "nextDecision": "No repeat inventory required",
+      "residualRisk": "See report section 8; no target-image linkage or hardware acceptance",
+      "priorLedgerAudit": "No previous Phase 3 execution/recovery ledger found in starting inventory; current counts must be reused on resume"
+    },
+    {
+      "failureId": "P3-F02",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "executionIds": [
+        "P3-D05",
+        "P3-D10",
+        "P3-D05-E",
+        "P3-D10-E"
+      ],
+      "primaryCategory": "ENVIRONMENT_TOOL",
+      "contributingCategories": [
+        "PERMISSION"
+      ],
+      "confidence": "High symptom/boundary dependence; exact DLL cause unverified",
+      "classificationHistory": [
+        {
+          "category": "ENVIRONMENT_TOOL",
+          "event": "Initial classification in current report; date 2026-11-01, exact classification time not recorded",
+          "evidence": [
+            "linkserver-help.json",
+            "offline-elf.json",
+            "host-tools-escalated.json"
+          ]
+        }
+      ],
+      "relatedIssues": [
+        null
+      ],
+      "symptom": "Illegal System DLL Relocation prevented process start",
+      "testStatus": "Host diagnostic issue; not a TD firmware result",
+      "supportingEvidence": [
+        "linkserver-help.json",
+        "offline-elf.json",
+        "host-tools-escalated.json"
+      ],
+      "rootCauseHypothesis": "Sandbox-sensitive launch behavior; exact DLL cause not proven",
+      "diagnosticActions": "Native permission requested; same two version commands then succeeded",
+      "recoveryAttempts": [
+        {
+          "timestamp": "2026-11-01T09:44:26.8559179+07:00",
+          "execution": "P3-D05-E",
+          "attempt": 1,
+          "outcome": "Exit 0",
+          "operation": "Retest-only LinkServer --version after native permission"
+        },
+        {
+          "timestamp": "2026-11-01T09:44:29.0007710+07:00",
+          "execution": "P3-D10-E",
+          "attempt": 2,
+          "outcome": "Exit 0",
+          "operation": "Retest-only readelf --version after native permission"
+        }
+      ],
+      "consumed": 2,
+      "limit": 3,
+      "remaining": 1,
+      "humanApprovals": "Concrete native diagnostic requests completed; see A-NATIVE. No target authority.",
+      "retestResults": "P3-D05-E/P3-D10-E exact command retries exit 0; no firmware retest",
+      "finalDisposition": "Recovered with exact host-command retest evidence",
+      "nextDecision": "Persist 2/3 across resumed/shared-cause issue; no DLL/tool/environment changes",
+      "residualRisk": "See report section 8; no target-image linkage or hardware acceptance",
+      "priorLedgerAudit": "No previous Phase 3 execution/recovery ledger found in starting inventory; current counts must be reused on resume"
+    },
+    {
+      "failureId": "P3-F03",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "executionIds": [],
+      "primaryCategory": "TEST_INFRASTRUCTURE",
+      "contributingCategories": [
+        null
+      ],
+      "confidence": "High evidence-gap confidence",
+      "classificationHistory": [
+        {
+          "category": "TEST_INFRASTRUCTURE",
+          "event": "Initial classification in current report; date 2026-11-01, exact classification time not recorded",
+          "evidence": [
+            "starting-inventory.json",
+            "phase2-audit-hash-comparison.json",
+            "cache-diagnostic.json",
+            "candidate-compile-entry.json",
+            "identity-checks.json"
+          ]
+        }
+      ],
+      "relatedIssues": [
+        "A02"
+      ],
+      "symptom": "Debug CMakeCache.txt differs from Phase 2 audit",
+      "testStatus": "Affected target tests BLOCKED",
+      "supportingEvidence": [
+        "starting-inventory.json",
+        "phase2-audit-hash-comparison.json",
+        "cache-diagnostic.json",
+        "candidate-compile-entry.json",
+        "identity-checks.json"
+      ],
+      "rootCauseHypothesis": "Intervening cache change of unknown cause/time/author; no old cache bytes available",
+      "diagnosticActions": "24/25 audit table identities match; source, candidate ELF, build graph and compile commands match; LF normalization does not restore old hash",
+      "recoveryAttempts": [],
+      "consumed": 0,
+      "limit": 3,
+      "remaining": 3,
+      "humanApprovals": "Current preparation scope only; relevant additional approval/risk disposition pending",
+      "retestResults": "Not performed",
+      "finalDisposition": "Awaiting engineer provenance reconciliation or explicit scoped residual-risk disposition",
+      "nextDecision": "No rebuild or metadata repair",
+      "residualRisk": "See report section 8; no target-image linkage or hardware acceptance",
+      "priorLedgerAudit": "No previous Phase 3 execution/recovery ledger found in starting inventory; current counts must be reused on resume"
+    },
+    {
+      "failureId": "P3-F04",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "executionIds": [],
+      "primaryCategory": "PERMISSION",
+      "contributingCategories": [
+        null
+      ],
+      "confidence": "High",
+      "classificationHistory": [
+        {
+          "category": "PERMISSION",
+          "event": "Initial classification in current report; date 2026-11-01, exact classification time not recorded",
+          "evidence": [
+            "authorizations-and-setup.md",
+            "probe-discovery.json",
+            "hardware-hook-inputs.json"
+          ]
+        }
+      ],
+      "relatedIssues": [
+        null
+      ],
+      "symptom": "No disruptive-operation authority",
+      "testStatus": "Affected target tests BLOCKED",
+      "supportingEvidence": [
+        "authorizations-and-setup.md",
+        "probe-discovery.json",
+        "hardware-hook-inputs.json"
+      ],
+      "rootCauseHypothesis": "Explicit engineer checkpoint, not a hardware malfunction",
+      "diagnosticActions": "Read connection script: WireTimedReset 50 ms, SWD/debug mailbox; read flash-driver documentation",
+      "recoveryAttempts": [],
+      "consumed": 0,
+      "limit": 3,
+      "remaining": 3,
+      "humanApprovals": "Current preparation scope only; relevant additional approval/risk disposition pending",
+      "retestResults": "Not performed",
+      "finalDisposition": "Awaiting scoped explicit approval; verify proposal is not run",
+      "nextDecision": "Stop before any target verify/flash/reset/debug/register/instrument command",
+      "residualRisk": "See report section 8; no target-image linkage or hardware acceptance",
+      "priorLedgerAudit": "No previous Phase 3 execution/recovery ledger found in starting inventory; current counts must be reused on resume"
+    },
+    {
+      "failureId": "P3-F05",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "executionIds": [],
+      "primaryCategory": "UNKNOWN",
+      "contributingCategories": [
+        "HARDWARE_SETUP"
+      ],
+      "confidence": "High evidence-gap confidence; hardware fault not asserted",
+      "classificationHistory": [
+        {
+          "category": "UNKNOWN",
+          "event": "Initial classification in current report; date 2026-11-01, exact classification time not recorded",
+          "evidence": [
+            "identity-checks.json",
+            "host-discovery-escalated.json",
+            "probe-discovery.json",
+            "authorizations-and-setup.md"
+          ]
+        }
+      ],
+      "relatedIssues": [
+        null
+      ],
+      "symptom": "Loaded/running firmware and physical setup not established",
+      "testStatus": "Affected target tests BLOCKED",
+      "supportingEvidence": [
+        "identity-checks.json",
+        "host-discovery-escalated.json",
+        "probe-discovery.json",
+        "authorizations-and-setup.md"
+      ],
+      "rootCauseHypothesis": "Identity evidence missing; no inference about current firmware",
+      "diagnosticActions": "Non-booting probe enumeration identified SPOBEAQ0BCREX; physical board/revision and MCU identity unverified",
+      "recoveryAttempts": [],
+      "consumed": 0,
+      "limit": 3,
+      "remaining": 3,
+      "humanApprovals": "Current preparation scope only; relevant additional approval/risk disposition pending",
+      "retestResults": "Not performed",
+      "finalDisposition": "Awaiting physical confirmation and authorized attributable image verification",
+      "nextDecision": "Candidate designation is not target image proof",
+      "residualRisk": "See report section 8; no target-image linkage or hardware acceptance",
+      "priorLedgerAudit": "No previous Phase 3 execution/recovery ledger found in starting inventory; current counts must be reused on resume"
+    },
+    {
+      "failureId": "P3-F06",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07"
+      ],
+      "executionIds": [],
+      "primaryCategory": "TEST_INFRASTRUCTURE",
+      "contributingCategories": [
+        "HARDWARE_SETUP"
+      ],
+      "confidence": "High evidence-gap confidence",
+      "classificationHistory": [
+        {
+          "category": "TEST_INFRASTRUCTURE",
+          "event": "Initial classification in current report; date 2026-11-01, exact classification time not recorded",
+          "evidence": [
+            "authorizations-and-setup.md",
+            "diagnostic-notes.md"
+          ]
+        }
+      ],
+      "relatedIssues": [
+        null
+      ],
+      "symptom": "Instrument/capture/visual/setup evidence unverified",
+      "testStatus": "Affected target tests BLOCKED",
+      "supportingEvidence": [
+        "authorizations-and-setup.md",
+        "diagnostic-notes.md"
+      ],
+      "rootCauseHypothesis": "Availability unknown; do not assume equipment absent",
+      "diagnosticActions": "Engineer supplied personal-board and candidate J5 pin mapping only; requested manual contents inaccessible through official endpoint",
+      "recoveryAttempts": [],
+      "consumed": 0,
+      "limit": 3,
+      "remaining": 3,
+      "humanApprovals": "Current preparation scope only; relevant additional approval/risk disposition pending",
+      "retestResults": "Not performed",
+      "finalDisposition": "Awaiting confirmed instrument, physical connection and actual captures/observations",
+      "nextDecision": "Keep timing tests blocked; independent T09 still needs its own gates",
+      "residualRisk": "See report section 8; no target-image linkage or hardware acceptance",
+      "priorLedgerAudit": "No previous Phase 3 execution/recovery ledger found in starting inventory; current counts must be reused on resume"
+    },
+    {
+      "failureId": "A01",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "executionIds": [],
+      "primaryCategory": "PERMISSION",
+      "contributingCategories": [
+        null
+      ],
+      "confidence": "Historical evidence gap as Phase 2 audit",
+      "classificationHistory": [
+        {
+          "category": "PERMISSION",
+          "event": "Initial classification in current report; date 2026-11-01, exact classification time not recorded",
+          "evidence": [
+            "docs/reports/phase2-TD-01-v1.0.md"
+          ]
+        }
+      ],
+      "relatedIssues": [
+        null
+      ],
+      "symptom": "No attributable historical escalation decision",
+      "testStatus": "Affected target tests BLOCKED",
+      "supportingEvidence": [
+        "docs/reports/phase2-TD-01-v1.0.md"
+      ],
+      "rootCauseHypothesis": "Unknown historical authorization, not proof of unauthorized action",
+      "diagnosticActions": "Reviewed audit and originals; no historical approval event supplied",
+      "recoveryAttempts": [],
+      "consumed": 0,
+      "limit": 3,
+      "remaining": 3,
+      "humanApprovals": "Current preparation scope only; relevant additional approval/risk disposition pending",
+      "retestResults": "Not performed",
+      "finalDisposition": "Awaiting historical record or engineer disposition",
+      "nextDecision": "Current native requests do not repair historical authority",
+      "residualRisk": "See report section 8; no target-image linkage or hardware acceptance",
+      "priorLedgerAudit": "No previous Phase 3 execution/recovery ledger found in starting inventory; current counts must be reused on resume"
+    },
+    {
+      "failureId": "A02",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "executionIds": [],
+      "primaryCategory": "TEST_INFRASTRUCTURE",
+      "contributingCategories": [
+        null
+      ],
+      "confidence": "Historical input evidence gap as Phase 2 audit",
+      "classificationHistory": [
+        {
+          "category": "TEST_INFRASTRUCTURE",
+          "event": "Initial classification in current report; date 2026-11-01, exact classification time not recorded",
+          "evidence": [
+            "docs/reports/phase2-TD-01-v1.0.md",
+            "inspected-inputs.json"
+          ]
+        }
+      ],
+      "relatedIssues": [
+        null
+      ],
+      "symptom": "Incomplete frozen historical build inputs/toolchain/SDK",
+      "testStatus": "Affected target tests BLOCKED",
+      "supportingEvidence": [
+        "docs/reports/phase2-TD-01-v1.0.md",
+        "inspected-inputs.json"
+      ],
+      "rootCauseHypothesis": "Historical dependency immutability unverified",
+      "diagnosticActions": "Matching retained ELF/source and current metadata inspected; no rebuild",
+      "recoveryAttempts": [],
+      "consumed": 0,
+      "limit": 3,
+      "remaining": 3,
+      "humanApprovals": "Current preparation scope only; relevant additional approval/risk disposition pending",
+      "retestResults": "Not performed",
+      "finalDisposition": "Awaiting engineer risk disposition",
+      "nextDecision": "No retrospective certification",
+      "residualRisk": "See report section 8; no target-image linkage or hardware acceptance",
+      "priorLedgerAudit": "No previous Phase 3 execution/recovery ledger found in starting inventory; current counts must be reused on resume"
+    }
+  ],
+  "reclassification": "None",
+  "hardwareRecoveryConsumed": 0,
+  "strongEnforcement": "Skill instructions and saved counters only; external runner/access controls/interlocks needed for stronger guarantees"
+}

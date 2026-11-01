@@ -1,0 +1,20 @@
+{
+  "id": "P3-D05",
+  "operator": "Codex",
+  "startedAt": "2026-11-01T09:43:10.2133444+07:00",
+  "endedAt": "2026-11-01T09:43:10.3955971+07:00",
+  "executable": "C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe",
+  "arguments": [
+    "--version"
+  ],
+  "workingDirectory": "D:\\work_space\\Agent\\Agent",
+  "timeoutMs": 10000,
+  "safeStop": "Terminate only this newly launched host help/version process tree on timeout",
+  "exitCode": null,
+  "timedOut": false,
+  "launchError": "Exception calling \"Start\" with \"0\" argument(s): \"An error occurred trying to start process 'C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe' with working directory 'D:\\work_space\\Agent\\Agent'. {Illegal System DLL Relocation}\r\nThe system DLL %hs was relocated in memory. The application will not run properly.\r\nThe relocation occurred because the DLL %hs occupied an address range reserved for Windows system DLLs. The vendor supplying the DLL should be contacted for a new DLL.\"",
+  "stdout": "",
+  "stderr": "",
+  "operationType": "Host-only version/help; no hardware command executed",
+  "recoveryAttempts": 0
+}

@@ -1,0 +1,98 @@
+{
+  "preparedAt": "2026-11-01T11:16:11.7105855+07:00",
+  "checkpointId": "TD01-P3-H7",
+  "budgetCheckpointId": "TD01-P3-B7",
+  "workingDirectory": "D:\\work_space\\Agent\\Agent",
+  "serverCommand": {
+    "executable": "C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe",
+    "arguments": [
+      "gdbserver",
+      "--probe",
+      "SPOBEAQ0BCREX",
+      "--update-mode",
+      "none",
+      "--no-boot",
+      "--gdb-port",
+      "3339",
+      "--semihost-port",
+      "-1",
+      "--no-rtos",
+      "MCXN236:FRDM-MCXN236"
+    ]
+  },
+  "clientCommand": {
+    "executable": "C:\\Users\\LENOVO\\.mcuxpressotools\\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gdb.exe",
+    "arguments": [
+      "--nx",
+      "--nh",
+      "--interpreter=mi3"
+    ]
+  },
+  "inputIdentities": [
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf",
+      "bytes": 199936,
+      "sha256": "2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\led_blinky.c",
+      "bytes": 1568,
+      "sha256": "46AD8D67DE632F9FDFFB8D8366AA9E832FAC03D81BAAC0A44C8A4D1976E588AF"
+    },
+    {
+      "path": "C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe",
+      "bytes": 313240,
+      "sha256": "0C1C8B614C4763FD1A75C86A5937A3FBDA99FCEF11F8A72AC5D2C8CA8CE177C2"
+    },
+    {
+      "path": "C:\\NXP\\LinkServer_26.9.130\\binaries\\ToolScripts\\LS_preconnect_MCXN2XX.scp",
+      "bytes": 808,
+      "sha256": "5C44CED0594EAE9367BFDC75342C57721858686EDD7536518DC2D5D474CA480B"
+    },
+    {
+      "path": "C:\\Users\\LENOVO\\.mcuxpressotools\\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gdb.exe",
+      "bytes": 12201936,
+      "sha256": "36AE2E715FDBF7AFBD2F58CA992486E73AA3E7111BBC9C552AFBE93A3C66A7E1"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\run-approved-t09-fixed.ps1",
+      "bytes": 19840,
+      "sha256": "0FC57C08EA547593DAA5A615AF5C8B8EF628A03CEA11AF9FC2468FEB57080E98"
+    }
+  ],
+  "imageReadbackRegions": [
+    {
+      "address": 0,
+      "fileOffset": 4096,
+      "bytes": 688
+    },
+    {
+      "address": 1024,
+      "fileOffset": 5120,
+      "bytes": 8040
+    },
+    {
+      "address": 9064,
+      "fileOffset": 16384,
+      "bytes": 4
+    }
+  ],
+  "beforePC": "0x1E7A",
+  "afterPC": "0x1EA4",
+  "addressCorrection": "Explicit positive64 literals for high32 addresses; Format-TdBusAddress rejects negative/out-of-unsigned32 addresses before target command",
+  "limits": {
+    "newServers": 1,
+    "serverReadySeconds": 15,
+    "clients": 1,
+    "ordinaryCommandAndContinueSeconds": 10,
+    "loadObservationSeconds": 30,
+    "wholeClientSeconds": 120,
+    "loads": 1,
+    "explicitMonitorResets": 1,
+    "capturePoints": 2,
+    "automaticRetry": false,
+    "forcedInterruption": false
+  },
+  "recoveryAccounting": "Requires explicit B7 finite limit3to4. Dispatch consumes P3-F05 attempt4/4 and P3-F08 correction1/3; prior counts retained; P3-F07=1/3 and P3-F02=2/3 unchanged.",
+  "hostValidation": "MI string/split-memory parsing, incomplete-coverage rejection, exact high-address formatting and rejection of old sign-extended input passed with no GDB/hardware launch"
+}

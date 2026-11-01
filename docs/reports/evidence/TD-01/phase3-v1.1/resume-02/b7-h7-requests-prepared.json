@@ -1,0 +1,81 @@
+[
+  {
+    "checkpointId": "TD01-P3-B7",
+    "kind": "EXPLICIT_FINITE_RECOVERY_BUDGET_EXTENSION",
+    "state": "PREPARED",
+    "failureIds": [
+      "P3-F05"
+    ],
+    "requestText": "TD01-P3-B7 — APPROVE, DENY, or DEFER increasing ONLY P3-F05's cumulative recovery/load-dispatch limit from 3 to 4, permitting exactly ONE additional attempt with its associated validating readback and T09 capture? All three consumed counts and failures remain recorded; this does not reset any counter or grant hardware authority. H5 consumed a conservatively charged dispatch but no actual load; L01 and H6 were the two actual programming operations. The latest T09 blocker is confirmed helper sign-extension of 0xE000ED23 to 0xFFFFFFFFE000ED23, not a firmware failure. A separate corrected helper now passes host-only high-address formatting/rejection regressions and preserves all original helpers/evidence. No fifth intervention or blanket retry is permitted. Hardware authority is the separate H7 decision. Full scope: docs/reports/evidence/TD-01/phase3-v1.1/resume-02/t09-fixed-checkpoint.md.",
+    "currentConsumed": 3,
+    "currentLimit": 3,
+    "requestedNewCumulativeLimit": 4,
+    "additionalAttempts": 1,
+    "notGranted": "No hardware action or fifth intervention; no count reset or provenance certification",
+    "conversationRequest": null,
+    "response": null,
+    "responseRecordedAt": null,
+    "subsequentActions": []
+  },
+  {
+    "checkpointId": "TD01-P3-H7",
+    "kind": "CORRECTED_T09_NATIVE_SESSION_AFTER_ADDRESS_DEFECT",
+    "state": "PREPARED",
+    "failureIds": [
+      "P3-F08",
+      "P3-F05"
+    ],
+    "affectedTests": [
+      "T09"
+    ],
+    "requirements": [
+      "R5"
+    ],
+    "requestText": "TD01-P3-H7 — APPROVE, DENY, or DEFER ONE corrected native T09 session, conditional on B7? Same physical FRDM-MCXN236/probe SPOBEAQ0BCREX; cwd D:\\work_space\\Agent\\Agent. Exact Debug ELF: D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf; 199936 bytes; SHA-256 2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391. One new owned LinkServer gdbserver on unused private port3339 (updates disabled, semihosting port disabled), and one GDB --nx --nh --interpreter=mi3 client; exact commands/frozen corrected helper are in docs/reports/evidence/TD-01/phase3-v1.1/resume-02/t09-fixed-checkpoint.md and t09-fixed-plan.json. Scope: ONE same-image load with mass erase disabled, complete three-region byte readback before execution, ONE explicit planned monitor reset, hardware-breakpoint captures at0x1e7a/0x1ea4, actual priority at0xE000ED23, CTRL/LOAD and interrupt masks, then remove owned breakpoints and stop/disconnect. Corrected helper rejects negative/out-of-unsigned32 addresses before issuing a read; no application/source/build change. Effects: affected-sector erase/program/data loss, connection/driver resets and RAM support execution, planned reset, halts/continues, hardware breakpoints and reads clearing COUNTFLAG. Normal final core state HALTED; no restoration reset/run. Limits: one server/client, 15s server readiness, 10s ordinary command/continue, 30s load, 120s client observation; no automatic retry or forced interruption. On dispatch P3-F05 becomes4/4 under separately approved B7; P3-F08 correction/retest1/3; P3-F07 stays1/3 and P3-F02 stays2/3. Excludes extra flash/reset/recovery, mass erase/unlock, patches/software breakpoints, probe/boot/wiring/instrument changes, rebuild/commit or Phase4. APPROVE also confirms unchanged safe setup, affected-flash replacement permission and preservation of newly needed flash/volatile evidence; otherwise DEFER. R3 accepted historical risks remain separate; native permission is required.",
+    "plan": "t09-fixed-plan.json",
+    "checkpoint": "t09-fixed-checkpoint.md",
+    "workingDirectory": "D:\\work_space\\Agent\\Agent",
+    "target": "Same engineer physical FRDM-MCXN236",
+    "probe": "SPOBEAQ0BCREX",
+    "firmwareReference": "approval-ledger.json image; unchanged Debug ELF/hash",
+    "finiteLimits": {
+      "newServers": 1,
+      "port": 3339,
+      "clients": 1,
+      "loads": 1,
+      "readbackRegions": 3,
+      "explicitMonitorResets": 1,
+      "hardwareBreakpointCaptures": 2,
+      "serverReadySeconds": 15,
+      "ordinaryCommandAndContinueSeconds": 10,
+      "loadObservationSeconds": 30,
+      "wholeClientSeconds": 120,
+      "automaticRetry": false,
+      "forcedInterruption": false
+    },
+    "recoveryAccounting": {
+      "P3F05Before": 3,
+      "P3F05RequestedLimit": 4,
+      "P3F05DispatchAttempt": 4,
+      "P3F08Before": 0,
+      "P3F08DispatchAttempt": 1,
+      "P3F07Consumed": 1,
+      "P3F02Consumed": 2
+    },
+    "prerequisites": [
+      "Separate explicit B7 cumulative limit4 approval",
+      "H7 new scoped operation authority with setup/preservation facts",
+      "Frozen helper/tool/source/image identities and free private port",
+      "R3 accepted risk scope remains valid",
+      "Separate concrete native permission"
+    ],
+    "conversationRequest": null,
+    "response": null,
+    "responseRecordedAt": null,
+    "nativePermission": {
+      "state": "NOT_REQUESTED",
+      "reason": "B7/H7 engineer decisions pending"
+    },
+    "subsequentActions": []
+  }
+]

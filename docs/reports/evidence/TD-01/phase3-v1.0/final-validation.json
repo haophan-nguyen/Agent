@@ -1,0 +1,150 @@
+{
+  "recordedAt": "2026-11-01T09:53:26.1013471+07:00",
+  "startingFiles": 998,
+  "existingFileDifferences": [],
+  "newFiles": [
+    "docs/reports/phase3-TD-01-v1.0.md",
+    "docs/reports/evidence/TD-01/phase3-v1.0/starting-state.json",
+    "docs/reports/evidence/TD-01/phase3-v1.0/starting-source.diff",
+    "docs/reports/evidence/TD-01/phase3-v1.0/starting-inventory.json",
+    "docs/reports/evidence/TD-01/phase3-v1.0/probe-discovery.json",
+    "docs/reports/evidence/TD-01/phase3-v1.0/phase2-evidence-current-hashes.json",
+    "docs/reports/evidence/TD-01/phase3-v1.0/phase2-audit-hash-comparison.json",
+    "docs/reports/evidence/TD-01/phase3-v1.0/offline-elf.json",
+    "docs/reports/evidence/TD-01/phase3-v1.0/linkserver-help.json",
+    "docs/reports/evidence/TD-01/phase3-v1.0/inspected-inputs.json",
+    "docs/reports/evidence/TD-01/phase3-v1.0/identity-checks.json",
+    "docs/reports/evidence/TD-01/phase3-v1.0/host-tools-escalated.json",
+    "docs/reports/evidence/TD-01/phase3-v1.0/host-discovery.json",
+    "docs/reports/evidence/TD-01/phase3-v1.0/host-discovery-escalated.json",
+    "docs/reports/evidence/TD-01/phase3-v1.0/hardware-hook-inputs.json",
+    "docs/reports/evidence/TD-01/phase3-v1.0/failure-ledger.json",
+    "docs/reports/evidence/TD-01/phase3-v1.0/execution-ledger.json",
+    "docs/reports/evidence/TD-01/phase3-v1.0/diagnostic-notes.md",
+    "docs/reports/evidence/TD-01/phase3-v1.0/candidate-compile-entry.json",
+    "docs/reports/evidence/TD-01/phase3-v1.0/cache-diagnostic.json",
+    "docs/reports/evidence/TD-01/phase3-v1.0/authorizations-and-setup.md"
+  ],
+  "unexpectedNewFiles": [],
+  "headBefore": "fcc0898c30a32d0091f347dc434029f9debec17c",
+  "headAfter": "fcc0898c30a32d0091f347dc434029f9debec17c",
+  "headUnchanged": true,
+  "stagedDiffUnchanged": true,
+  "gitDiffCheckExit": 0,
+  "gitDiffCheckOutput": [
+    "warning: in the working copy of 'frdmmcxn236_led_blinky/.vscode/mcuxpresso-tools.json', LF will be replaced by CRLF the next time Git touches it",
+    "warning: in the working copy of 'frdmmcxn236_led_blinky/led_blinky.c', LF will be replaced by CRLF the next time Git touches it"
+  ],
+  "approvedDocumentsDiffExit": 0,
+  "ignoreChecks": [
+    {
+      "path": "docs\\reports\\phase3-TD-01-v1.0.md",
+      "ignored": false,
+      "rule": [],
+      "exitCode": 1
+    },
+    {
+      "path": "docs\\reports\\evidence\\TD-01\\phase3-v1.0\\execution-ledger.json",
+      "ignored": false,
+      "rule": [],
+      "exitCode": 1
+    },
+    {
+      "path": "docs\\reports\\evidence\\TD-01\\phase3-v1.0\\host-tools-escalated.json",
+      "ignored": false,
+      "rule": [],
+      "exitCode": 1
+    },
+    {
+      "path": "build\\phase2-evidence\\report.md",
+      "ignored": true,
+      "rule": [
+        ".gitignore:16:Build/\t\"build\\\\phase2-evidence\\\\report.md\""
+      ],
+      "exitCode": 0
+    },
+    {
+      "path": "frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf",
+      "ignored": true,
+      "rule": [
+        ".gitignore:21:debug/\t\"frdmmcxn236_led_blinky\\\\debug\\\\frdmmcxn236_led_blinky.elf\""
+      ],
+      "exitCode": 0
+    }
+  ],
+  "requiredHeadingsExact": true,
+  "actualHeadings": [
+    "1. Task Understanding & Entry Gate",
+    "2. Execution Plan and Decision Rationale",
+    "3. Key Actions, Tool Calls and Observations",
+    "4. Failure Classification, Debugging and Recovery History",
+    "5. Human Approvals and Interventions",
+    "6. Test Results & Requirement Traceability",
+    "7. Evidence References",
+    "8. Remaining Issues, Risks and Blockers",
+    "9. Final Status & Phase 4 Handoff"
+  ],
+  "timestampFormatFindings": [],
+  "jsonParsed": 17,
+  "diagnosticEvents": 21,
+  "uniqueTargetTests": 5,
+  "hardwareAttempts": 0,
+  "recoveryCounts": [
+    {
+      "failureId": "P3-F01",
+      "consumed": 0,
+      "limit": 3,
+      "remaining": 3
+    },
+    {
+      "failureId": "P3-F02",
+      "consumed": 2,
+      "limit": 3,
+      "remaining": 1
+    },
+    {
+      "failureId": "P3-F03",
+      "consumed": 0,
+      "limit": 3,
+      "remaining": 3
+    },
+    {
+      "failureId": "P3-F04",
+      "consumed": 0,
+      "limit": 3,
+      "remaining": 3
+    },
+    {
+      "failureId": "P3-F05",
+      "consumed": 0,
+      "limit": 3,
+      "remaining": 3
+    },
+    {
+      "failureId": "P3-F06",
+      "consumed": 0,
+      "limit": 3,
+      "remaining": 3
+    },
+    {
+      "failureId": "A01",
+      "consumed": 0,
+      "limit": 3,
+      "remaining": 3
+    },
+    {
+      "failureId": "A02",
+      "consumed": 0,
+      "limit": 3,
+      "remaining": 3
+    }
+  ],
+  "reportSha256BeforeFinalIndex": "32D3D439520BA33E8E9E6C356C5D3C3C3D44349D21DD6E841F37776D8F7AB230",
+  "note": "Manifest/link validation follows; no missing approval or hardware evidence is supplied by these checks.",
+  "finalizedAt": "2026-11-01T09:54:10.0493099+07:00",
+  "localLinkCount": 30,
+  "missingLocalLinks": [],
+  "reportSha256Final": "E5E59C1FEF8CCEE28B9DB9B91BC525F43DBCE82F7E97473E068D28D486C0183F",
+  "reportBytesFinal": 35153,
+  "evidenceManifestRule": "Every file in this evidence directory except evidence-manifest.json itself; generated after this final validation record."
+}

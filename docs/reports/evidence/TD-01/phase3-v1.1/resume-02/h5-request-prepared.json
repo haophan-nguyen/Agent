@@ -1,0 +1,75 @@
+{
+  "checkpointId": "TD01-P3-H5",
+  "kind": "T09_DISRUPTIVE_DEBUG_PROGRAMMING_AND_REGISTER_CAPTURE",
+  "state": "PREPARED",
+  "affectedTests": [
+    "T09"
+  ],
+  "requirements": [
+    "R5"
+  ],
+  "failureIds": [
+    "P3-F04",
+    "P3-F05"
+  ],
+  "requestText": "TD01-P3-H5 — APPROVE, DENY, or DEFER ONE bounded T09 debugger session, including ONE additional same-image GDB load, three-region byte-for-byte readback, ONE explicit monitor reset, two hardware-breakpoint captures/continues, and disconnect leaving the core halted? Same physical FRDM-MCXN236/probe SPOBEAQ0BCREX; working directory D:\\work_space\\Agent\\Agent. Exact Debug ELF: D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf, 199936 bytes, SHA-256 2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391. The installed LinkServer documentation requires a GDB load even in attach mode, so this is NEW programming authority, not reuse of H3. Exact server/client commands and frozen helpers are in docs/reports/evidence/TD-01/phase3-v1.1/resume-02/t09-checkpoint.md and t09-plan.json. Server uses private unused port 3337, probe updates disabled, semihosting port disabled, no IDE/build task. Helper disables mass erase, loads only this image, verifies all three regions before application execution, halts at PCs 0x1e7a/0x1ea4, and records actual priority, CTRL, LOAD and PRIMASK/BASEPRI/FAULTMASK. Effects: affected-sector erase/program/data loss, connection/driver resets and RAM support execution, one explicit test reset, halts/continues, hardware breakpoint changes, and CTRL reads clearing COUNTFLAG. Final normal state is HALTED after update; no restoration reset/run. Limits: one server/client, 15 s server readiness, 120 s client observation deadline, 10 s remote response timeout, no automatic retry/forced interruption. This distinct load-containing dispatch conservatively consumes P3-F05 attempt 2/3, leaving one; P3-F02 stays 2/3. Excludes mass erase/unlock, probe/boot changes, extra flash/reset/recovery, arbitrary patches, software breakpoints, wiring/instrument/source/build/image/design changes, rebuild/commit, and Phase 4. APPROVE also confirms unchanged safe physical setup and that all affected flash contents may be replaced and newly needed evidence is preserved; otherwise DEFER. R3 remains the separate accepted historical-risk disposition; native execution permission is still required.",
+  "workingDirectory": "D:\\work_space\\Agent\\Agent",
+  "target": "Same engineer physical FRDM-MCXN236",
+  "probe": "SPOBEAQ0BCREX",
+  "firmwareReference": "approval-ledger.json image; exact unchanged Debug ELF/hash",
+  "plan": "t09-plan.json",
+  "checkpoint": "t09-checkpoint.md",
+  "finiteLimits": {
+    "serverLaunches": 1,
+    "clientLaunches": 1,
+    "gdbLoads": 1,
+    "validatingReadbackRegions": 3,
+    "explicitMonitorResets": 1,
+    "breakpointCapturePoints": 2,
+    "serverReadySeconds": 15,
+    "clientObservationSeconds": 120,
+    "remoteResponseTimeoutSeconds": 10,
+    "automaticRetry": false,
+    "forcedInterruption": false
+  },
+  "recoveryAccounting": {
+    "failureId": "P3-F05",
+    "consumedBefore": 1,
+    "limit": 3,
+    "loadContainingDispatchAttempt": 2,
+    "consumedNow": 1,
+    "remainingNow": 2,
+    "hostIssueP3F02Consumed": 2,
+    "hostIssueP3F02Limit": 3
+  },
+  "sideEffects": "Affected-sector programming/data loss; preconnect/driver reset-halt/SWD/mailbox/RAM support effects; one explicit test reset; two halts/continues, hardware breakpoints and actual readback including COUNTFLAG clear; disconnect stop leaves core halted",
+  "prerequisites": [
+    "Fresh H5 exact scope approval plus current safe physical setup/preservation confirmation",
+    "R3 scoped risk acceptance remains valid",
+    "Frozen input/image identities match; private port unused",
+    "Separate native permission before server/client launch"
+  ],
+  "exclusions": [
+    "mass erase",
+    "unlock/resurrection",
+    "probe update",
+    "boot changes",
+    "extra flash/reset/recovery",
+    "arbitrary memory/register patching",
+    "software breakpoints",
+    "wiring/power changes",
+    "instrument actions",
+    "application/image/build/design edits",
+    "rebuild",
+    "commit/push",
+    "Phase 4"
+  ],
+  "conversationRequest": null,
+  "response": null,
+  "responseRecordedAt": null,
+  "nativePermission": {
+    "state": "NOT_REQUESTED",
+    "reason": "Engineer H5 decision pending"
+  },
+  "subsequentActions": []
+}

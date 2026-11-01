@@ -1,0 +1,110 @@
+{
+  "preparedAt": "2026-11-01T10:58:47.7565725+07:00",
+  "checkpointId": "TD01-P3-H5",
+  "state": "PREPARED_NO_HARDWARE_AUTHORITY",
+  "workingDirectory": "D:\\work_space\\Agent\\Agent",
+  "serverCommand": {
+    "executable": "C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe",
+    "arguments": [
+      "gdbserver",
+      "--probe",
+      "SPOBEAQ0BCREX",
+      "--update-mode",
+      "none",
+      "--no-boot",
+      "--gdb-port",
+      "3337",
+      "--semihost-port",
+      "-1",
+      "--no-rtos",
+      "MCXN236:FRDM-MCXN236"
+    ]
+  },
+  "clientCommand": {
+    "executable": "C:\\Users\\LENOVO\\.mcuxpressotools\\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gdb.exe",
+    "arguments": [
+      "--nx",
+      "--nh",
+      "--batch",
+      "-x",
+      "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-capture.gdb",
+      "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf"
+    ]
+  },
+  "inputIdentities": [
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf",
+      "bytes": 199936,
+      "sha256": "2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\led_blinky.c",
+      "bytes": 1568,
+      "sha256": "46AD8D67DE632F9FDFFB8D8366AA9E832FAC03D81BAAC0A44C8A4D1976E588AF"
+    },
+    {
+      "path": "C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe",
+      "bytes": 313240,
+      "sha256": "0C1C8B614C4763FD1A75C86A5937A3FBDA99FCEF11F8A72AC5D2C8CA8CE177C2"
+    },
+    {
+      "path": "C:\\NXP\\LinkServer_26.9.130\\binaries\\ToolScripts\\LS_preconnect_MCXN2XX.scp",
+      "bytes": 808,
+      "sha256": "5C44CED0594EAE9367BFDC75342C57721858686EDD7536518DC2D5D474CA480B"
+    },
+    {
+      "path": "C:\\Users\\LENOVO\\.mcuxpressotools\\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gdb.exe",
+      "bytes": 12201936,
+      "sha256": "36AE2E715FDBF7AFBD2F58CA992486E73AA3E7111BBC9C552AFBE93A3C66A7E1"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\run-approved-t09.ps1",
+      "bytes": 7705,
+      "sha256": "1310845F73154C45A7B7F0D15350F87349E8D21A2A5D68B15A80CCC678714868"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-capture.py",
+      "bytes": 6569,
+      "sha256": "1893F7BA1557679439F638FD677B669245523507014FF4F0D67907A12F9C47BA"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-capture.gdb",
+      "bytes": 295,
+      "sha256": "26954A2A6EAF69425684766C56BA27B8A8A932E143650F9D248F2FF360FEF792"
+    }
+  ],
+  "imageReadbackRegions": [
+    {
+      "address": 0,
+      "fileOffset": 4096,
+      "bytes": 688
+    },
+    {
+      "address": 1024,
+      "fileOffset": 5120,
+      "bytes": 8040
+    },
+    {
+      "address": 9064,
+      "fileOffset": 16384,
+      "bytes": 4
+    }
+  ],
+  "beforePC": "0x00001E7A",
+  "afterPC": "0x00001EA4",
+  "initialDataWordAtFlash2368": "0x02DC6C00",
+  "evidenceBasis": "Retained P3-D09 help; installed LinkServer Readme/GDBServer docs; existing main disassembly; current offline ELF program/section headers; current CMSIS layout",
+  "limits": {
+    "serverLaunches": 1,
+    "serverReadySeconds": 15,
+    "clientLaunches": 1,
+    "clientObservationSeconds": 120,
+    "remoteTimeoutSeconds": 10,
+    "GDBLoads": 1,
+    "explicitMonitorResets": 1,
+    "capturePoints": 2,
+    "automaticRetry": false,
+    "forcedInterruption": false
+  },
+  "recoveryAccounting": "P3-F05 before=1/3; conservatively charge separate load-containing client dispatch as attempt2/3 with validating readback. P3-F02 remains 2/3."
+}

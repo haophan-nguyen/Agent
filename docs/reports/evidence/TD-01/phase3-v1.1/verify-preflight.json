@@ -1,0 +1,8 @@
+{
+  "recordedAt": "2026-11-01T10:12:09.3091585+07:00",
+  "purpose": "Targeted pre-operation check of the approved image, not repeated tool discovery or host diagnostics",
+  "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf",
+  "bytes": 199936,
+  "sha256": "2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391",
+  "matchesApprovedIdentity": true
+}

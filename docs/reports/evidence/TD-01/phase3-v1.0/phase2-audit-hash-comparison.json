@@ -1,0 +1,177 @@
+[
+  {
+    "path": "D:/work_space/Agent/Agent/build/phase2-evidence/build-results.json",
+    "currentBytes": 167,
+    "phase2AuditSha256": "2DBD3A2E0E958194B5BBDD67BAB756FC00F3096B82D1C43010E5D1F963CF4C0C",
+    "currentSha256": "2DBD3A2E0E958194B5BBDD67BAB756FC00F3096B82D1C43010E5D1F963CF4C0C",
+    "matchesPhase2Audit": true
+  },
+  {
+    "path": "D:/work_space/Agent/Agent/build/phase2-evidence/compile-flags.json",
+    "currentBytes": 373,
+    "phase2AuditSha256": "D0C80356A0A61062E42A7291E8CEF7ECD7FABCECC038FA34150DB48A9AE91064",
+    "currentSha256": "D0C80356A0A61062E42A7291E8CEF7ECD7FABCECC038FA34150DB48A9AE91064",
+    "matchesPhase2Audit": true
+  },
+  {
+    "path": "D:/work_space/Agent/Agent/build/phase2-evidence/debug-build.log",
+    "currentBytes": 1047,
+    "phase2AuditSha256": "1315B720E8C204A8238FB6C414074B6DCC54D35B470417AEB7B84034F54C873B",
+    "currentSha256": "1315B720E8C204A8238FB6C414074B6DCC54D35B470417AEB7B84034F54C873B",
+    "matchesPhase2Audit": true
+  },
+  {
+    "path": "D:/work_space/Agent/Agent/build/phase2-evidence/debug-configure.log",
+    "currentBytes": 3905,
+    "phase2AuditSha256": "572D946FE3C37FF329098035E6678702A3407EC3295483C065F3890315800ABF",
+    "currentSha256": "572D946FE3C37FF329098035E6678702A3407EC3295483C065F3890315800ABF",
+    "matchesPhase2Audit": true
+  },
+  {
+    "path": "D:/work_space/Agent/Agent/build/phase2-evidence/git-final.txt",
+    "currentBytes": 931,
+    "phase2AuditSha256": "AA9C61EC5F3928E9581236BF3602A6A83A59E055A94124A3C5A0C38565425F7F",
+    "currentSha256": "AA9C61EC5F3928E9581236BF3602A6A83A59E055A94124A3C5A0C38565425F7F",
+    "matchesPhase2Audit": true
+  },
+  {
+    "path": "D:/work_space/Agent/Agent/build/phase2-evidence/image-manifest.json",
+    "currentBytes": 1432,
+    "phase2AuditSha256": "41B743ED44AEDA2CDA87F511E5D2A1C22F5AA789CBB48B236F8194EF7CF40F08",
+    "currentSha256": "41B743ED44AEDA2CDA87F511E5D2A1C22F5AA789CBB48B236F8194EF7CF40F08",
+    "matchesPhase2Audit": true
+  },
+  {
+    "path": "D:/work_space/Agent/Agent/build/phase2-evidence/implementation.diff",
+    "currentBytes": 830,
+    "phase2AuditSha256": "0BBA14D9AECEF50E29A2F4381CFB7BDB453C22C911CBB003B5B4C97687973147",
+    "currentSha256": "0BBA14D9AECEF50E29A2F4381CFB7BDB453C22C911CBB003B5B4C97687973147",
+    "matchesPhase2Audit": true
+  },
+  {
+    "path": "D:/work_space/Agent/Agent/build/phase2-evidence/presets.log",
+    "currentBytes": 150,
+    "phase2AuditSha256": "70E9BEBD55511CC2945E16F1D7AB274469C96F7FAA037C2A0604E15D24AEB55E",
+    "currentSha256": "70E9BEBD55511CC2945E16F1D7AB274469C96F7FAA037C2A0604E15D24AEB55E",
+    "matchesPhase2Audit": true
+  },
+  {
+    "path": "D:/work_space/Agent/Agent/build/phase2-evidence/release-build.log",
+    "currentBytes": 3743,
+    "phase2AuditSha256": "6852A4A5B660B2CE58F2345997617A4C241C129E446BF97B61BC384D1206B206",
+    "currentSha256": "6852A4A5B660B2CE58F2345997617A4C241C129E446BF97B61BC384D1206B206",
+    "matchesPhase2Audit": true
+  },
+  {
+    "path": "D:/work_space/Agent/Agent/build/phase2-evidence/release-configure.log",
+    "currentBytes": 4964,
+    "phase2AuditSha256": "27D71891A1C855D6358CE58FBFCFBA69168AA9F372594DF538755DA695125D5D",
+    "currentSha256": "27D71891A1C855D6358CE58FBFCFBA69168AA9F372594DF538755DA695125D5D",
+    "matchesPhase2Audit": true
+  },
+  {
+    "path": "D:/work_space/Agent/Agent/build/phase2-evidence/report.md",
+    "currentBytes": 10271,
+    "phase2AuditSha256": "D636A40417E4B294CA65EA110FB4B1F06FF232A23E0624D9F5C50FF655474CF3",
+    "currentSha256": "D636A40417E4B294CA65EA110FB4B1F06FF232A23E0624D9F5C50FF655474CF3",
+    "matchesPhase2Audit": true
+  },
+  {
+    "path": "D:/work_space/Agent/Agent/build/phase2-evidence/source-checks.txt",
+    "currentBytes": 1911,
+    "phase2AuditSha256": "36F661B8883C3399401157B650B995D1BCF07BE9AAFD7312F670BD6777988A85",
+    "currentSha256": "36F661B8883C3399401157B650B995D1BCF07BE9AAFD7312F670BD6777988A85",
+    "matchesPhase2Audit": true
+  },
+  {
+    "path": "D:/work_space/Agent/Agent/build/phase2-evidence/toolchain.txt",
+    "currentBytes": 667,
+    "phase2AuditSha256": "AD97DA5DD5EE63364984FA99EEC36F2D347ECD5B5837AA13E73B776A4A5B7707",
+    "currentSha256": "AD97DA5DD5EE63364984FA99EEC36F2D347ECD5B5837AA13E73B776A4A5B7707",
+    "matchesPhase2Audit": true
+  },
+  {
+    "path": "D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/frdmmcxn236_led_blinky.elf",
+    "currentBytes": 199936,
+    "phase2AuditSha256": "2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391",
+    "currentSha256": "2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391",
+    "matchesPhase2Audit": true
+  },
+  {
+    "path": "D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/frdmmcxn236_led_blinky.bin",
+    "currentBytes": 9068,
+    "phase2AuditSha256": "3096C02A4CE9642B7850AE649F0D1D66F3429E384E41BE5FEFFB19E130A634C2",
+    "currentSha256": "3096C02A4CE9642B7850AE649F0D1D66F3429E384E41BE5FEFFB19E130A634C2",
+    "matchesPhase2Audit": true
+  },
+  {
+    "path": "D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/release/frdmmcxn236_led_blinky.elf",
+    "currentBytes": 31664,
+    "phase2AuditSha256": "31CE4BF2905F3CF5072FE19BAB1C0539614E88B3D8B513A173CE420A6A641BE2",
+    "currentSha256": "31CE4BF2905F3CF5072FE19BAB1C0539614E88B3D8B513A173CE420A6A641BE2",
+    "matchesPhase2Audit": true
+  },
+  {
+    "path": "D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/release/frdmmcxn236_led_blinky.bin",
+    "currentBytes": 4552,
+    "phase2AuditSha256": "B8756864777CFCAE470298D594838826959DAAC73792771E2F613048790DFC79",
+    "currentSha256": "B8756864777CFCAE470298D594838826959DAAC73792771E2F613048790DFC79",
+    "matchesPhase2Audit": true
+  },
+  {
+    "path": "D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/build.ninja",
+    "currentBytes": 673526,
+    "phase2AuditSha256": "EB1A6CF3398DE06525A43548A3E662D4F9936AF611A0874F7AA702018BB38DA6",
+    "currentSha256": "EB1A6CF3398DE06525A43548A3E662D4F9936AF611A0874F7AA702018BB38DA6",
+    "matchesPhase2Audit": true
+  },
+  {
+    "path": "D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/CMakeCache.txt",
+    "currentBytes": 24516,
+    "phase2AuditSha256": "8495EAC00B5C8D3EB07ADD4C77F2611D1D418426C0D3DD1AC14907717506104D",
+    "currentSha256": "B5DDFE3306EE488491294AF9D3E6891AE9387397B94B13100B6CDB0DE9C4A647",
+    "matchesPhase2Audit": false
+  },
+  {
+    "path": "D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/compile_commands.json",
+    "currentBytes": 57332,
+    "phase2AuditSha256": "406296FF5335C5DF37EE2719C831C715B867D36FEAFB1B25A71AAD649635D1BF",
+    "currentSha256": "406296FF5335C5DF37EE2719C831C715B867D36FEAFB1B25A71AAD649635D1BF",
+    "matchesPhase2Audit": true
+  },
+  {
+    "path": "D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/debug/mcuxsdk_version.h",
+    "currentBytes": 459,
+    "phase2AuditSha256": "18AF5C2C38EDE2326CEF92FF596304E778ED10DDA24BEE5E4F9D5B695043AFEE",
+    "currentSha256": "18AF5C2C38EDE2326CEF92FF596304E778ED10DDA24BEE5E4F9D5B695043AFEE",
+    "matchesPhase2Audit": true
+  },
+  {
+    "path": "D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/release/build.ninja",
+    "currentBytes": 696594,
+    "phase2AuditSha256": "B40C1BD08F813CC26C5819789BDD567EEEC71DFFD0AE70303809D3229260AB29",
+    "currentSha256": "B40C1BD08F813CC26C5819789BDD567EEEC71DFFD0AE70303809D3229260AB29",
+    "matchesPhase2Audit": true
+  },
+  {
+    "path": "D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/release/CMakeCache.txt",
+    "currentBytes": 24331,
+    "phase2AuditSha256": "9AC52591051F8483851075301A49E21DBD0F68399C66921DA71EDB7572604954",
+    "currentSha256": "9AC52591051F8483851075301A49E21DBD0F68399C66921DA71EDB7572604954",
+    "matchesPhase2Audit": true
+  },
+  {
+    "path": "D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/release/compile_commands.json",
+    "currentBytes": 57425,
+    "phase2AuditSha256": "D209E410359056ED30200B742F25B2D7F176D22326C17F93367BDFCE9A130D5A",
+    "currentSha256": "D209E410359056ED30200B742F25B2D7F176D22326C17F93367BDFCE9A130D5A",
+    "matchesPhase2Audit": true
+  },
+  {
+    "path": "D:/work_space/Agent/Agent/frdmmcxn236_led_blinky/release/mcuxsdk_version.h",
+    "currentBytes": 459,
+    "phase2AuditSha256": "18AF5C2C38EDE2326CEF92FF596304E778ED10DDA24BEE5E4F9D5B695043AFEE",
+    "currentSha256": "18AF5C2C38EDE2326CEF92FF596304E778ED10DDA24BEE5E4F9D5B695043AFEE",
+    "matchesPhase2Audit": true
+  }
+]

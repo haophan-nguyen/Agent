@@ -1,0 +1,10 @@
+{
+  "recordedAt": "2026-11-01T11:17:52.0626940+07:00",
+  "purpose": "Operation-critical H7 freshness and approved finite budget",
+  "changedInputs": [],
+  "P3F05Consumed": 3,
+  "P3F05Limit": 4,
+  "remaining": 1,
+  "newScope": "H7 exact session, current setup/preservation explicitly confirmed",
+  "nativePermission": "Pending concrete request"
+}

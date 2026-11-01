@@ -1,0 +1,67 @@
+[
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\build\\phase2-evidence\\build-results.json",
+    "bytes": 167,
+    "sha256": "2DBD3A2E0E958194B5BBDD67BAB756FC00F3096B82D1C43010E5D1F963CF4C0C"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\build\\phase2-evidence\\compile-flags.json",
+    "bytes": 373,
+    "sha256": "D0C80356A0A61062E42A7291E8CEF7ECD7FABCECC038FA34150DB48A9AE91064"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\build\\phase2-evidence\\debug-build.log",
+    "bytes": 1047,
+    "sha256": "1315B720E8C204A8238FB6C414074B6DCC54D35B470417AEB7B84034F54C873B"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\build\\phase2-evidence\\debug-configure.log",
+    "bytes": 3905,
+    "sha256": "572D946FE3C37FF329098035E6678702A3407EC3295483C065F3890315800ABF"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\build\\phase2-evidence\\git-final.txt",
+    "bytes": 931,
+    "sha256": "AA9C61EC5F3928E9581236BF3602A6A83A59E055A94124A3C5A0C38565425F7F"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\build\\phase2-evidence\\image-manifest.json",
+    "bytes": 1432,
+    "sha256": "41B743ED44AEDA2CDA87F511E5D2A1C22F5AA789CBB48B236F8194EF7CF40F08"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\build\\phase2-evidence\\implementation.diff",
+    "bytes": 830,
+    "sha256": "0BBA14D9AECEF50E29A2F4381CFB7BDB453C22C911CBB003B5B4C97687973147"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\build\\phase2-evidence\\presets.log",
+    "bytes": 150,
+    "sha256": "70E9BEBD55511CC2945E16F1D7AB274469C96F7FAA037C2A0604E15D24AEB55E"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\build\\phase2-evidence\\release-build.log",
+    "bytes": 3743,
+    "sha256": "6852A4A5B660B2CE58F2345997617A4C241C129E446BF97B61BC384D1206B206"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\build\\phase2-evidence\\release-configure.log",
+    "bytes": 4964,
+    "sha256": "27D71891A1C855D6358CE58FBFCFBA69168AA9F372594DF538755DA695125D5D"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\build\\phase2-evidence\\report.md",
+    "bytes": 10271,
+    "sha256": "D636A40417E4B294CA65EA110FB4B1F06FF232A23E0624D9F5C50FF655474CF3"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\build\\phase2-evidence\\source-checks.txt",
+    "bytes": 1911,
+    "sha256": "36F661B8883C3399401157B650B995D1BCF07BE9AAFD7312F670BD6777988A85"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\build\\phase2-evidence\\toolchain.txt",
+    "bytes": 667,
+    "sha256": "AD97DA5DD5EE63364984FA99EEC36F2D347ECD5B5837AA13E73B776A4A5B7707"
+  }
+]

@@ -1,0 +1,856 @@
+{
+  "schema": "TD-01 Phase 3 execution ledger v1.0",
+  "createdAt": "2026-11-01T09:52:50.6653064+07:00",
+  "mode": "execute",
+  "commonIdentity": {
+    "sourceRevision": "fcc0898c30a32d0091f347dc434029f9debec17c",
+    "sourceWorkingBlob": "a8ac886e5385cf0ffd0421ac1f0dec0322523e55",
+    "sourceWorkingSha256": "46AD8D67DE632F9FDFFB8D8366AA9E832FAC03D81BAAC0A44C8A4D1976E588AF",
+    "startingState": "starting-state.json",
+    "candidateImage": {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf",
+      "bytes": 199936,
+      "sha256": "2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391",
+      "matchesHistorical": true
+    },
+    "buildConfiguration": "debug; -g -O0; Cortex-M33 MCXN236VDF; retained GCC 14.2.1, SDK 2026.09.00",
+    "target": "Engineer personal FRDM-MCXN236; physical revision unverified; discovered probe SPOBEAQ0BCREX",
+    "loadedRunningImageIdentity": "Unknown; no target access",
+    "runtimeConfiguration": "Unknown; host/offline diagnostics only",
+    "operator": "Codex",
+    "recoveryBudget": 3
+  },
+  "diagnosticEvents": [
+    {
+      "diagnosticId": "P3-D01",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "requirementIds": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "executionType": "Preparation/diagnostic; not an approved TD hardware test attempt",
+      "startedAt": "2026-11-01T09:41:50.7249319+07:00",
+      "endedAt": "2026-11-01T09:41:51.0007169+07:00",
+      "command": " Get-CimInstance -ClassName Win32_PnPEntity -Filter \"PNPDeviceID LIKE 'USB%'\" -OperationTimeoutSec 12 -ErrorAction Stop | Select-Object Name,PNPClass,DeviceID,Status,ConfigManagerErrorCode ",
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "rawEvidence": "host-discovery.json",
+      "actualResult": "Full observations/exit/error retained in referenced raw record",
+      "testStatus": "Not applicable to host diagnostic; no TD PASS asserted",
+      "failureId": "P3-F01",
+      "recoveryAttempt": 0,
+      "continuation": "Stopped before disruptive target operations; raw diagnostic outcomes retained"
+    },
+    {
+      "diagnosticId": "P3-D02",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "requirementIds": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "executionType": "Preparation/diagnostic; not an approved TD hardware test attempt",
+      "startedAt": "2026-11-01T09:41:51.0208569+07:00",
+      "endedAt": "2026-11-01T09:41:51.0336905+07:00",
+      "command": " [IO.Ports.SerialPort]::GetPortNames() ",
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "rawEvidence": "host-discovery.json",
+      "actualResult": "Full observations/exit/error retained in referenced raw record",
+      "testStatus": "Not applicable to host diagnostic; no TD PASS asserted",
+      "failureId": null,
+      "recoveryAttempt": 0,
+      "continuation": "Stopped before disruptive target operations; raw diagnostic outcomes retained"
+    },
+    {
+      "diagnosticId": "P3-D03",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "requirementIds": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "executionType": "Preparation/diagnostic; not an approved TD hardware test attempt",
+      "startedAt": "2026-11-01T09:41:51.0341969+07:00",
+      "endedAt": "2026-11-01T09:41:51.0459906+07:00",
+      "command": " Get-CimInstance -ClassName Win32_Process -Filter \"Name LIKE '%LinkServer%' OR Name LIKE '%redlink%' OR Name LIKE '%gdb%' OR Name LIKE '%sigrok%' OR Name LIKE '%Saleae%' OR Name LIKE '%Pico%' OR Name LIKE '%PulseView%'\" -OperationTimeoutSec 12 -ErrorAction Stop | Select-Object Name,ProcessId,ExecutablePath ",
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "rawEvidence": "host-discovery.json",
+      "actualResult": "Full observations/exit/error retained in referenced raw record",
+      "testStatus": "Not applicable to host diagnostic; no TD PASS asserted",
+      "failureId": "P3-F01",
+      "recoveryAttempt": 0,
+      "continuation": "Stopped before disruptive target operations; raw diagnostic outcomes retained"
+    },
+    {
+      "diagnosticId": "P3-D04",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "requirementIds": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "executionType": "Preparation/diagnostic; not an approved TD hardware test attempt",
+      "startedAt": "2026-11-01T09:41:51.0461771+07:00",
+      "endedAt": "2026-11-01T09:41:52.5489195+07:00",
+      "command": " @('LinkServer','LinkServer.exe','JLink.exe','JLinkGDBServerCL.exe','pyocd','openocd','probe-rs','arm-none-eabi-gdb','sigrok-cli','pulseview') | ForEach-Object { $name=$_; $found=Get-Command $name -ErrorAction SilentlyContinue; [ordered]@{requested=$name;resolved=@($found | Select-Object Name,Source,CommandType)} }; @('C:\\NXP','C:\\Program Files\\SEGGER','C:\\Program Files\\Saleae Inc','C:\\Program Files\\Pico Technology','C:\\Users\\LENOVO\\.mcuxpressotools') | ForEach-Object { [ordered]@{location=$_;exists=(Test-Path -LiteralPath $_);directories=@(if(Test-Path -LiteralPath $_) {Get-ChildItem -LiteralPath $_ -Directory | Select-Object -ExpandProperty FullName})} } ",
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "rawEvidence": "host-discovery.json",
+      "actualResult": "Full observations/exit/error retained in referenced raw record",
+      "testStatus": "Not applicable to host diagnostic; no TD PASS asserted",
+      "failureId": null,
+      "recoveryAttempt": 0,
+      "continuation": "Stopped before disruptive target operations; raw diagnostic outcomes retained"
+    },
+    {
+      "diagnosticId": "P3-D01-E",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "requirementIds": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "executionType": "Preparation/diagnostic; not an approved TD hardware test attempt",
+      "startedAt": "2026-11-01T09:42:37.6818323+07:00",
+      "endedAt": "2026-11-01T09:42:39.1003598+07:00",
+      "command": "Get-CimInstance -ClassName Win32_PnPEntity -Filter PNPDeviceID LIKE 'USB%' -OperationTimeoutSec 12 | Select-Object Name,PNPClass,DeviceID,Status,ConfigManagerErrorCode",
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "rawEvidence": "host-discovery-escalated.json",
+      "actualResult": "Full observations/exit/error retained in referenced raw record",
+      "testStatus": "Not applicable to host diagnostic; no TD PASS asserted",
+      "failureId": "P3-F01",
+      "recoveryAttempt": 0,
+      "continuation": "Stopped before disruptive target operations; raw diagnostic outcomes retained",
+      "exactStructuredCmdlet": {
+        "name": "Get-CimInstance",
+        "selectProperties": [
+          "Name",
+          "PNPClass",
+          "DeviceID",
+          "Status",
+          "ConfigManagerErrorCode"
+        ],
+        "parameters": {
+          "Filter": "PNPDeviceID LIKE 'USB%'",
+          "ErrorAction": "Stop",
+          "OperationTimeoutSec": 12,
+          "ClassName": "Win32_PnPEntity"
+        }
+      }
+    },
+    {
+      "diagnosticId": "P3-D03-E",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "requirementIds": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "executionType": "Preparation/diagnostic; not an approved TD hardware test attempt",
+      "startedAt": "2026-11-01T09:42:39.1152212+07:00",
+      "endedAt": "2026-11-01T09:42:39.2543092+07:00",
+      "command": "Get-CimInstance -ClassName Win32_Process -Filter Name LIKE '%LinkServer%' OR Name LIKE '%redlink%' OR Name LIKE '%gdb%' OR Name LIKE '%sigrok%' OR Name LIKE '%Saleae%' OR Name LIKE '%Pico%' OR Name LIKE '%PulseView%' -OperationTimeoutSec 12 | Select-Object Name,ProcessId,ExecutablePath",
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "rawEvidence": "host-discovery-escalated.json",
+      "actualResult": "Full observations/exit/error retained in referenced raw record",
+      "testStatus": "Not applicable to host diagnostic; no TD PASS asserted",
+      "failureId": "P3-F01",
+      "recoveryAttempt": 0,
+      "continuation": "Stopped before disruptive target operations; raw diagnostic outcomes retained",
+      "exactStructuredCmdlet": {
+        "name": "Get-CimInstance",
+        "selectProperties": [
+          "Name",
+          "ProcessId",
+          "ExecutablePath"
+        ],
+        "parameters": {
+          "Filter": "Name LIKE '%LinkServer%' OR Name LIKE '%redlink%' OR Name LIKE '%gdb%' OR Name LIKE '%sigrok%' OR Name LIKE '%Saleae%' OR Name LIKE '%Pico%' OR Name LIKE '%PulseView%'",
+          "ErrorAction": "Stop",
+          "OperationTimeoutSec": 12,
+          "ClassName": "Win32_Process"
+        }
+      }
+    },
+    {
+      "diagnosticId": "P3-D05",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "requirementIds": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "executionType": "Preparation/diagnostic; not an approved TD hardware test attempt",
+      "startedAt": "2026-11-01T09:43:10.2133444+07:00",
+      "endedAt": "2026-11-01T09:43:10.3955971+07:00",
+      "command": {
+        "arguments": [
+          "--version"
+        ],
+        "executable": "C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe"
+      },
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "rawEvidence": "linkserver-help.json",
+      "actualResult": "Full observations/exit/error retained in referenced raw record",
+      "testStatus": "Not applicable to host diagnostic; no TD PASS asserted",
+      "failureId": "P3-F02",
+      "recoveryAttempt": 0,
+      "continuation": "Stopped before disruptive target operations; raw diagnostic outcomes retained"
+    },
+    {
+      "diagnosticId": "P3-D10",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "requirementIds": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "executionType": "Preparation/diagnostic; not an approved TD hardware test attempt",
+      "startedAt": "2026-11-01T09:43:09.9302362+07:00",
+      "endedAt": "2026-11-01T09:43:10.1266092+07:00",
+      "command": {
+        "arguments": [
+          "--version"
+        ],
+        "executable": "C:\\Users\\LENOVO\\.mcuxpressotools\\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-readelf.exe"
+      },
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "rawEvidence": "offline-elf.json",
+      "actualResult": "Full observations/exit/error retained in referenced raw record",
+      "testStatus": "Not applicable to host diagnostic; no TD PASS asserted",
+      "failureId": "P3-F02",
+      "recoveryAttempt": 0,
+      "continuation": "Stopped before disruptive target operations; raw diagnostic outcomes retained"
+    },
+    {
+      "diagnosticId": "P3-D05-E",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "requirementIds": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "executionType": "Preparation/diagnostic; not an approved TD hardware test attempt",
+      "startedAt": "2026-11-01T09:44:26.8559179+07:00",
+      "endedAt": "2026-11-01T09:44:27.3267378+07:00",
+      "command": {
+        "arguments": [
+          "--version"
+        ],
+        "executable": "C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe"
+      },
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "rawEvidence": "host-tools-escalated.json",
+      "actualResult": "Full observations/exit/error retained in referenced raw record",
+      "testStatus": "Not applicable to host diagnostic; no TD PASS asserted",
+      "failureId": "P3-F02",
+      "recoveryAttempt": 1,
+      "continuation": "Stopped before disruptive target operations; raw diagnostic outcomes retained"
+    },
+    {
+      "diagnosticId": "P3-D06",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "requirementIds": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "executionType": "Preparation/diagnostic; not an approved TD hardware test attempt",
+      "startedAt": "2026-11-01T09:44:27.3535381+07:00",
+      "endedAt": "2026-11-01T09:44:27.7598232+07:00",
+      "command": {
+        "arguments": [
+          "help",
+          "probes"
+        ],
+        "executable": "C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe"
+      },
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "rawEvidence": "host-tools-escalated.json",
+      "actualResult": "Full observations/exit/error retained in referenced raw record",
+      "testStatus": "Not applicable to host diagnostic; no TD PASS asserted",
+      "failureId": null,
+      "recoveryAttempt": 0,
+      "continuation": "Stopped before disruptive target operations; raw diagnostic outcomes retained"
+    },
+    {
+      "diagnosticId": "P3-D07",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "requirementIds": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "executionType": "Preparation/diagnostic; not an approved TD hardware test attempt",
+      "startedAt": "2026-11-01T09:44:27.7632239+07:00",
+      "endedAt": "2026-11-01T09:44:28.1669112+07:00",
+      "command": {
+        "arguments": [
+          "help",
+          "flash",
+          "load"
+        ],
+        "executable": "C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe"
+      },
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "rawEvidence": "host-tools-escalated.json",
+      "actualResult": "Full observations/exit/error retained in referenced raw record",
+      "testStatus": "Not applicable to host diagnostic; no TD PASS asserted",
+      "failureId": null,
+      "recoveryAttempt": 0,
+      "continuation": "Stopped before disruptive target operations; raw diagnostic outcomes retained"
+    },
+    {
+      "diagnosticId": "P3-D08",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "requirementIds": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "executionType": "Preparation/diagnostic; not an approved TD hardware test attempt",
+      "startedAt": "2026-11-01T09:44:28.1689329+07:00",
+      "endedAt": "2026-11-01T09:44:28.5743221+07:00",
+      "command": {
+        "arguments": [
+          "help",
+          "flash",
+          "verify"
+        ],
+        "executable": "C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe"
+      },
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "rawEvidence": "host-tools-escalated.json",
+      "actualResult": "Full observations/exit/error retained in referenced raw record",
+      "testStatus": "Not applicable to host diagnostic; no TD PASS asserted",
+      "failureId": null,
+      "recoveryAttempt": 0,
+      "continuation": "Stopped before disruptive target operations; raw diagnostic outcomes retained"
+    },
+    {
+      "diagnosticId": "P3-D09",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "requirementIds": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "executionType": "Preparation/diagnostic; not an approved TD hardware test attempt",
+      "startedAt": "2026-11-01T09:44:28.5767023+07:00",
+      "endedAt": "2026-11-01T09:44:28.9985278+07:00",
+      "command": {
+        "arguments": [
+          "help",
+          "gdbserver"
+        ],
+        "executable": "C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe"
+      },
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "rawEvidence": "host-tools-escalated.json",
+      "actualResult": "Full observations/exit/error retained in referenced raw record",
+      "testStatus": "Not applicable to host diagnostic; no TD PASS asserted",
+      "failureId": null,
+      "recoveryAttempt": 0,
+      "continuation": "Stopped before disruptive target operations; raw diagnostic outcomes retained"
+    },
+    {
+      "diagnosticId": "P3-D10-E",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "requirementIds": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "executionType": "Preparation/diagnostic; not an approved TD hardware test attempt",
+      "startedAt": "2026-11-01T09:44:29.000771+07:00",
+      "endedAt": "2026-11-01T09:44:29.0306105+07:00",
+      "command": {
+        "arguments": [
+          "--version"
+        ],
+        "executable": "C:\\Users\\LENOVO\\.mcuxpressotools\\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-readelf.exe"
+      },
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "rawEvidence": "host-tools-escalated.json",
+      "actualResult": "Full observations/exit/error retained in referenced raw record",
+      "testStatus": "Not applicable to host diagnostic; no TD PASS asserted",
+      "failureId": "P3-F02",
+      "recoveryAttempt": 2,
+      "continuation": "Stopped before disruptive target operations; raw diagnostic outcomes retained"
+    },
+    {
+      "diagnosticId": "P3-D11",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "requirementIds": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "executionType": "Preparation/diagnostic; not an approved TD hardware test attempt",
+      "startedAt": "2026-11-01T09:44:29.0324363+07:00",
+      "endedAt": "2026-11-01T09:44:29.0557859+07:00",
+      "command": {
+        "arguments": [
+          "-h",
+          "-A",
+          "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf"
+        ],
+        "executable": "C:\\Users\\LENOVO\\.mcuxpressotools\\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-readelf.exe"
+      },
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "rawEvidence": "host-tools-escalated.json",
+      "actualResult": "Full observations/exit/error retained in referenced raw record",
+      "testStatus": "Not applicable to host diagnostic; no TD PASS asserted",
+      "failureId": null,
+      "recoveryAttempt": 0,
+      "continuation": "Stopped before disruptive target operations; raw diagnostic outcomes retained"
+    },
+    {
+      "diagnosticId": "P3-D12",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "requirementIds": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "executionType": "Preparation/diagnostic; not an approved TD hardware test attempt",
+      "startedAt": "2026-11-01T09:44:29.0584226+07:00",
+      "endedAt": "2026-11-01T09:44:29.3231953+07:00",
+      "command": {
+        "arguments": [
+          "--version"
+        ],
+        "executable": "C:\\Users\\LENOVO\\.mcuxpressotools\\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-objdump.exe"
+      },
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "rawEvidence": "host-tools-escalated.json",
+      "actualResult": "Full observations/exit/error retained in referenced raw record",
+      "testStatus": "Not applicable to host diagnostic; no TD PASS asserted",
+      "failureId": null,
+      "recoveryAttempt": 0,
+      "continuation": "Stopped before disruptive target operations; raw diagnostic outcomes retained"
+    },
+    {
+      "diagnosticId": "P3-D13",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "requirementIds": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "executionType": "Preparation/diagnostic; not an approved TD hardware test attempt",
+      "startedAt": "2026-11-01T09:44:29.3262703+07:00",
+      "endedAt": "2026-11-01T09:44:29.3804794+07:00",
+      "command": {
+        "arguments": [
+          "-d",
+          "--disassemble=main",
+          "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf"
+        ],
+        "executable": "C:\\Users\\LENOVO\\.mcuxpressotools\\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-objdump.exe"
+      },
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "rawEvidence": "host-tools-escalated.json",
+      "actualResult": "Full observations/exit/error retained in referenced raw record",
+      "testStatus": "Not applicable to host diagnostic; no TD PASS asserted",
+      "failureId": null,
+      "recoveryAttempt": 0,
+      "continuation": "Stopped before disruptive target operations; raw diagnostic outcomes retained"
+    },
+    {
+      "diagnosticId": "P3-D14",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "requirementIds": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "executionType": "Preparation/diagnostic; not an approved TD hardware test attempt",
+      "startedAt": "2026-11-01T09:44:29.3968513+07:00",
+      "endedAt": "2026-11-01T09:44:29.4285519+07:00",
+      "command": {
+        "arguments": [
+          "-d",
+          "--disassemble=SysTick_Handler",
+          "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf"
+        ],
+        "executable": "C:\\Users\\LENOVO\\.mcuxpressotools\\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-objdump.exe"
+      },
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "rawEvidence": "host-tools-escalated.json",
+      "actualResult": "Full observations/exit/error retained in referenced raw record",
+      "testStatus": "Not applicable to host diagnostic; no TD PASS asserted",
+      "failureId": null,
+      "recoveryAttempt": 0,
+      "continuation": "Stopped before disruptive target operations; raw diagnostic outcomes retained"
+    },
+    {
+      "diagnosticId": "P3-D15",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "requirementIds": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "executionType": "Preparation/diagnostic; not an approved TD hardware test attempt",
+      "startedAt": "2026-11-01T09:45:28.5156337+07:00",
+      "endedAt": "2026-11-01T09:45:29.3341685+07:00",
+      "command": {
+        "arguments": [
+          "probes",
+          "--no-boot"
+        ],
+        "executable": "C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe"
+      },
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "rawEvidence": "probe-discovery.json",
+      "actualResult": "Full observations/exit/error retained in referenced raw record",
+      "testStatus": "Not applicable to host diagnostic; no TD PASS asserted",
+      "failureId": null,
+      "recoveryAttempt": 0,
+      "continuation": "Stopped before disruptive target operations; raw diagnostic outcomes retained"
+    },
+    {
+      "diagnosticId": "P3-D16",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "requirementIds": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "executionType": "Preparation/diagnostic; not an approved TD hardware test attempt",
+      "startedAt": "2026-11-01T09:45:29.3604707+07:00",
+      "endedAt": "2026-11-01T09:45:29.7361603+07:00",
+      "command": {
+        "arguments": [
+          "help",
+          "flash"
+        ],
+        "executable": "C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe"
+      },
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "rawEvidence": "probe-discovery.json",
+      "actualResult": "Full observations/exit/error retained in referenced raw record",
+      "testStatus": "Not applicable to host diagnostic; no TD PASS asserted",
+      "failureId": null,
+      "recoveryAttempt": 0,
+      "continuation": "Stopped before disruptive target operations; raw diagnostic outcomes retained"
+    },
+    {
+      "diagnosticId": "P3-D17",
+      "testIds": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "requirementIds": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "executionType": "Preparation/diagnostic; not an approved TD hardware test attempt",
+      "startedAt": "2026-11-01T09:45:29.7390426+07:00",
+      "endedAt": "2026-11-01T09:45:30.0862974+07:00",
+      "command": {
+        "arguments": [
+          "help",
+          "reset"
+        ],
+        "executable": "C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe"
+      },
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "rawEvidence": "probe-discovery.json",
+      "actualResult": "Full observations/exit/error retained in referenced raw record",
+      "testStatus": "Not applicable to host diagnostic; no TD PASS asserted",
+      "failureId": null,
+      "recoveryAttempt": 0,
+      "continuation": "Stopped before disruptive target operations; raw diagnostic outcomes retained"
+    }
+  ],
+  "testGateEntries": [
+    {
+      "testId": "T04",
+      "executionId": null,
+      "attemptsStarted": 0,
+      "startTime": null,
+      "endTime": null,
+      "operator": "Not performed",
+      "status": "BLOCKED",
+      "failureIds": [
+        "P3-F03",
+        "P3-F04",
+        "P3-F05",
+        "P3-F06",
+        "A01",
+        "A02"
+      ],
+      "reason": "Required provenance/risk disposition, target/image/setup evidence and operation approval unavailable; timing/observation setup additionally unverified where applicable",
+      "actualObservation": "No target test execution, measurement, reset or register result",
+      "recoveryAttempts": 0,
+      "proposedProcedure": "Report section 2; not executed"
+    },
+    {
+      "testId": "T05",
+      "executionId": null,
+      "attemptsStarted": 0,
+      "startTime": null,
+      "endTime": null,
+      "operator": "Not performed",
+      "status": "BLOCKED",
+      "failureIds": [
+        "P3-F03",
+        "P3-F04",
+        "P3-F05",
+        "P3-F06",
+        "A01",
+        "A02"
+      ],
+      "reason": "Required provenance/risk disposition, target/image/setup evidence and operation approval unavailable; timing/observation setup additionally unverified where applicable",
+      "actualObservation": "No target test execution, measurement, reset or register result",
+      "recoveryAttempts": 0,
+      "proposedProcedure": "Report section 2; not executed"
+    },
+    {
+      "testId": "T06",
+      "executionId": null,
+      "attemptsStarted": 0,
+      "startTime": null,
+      "endTime": null,
+      "operator": "Not performed",
+      "status": "BLOCKED",
+      "failureIds": [
+        "P3-F03",
+        "P3-F04",
+        "P3-F05",
+        "P3-F06",
+        "A01",
+        "A02"
+      ],
+      "reason": "Required provenance/risk disposition, target/image/setup evidence and operation approval unavailable; timing/observation setup additionally unverified where applicable",
+      "actualObservation": "No target test execution, measurement, reset or register result",
+      "recoveryAttempts": 0,
+      "proposedProcedure": "Report section 2; not executed"
+    },
+    {
+      "testId": "T07",
+      "executionId": null,
+      "attemptsStarted": 0,
+      "startTime": null,
+      "endTime": null,
+      "operator": "Not performed",
+      "status": "BLOCKED",
+      "failureIds": [
+        "P3-F03",
+        "P3-F04",
+        "P3-F05",
+        "P3-F06",
+        "A01",
+        "A02"
+      ],
+      "reason": "Required provenance/risk disposition, target/image/setup evidence and operation approval unavailable; timing/observation setup additionally unverified where applicable",
+      "actualObservation": "No target test execution, measurement, reset or register result",
+      "recoveryAttempts": 0,
+      "proposedProcedure": "Report section 2; not executed"
+    },
+    {
+      "testId": "T09",
+      "executionId": null,
+      "attemptsStarted": 0,
+      "startTime": null,
+      "endTime": null,
+      "operator": "Not performed",
+      "status": "BLOCKED",
+      "failureIds": [
+        "P3-F03",
+        "P3-F04",
+        "P3-F05",
+        "A01",
+        "A02"
+      ],
+      "reason": "Required provenance/risk disposition, target/image/setup evidence and operation approval unavailable; timing/observation setup additionally unverified where applicable",
+      "actualObservation": "No target test execution, measurement, reset or register result",
+      "recoveryAttempts": 0,
+      "proposedProcedure": "Report section 2; not executed"
+    }
+  ],
+  "counts": {
+    "applicablePhase3UniqueTests": 5,
+    "PASS": 0,
+    "FAIL": 0,
+    "BLOCKED": 5,
+    "NOT_RUN": 0,
+    "targetAttempts": 0,
+    "targetRecoveryAttempts": 0
+  },
+  "earlierPhaseTestsNotRerun": [
+    "T01",
+    "T02",
+    "T03",
+    "T08"
+  ],
+  "approvalRecord": "authorizations-and-setup.md",
+  "failureLedger": "failure-ledger.json"
+}

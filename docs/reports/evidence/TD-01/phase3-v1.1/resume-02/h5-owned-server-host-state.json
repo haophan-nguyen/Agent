@@ -1,0 +1,39 @@
+{
+  "recordedAt": "2026-11-01T11:02:51.5199974+07:00",
+  "method": "Read-only native host process/loopback-listener query",
+  "nativeResultReference": "exec chunk 9e2848",
+  "ownedPid22292Present": true,
+  "listeners3337": [
+    "127.0.0.1:3337"
+  ],
+  "listeners3338": [],
+  "relatedHostProcesses": [
+    {
+      "Id": 2444,
+      "ProcessName": "crt_emu_cm_redlink"
+    },
+    {
+      "Id": 11348,
+      "ProcessName": "LinkServer"
+    },
+    {
+      "Id": 22292,
+      "ProcessName": "LinkServer"
+    },
+    {
+      "Id": 27700,
+      "ProcessName": "redlinkserv"
+    }
+  ],
+  "precedingSandboxQuery": {
+    "recordedAt": "2026-11-01T11:02:35.6129039+07:00",
+    "resultReference": "exec chunk 15b8b2",
+    "error": "GetActiveTcpListeners: Access is denied",
+    "processVisibility": "Sandbox returned no process objects; not evidence that owned server was absent",
+    "outerShellExitCode": 0,
+    "subquerySucceeded": false
+  },
+  "interpretation": "Native query verifies owned H5 server still waiting. Sandbox empty results are not used as absence evidence.",
+  "hardwareAccess": "None",
+  "permissionIssue": "P3-F01 recurrence of passive host visibility boundary; successful native re-query, no recovery intervention charged"
+}

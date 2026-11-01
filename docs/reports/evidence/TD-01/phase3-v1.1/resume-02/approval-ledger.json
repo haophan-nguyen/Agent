@@ -1,0 +1,903 @@
+{
+  "schema": "TD-01 Phase 3 additive resume-02 approval ledger",
+  "preparedAt": "2026-11-01T10:37:02+07:00",
+  "mode": "execute",
+  "workflowState": "PARTIALLY_COMPLETE_FOR_ENGINEER_REVIEW",
+  "terminalReportIssued": true,
+  "predecessor": "../approval-ledger.json",
+  "checkpoint": "checkpoint.md",
+  "newEntryAuthority": {
+    "reference": "Current engineer request beginning Use $phase3-execution-debug in execute mode; Resume TD-01 v1.1 Phase 3",
+    "date": "2026-11-01",
+    "eventTimestamp": null,
+    "approver": "Engineer/user in this conversation",
+    "scope": "Resume Phase 3 under the unchanged design; no blanket hardware authority, no withdrawn approval reuse"
+  },
+  "historicalAuthority": [
+    {
+      "id": "TD01-P3-R1",
+      "state": "HISTORICAL_ACCEPTANCE_RETAINED_NO_FUTURE_AUTHORITY"
+    },
+    {
+      "id": "TD01-P3-H1",
+      "state": "EXECUTED_SCOPE_EXHAUSTED_NO_FUTURE_AUTHORITY",
+      "executionId": "TD01-P3-V01"
+    },
+    {
+      "id": "TD01-P3-R2",
+      "state": "CANCELLED_BY_ENGINEER_BEFORE_PRESENTATION"
+    },
+    {
+      "id": "TD01-P3-H2",
+      "state": "CANCELLED_BY_ENGINEER_BEFORE_PRESENTATION"
+    }
+  ],
+  "image": {
+    "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf",
+    "bytes": 199936,
+    "sha256": "2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391",
+    "configuration": "debug; -g -O0 -Wall -Werror; Cortex-M33 MCXN236VDF"
+  },
+  "target": "Engineer personal physical FRDM-MCXN236; PCB revision not recorded",
+  "probe": "SPOBEAQ0BCREX",
+  "source": {
+    "currentHead": "b630da3bd67d84150d1cc574c2959be5e8e73039",
+    "historicalHead": "fcc0898c30a32d0091f347dc434029f9debec17c",
+    "workingBlob": "a8ac886e5385cf0ffd0421ac1f0dec0322523e55",
+    "workingSha256": "46AD8D67DE632F9FDFFB8D8366AA9E832FAC03D81BAAC0A44C8A4D1976E588AF",
+    "headDelta": "Only five Phase 2/3 skill/reference files added; production working change and image unchanged"
+  },
+  "checkpoints": [
+    {
+      "checkpointId": "TD01-P3-R3",
+      "kind": "REVIEWABLE_RISK_DISPOSITION",
+      "state": "APPROVED",
+      "affectedTests": [
+        "T07",
+        "T09"
+      ],
+      "failureIds": [
+        "A01",
+        "A02",
+        "P3-F03"
+      ],
+      "requestText": "TD01-P3-R3 — APPROVE, DENY, or DEFER accepting the retained A01/A02/P3-F03 uncertainties for use of this exact Debug ELF in the separately approved H3 load/verification and later separately authorized T07/T09 only? ELF: D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf; 199936 bytes; SHA-256 2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391. Source and ELF still match Phase 2. Uncertainties: historical Phase 2 native permission record is unverified; complete historical SDK/toolchain inputs were not frozen; Debug CMake cache differs from the Phase 2 audit with unknown cause. Findings stay open. Acceptance does not certify history, grant hardware authority, waive mandatory identity/setup/evidence, change criteria or establish PASS. This is a NEW decision; withdrawn R1 is not reused. Details: docs/reports/evidence/TD-01/phase3-v1.1/resume-02/checkpoint.md.",
+      "conversationRequest": {
+        "channel": "functions.request_user_input_async",
+        "requestRecordedAt": "2026-11-01T10:39:46.0467537+07:00",
+        "presentationTime": "Exact event timestamp not exposed; accepted for presentation before requestRecordedAt",
+        "text": "TD01-P3-R3 — APPROVE, DENY, or DEFER accepting the retained A01/A02/P3-F03 uncertainties for use of this exact Debug ELF in the separately approved H3 load/verification and later separately authorized T07/T09 only? ELF: D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf; 199936 bytes; SHA-256 2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391. Source and ELF still match Phase 2. Uncertainties: historical Phase 2 native permission record is unverified; complete historical SDK/toolchain inputs were not frozen; Debug CMake cache differs from the Phase 2 audit with unknown cause. Findings stay open. Acceptance does not certify history, grant hardware authority, waive mandatory identity/setup/evidence, change criteria or establish PASS. This is a NEW decision; withdrawn R1 is not reused. Details: docs/reports/evidence/TD-01/phase3-v1.1/resume-02/checkpoint.md.",
+        "choices": [
+          "APPROVE",
+          "DENY",
+          "DEFER"
+        ],
+        "submissionResult": "accepted: true",
+        "reference": "Current resume conversation, two-question R3/H3 approval request",
+        "responseReceived": false
+      },
+      "response": {
+        "answer": "APPROVE R3 scoped risk acceptance",
+        "approver": "Engineer/user in this conversation",
+        "reference": "request_user_input_async call_ade79df124404801b7a8be8099167ec4, question index 0",
+        "eventTimestamp": "Not supplied",
+        "scope": "As explicitly presented; no additional authority"
+      },
+      "responseRecordedAt": "2026-11-01T10:40:26.5456739+07:00",
+      "subsequentActions": []
+    },
+    {
+      "checkpointId": "TD01-P3-H3",
+      "kind": "DISRUPTIVE_EXACT_IMAGE_PROGRAMMING_AND_VALIDATION",
+      "state": "EXECUTED_SCOPE_EXHAUSTED",
+      "affectedTests": [
+        "T07",
+        "T09"
+      ],
+      "failureIds": [
+        "P3-F04",
+        "P3-F05"
+      ],
+      "requestText": "TD01-P3-H3 — APPROVE, DENY, or DEFER ONE exact-image load plus ONE conditional verification on your physical FRDM-MCXN236 via probe SPOBEAQ0BCREX? Working directory D:\\work_space\\Agent\\Agent. Image: D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf; 199936 bytes; SHA-256 2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391. Exact command 1: & 'C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe' flash --probe SPOBEAQ0BCREX --update-mode none --no-boot MCXN236:FRDM-MCXN236 load --no-reset 'D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf'. Only after successful expected completion, command 2 uses the same executable/options/device/image, replacing 'load --no-reset' with 'verify'. Full commands are in checkpoint.md. Effects: affected flash sectors are erased/programmed and their data can be lost; connection performs a 50 ms wire reset, SWD/debug-mailbox interaction and RAM-driver execution/SOFTRESETs; target may halt, lose volatile evidence or remain partially programmed after failure. --no-reset does not prevent connection/driver resets. Limits: one P3-F05 recovery intervention (1 of 3 when issued), one associated verify, no automatic retry, 30 s observation deadline each; stop subsequent operations on error/mismatch/unexpected or uncertain completion, without forced interruption/reset. Excludes mass erase, unlock, probe updates, boot changes, extra reset/run, GDB/register access, T07/T09 execution, instruments, source/build/image/design edits, rebuild, commit or Phase 4. Requires separate R3 acceptance and native permission. APPROVE also confirms the same physical board/probe association, safe current power/connections, that existing firmware and all affected-sector data may be replaced, and all flash/volatile evidence requiring preservation is already retained; otherwise DEFER with the missing facts. Withdrawn H1 is not reused.",
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "commands": [
+        {
+          "sequence": 1,
+          "proposedExecutionId": "TD01-P3-L01",
+          "executable": "C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe",
+          "arguments": [
+            "flash",
+            "--probe",
+            "SPOBEAQ0BCREX",
+            "--update-mode",
+            "none",
+            "--no-boot",
+            "MCXN236:FRDM-MCXN236",
+            "load",
+            "--no-reset",
+            "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf"
+          ]
+        },
+        {
+          "sequence": 2,
+          "proposedExecutionId": "TD01-P3-V02",
+          "condition": "Only after successful expected load completion; otherwise not authorized to proceed",
+          "executable": "C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe",
+          "arguments": [
+            "flash",
+            "--probe",
+            "SPOBEAQ0BCREX",
+            "--update-mode",
+            "none",
+            "--no-boot",
+            "MCXN236:FRDM-MCXN236",
+            "verify",
+            "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf"
+          ]
+        }
+      ],
+      "finiteLimits": {
+        "loadInvocations": 1,
+        "validatingVerifyInvocations": 1,
+        "automaticRetry": false,
+        "observationDeadlineSecondsPerInvocation": 30,
+        "forcedInterruptionAuthorized": false
+      },
+      "recoveryAccounting": {
+        "failureId": "P3-F05",
+        "consumedBefore": 0,
+        "limit": 3,
+        "attemptWhenLoadIssued": 1,
+        "consumedNow": 1,
+        "remainingNow": 2,
+        "verificationConsumesSeparateAttempt": false
+      },
+      "prerequisites": [
+        "New scoped R3 and H3 approvals",
+        "Engineer confirms same physical board/probe and safe power/connections",
+        "Engineer confirms replacement of all affected flash contents is acceptable and needed flash/volatile evidence already preserved",
+        "Exact operation-critical image/input identity still matches before issuing command",
+        "Separate native sandbox permission where required; no native hardware prompt while task authority pending"
+      ],
+      "effectSummary": "Sector erase/program/data loss, 50 ms wire reset, SWD/debug-mailbox session, RAM flash-driver execution and SOFTRESETs, halt/volatile-state loss/unknown final state; --no-reset suppresses post-program execution-from-reset only",
+      "exclusions": [
+        "mass erase",
+        "unlock/resurrection",
+        "probe update",
+        "boot setting change",
+        "further retry/recovery",
+        "standalone reset/run",
+        "GDB/register tests",
+        "T07/T09 execution",
+        "instrument operations",
+        "source/image/build/design edit",
+        "rebuild",
+        "commit/push",
+        "Phase 4"
+      ],
+      "conversationRequest": {
+        "channel": "functions.request_user_input_async",
+        "requestRecordedAt": "2026-11-01T10:39:46.0467537+07:00",
+        "presentationTime": "Exact event timestamp not exposed; accepted for presentation before requestRecordedAt",
+        "text": "TD01-P3-H3 — APPROVE, DENY, or DEFER ONE exact-image load plus ONE conditional verification on your physical FRDM-MCXN236 via probe SPOBEAQ0BCREX? Working directory D:\\work_space\\Agent\\Agent. Image: D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf; 199936 bytes; SHA-256 2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391. Exact command 1: & 'C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe' flash --probe SPOBEAQ0BCREX --update-mode none --no-boot MCXN236:FRDM-MCXN236 load --no-reset 'D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf'. Only after successful expected completion, command 2 uses the same executable/options/device/image, replacing 'load --no-reset' with 'verify'. Full commands are in checkpoint.md. Effects: affected flash sectors are erased/programmed and their data can be lost; connection performs a 50 ms wire reset, SWD/debug-mailbox interaction and RAM-driver execution/SOFTRESETs; target may halt, lose volatile evidence or remain partially programmed after failure. --no-reset does not prevent connection/driver resets. Limits: one P3-F05 recovery intervention (1 of 3 when issued), one associated verify, no automatic retry, 30 s observation deadline each; stop subsequent operations on error/mismatch/unexpected or uncertain completion, without forced interruption/reset. Excludes mass erase, unlock, probe updates, boot changes, extra reset/run, GDB/register access, T07/T09 execution, instruments, source/build/image/design edits, rebuild, commit or Phase 4. Requires separate R3 acceptance and native permission. APPROVE also confirms the same physical board/probe association, safe current power/connections, that existing firmware and all affected-sector data may be replaced, and all flash/volatile evidence requiring preservation is already retained; otherwise DEFER with the missing facts. Withdrawn H1 is not reused.",
+        "choices": [
+          "APPROVE",
+          "DENY",
+          "DEFER"
+        ],
+        "submissionResult": "accepted: true",
+        "reference": "Current resume conversation, two-question R3/H3 approval request",
+        "responseReceived": false
+      },
+      "response": {
+        "answer": "APPROVE H3 and confirm stated setup/preservation facts",
+        "approver": "Engineer/user in this conversation",
+        "reference": "request_user_input_async call_ade79df124404801b7a8be8099167ec4, question index 1",
+        "eventTimestamp": "Not supplied",
+        "scope": "As explicitly presented; no additional authority"
+      },
+      "responseRecordedAt": "2026-11-01T10:40:26.5456739+07:00",
+      "nativePermission": {
+        "load": "Concrete require_escalated invocation completed, chunk 045637",
+        "verify": "Concrete require_escalated invocation completed, chunk 8c1ed8",
+        "approverAndEventTimestamp": "Not exposed"
+      },
+      "subsequentActions": [
+        {
+          "executionId": "TD01-P3-L01",
+          "state": "COMPLETED",
+          "exitCode": 0,
+          "evidence": [
+            "load-operation.json",
+            "load-result.json",
+            "load-stdout.log",
+            "load-stderr.log",
+            "load-review.json"
+          ],
+          "recoveryAttempt": 1,
+          "outcome": "LOAD_COMPLETED_VALIDATION_PENDING"
+        },
+        {
+          "executionId": "TD01-P3-V02",
+          "state": "COMPLETED",
+          "exitCode": 0,
+          "evidence": [
+            "verify-after-load-operation.json",
+            "verify-after-load-result.json",
+            "verify-after-load-stdout.log",
+            "verify-after-load-stderr.log",
+            "verify-after-load-review.json"
+          ],
+          "recoveryAttempt": 1,
+          "outcome": "ALL_THREE_IMAGE_REGIONS_VERIFIED",
+          "normalApplicationExecution": "Not established"
+        }
+      ]
+    },
+    {
+      "checkpointId": "TD01-P3-H4",
+      "kind": "T07_ENGINEER_CONTROLLED_RESET_AND_OBSERVATION",
+      "state": "EXECUTED_SCOPE_EXHAUSTED",
+      "affectedTests": [
+        "T07"
+      ],
+      "requirements": [
+        "R4"
+      ],
+      "failureIds": [
+        "P3-F04"
+      ],
+      "requestText": "TD01-P3-H4 — APPROVE, DENY, or DEFER up to THREE separately logged T07 wire resets, one at a time, with your actual LED observations after each before the next reset? Exact command from D:\\work_space\\Agent\\Agent: & 'C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe' reset --probe SPOBEAQ0BCREX --update-mode none --no-boot --type wire --ms 50 MCXN236:FRDM-MCXN236. Same physical FRDM-MCXN236/probe; designated Debug ELF is now loaded and all three flash regions verified, SHA-256 2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391. Effects: reset disrupts execution and clears volatile state; final running/halt state must be observed. You watch initial red LED state and at least 5 s of subsequent complete blink pattern per reset; actual observations are required before proceeding. Limits: at most three planned test resets, 30 s observation deadline per invocation, no automatic retry or forced interruption; stop on command error, inconsistent/inadequate observation, or unexpected state. No flashing, debugger attachment, register writes, extra resets/recovery, hardware rewiring, source/build changes, instruments, or Phase 4. Native permission is separate. APPROVE also confirms the same safe physical setup remains applicable and you are present and ready to observe now; otherwise DEFER. T04–T06 remain BLOCKED; this cannot establish quantitative timing. Full scope and resume state: docs/reports/evidence/TD-01/phase3-v1.1/resume-02/t07-checkpoint.md.",
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "target": "Engineer same physical FRDM-MCXN236",
+      "probe": "SPOBEAQ0BCREX",
+      "firmwareReference": "approval-ledger.json image; verify-after-load-review.json confirms three regions",
+      "command": {
+        "executable": "C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe",
+        "arguments": [
+          "reset",
+          "--probe",
+          "SPOBEAQ0BCREX",
+          "--update-mode",
+          "none",
+          "--no-boot",
+          "--type",
+          "wire",
+          "--ms",
+          "50",
+          "MCXN236:FRDM-MCXN236"
+        ]
+      },
+      "finiteLimits": {
+        "plannedInvocations": 3,
+        "observationDeadlineSecondsPerInvocation": 30,
+        "minimumVisualObservationSecondsPerReset": 5,
+        "automaticRetry": false,
+        "forcedInterruptionAuthorized": false,
+        "waitForActualEngineerObservationBetweenResets": true
+      },
+      "scope": "Three planned T07 repetitions, not recovery retries; stop remaining sequence on unexpected/error/inadequate or inconsistent observation; no fourth reset",
+      "exclusions": [
+        "flash/erase",
+        "GDB attachment",
+        "memory/register writes",
+        "extra reset/recovery",
+        "power cycling/rewiring",
+        "probe update",
+        "boot setting change",
+        "instrument action",
+        "source/image/build/design changes",
+        "rebuild",
+        "commit/push",
+        "Phase 4"
+      ],
+      "prerequisites": [
+        "Explicit fresh H4 approval and same safe physical setup",
+        "Engineer present and ready to observe initial and subsequent LED states",
+        "No changed programmed image/target association after V02",
+        "Any new fault evidence preserved before reset",
+        "Separate native permission before command"
+      ],
+      "conversationRequest": {
+        "channel": "functions.request_user_input_async",
+        "reference": "call_3578541d211048b0817b72103831af20 question 0",
+        "requestRecordedAt": "2026-11-01T10:47:09.2895951+07:00",
+        "presentationTime": "Exact event time not exposed; request was accepted for presentation before the engineer response",
+        "text": "TD01-P3-H4 — APPROVE, DENY, or DEFER up to THREE separately logged T07 wire resets, one at a time, with your actual LED observations after each before the next reset? Exact command from D:\\work_space\\Agent\\Agent: & 'C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe' reset --probe SPOBEAQ0BCREX --update-mode none --no-boot --type wire --ms 50 MCXN236:FRDM-MCXN236. Same physical FRDM-MCXN236/probe; designated Debug ELF is now loaded and all three flash regions verified, SHA-256 2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391. Effects: reset disrupts execution and clears volatile state; final running/halt state must be observed. You watch initial red LED state and at least 5 s of subsequent complete blink pattern per reset; actual observations are required before proceeding. Limits: at most three planned test resets, 30 s observation deadline per invocation, no automatic retry or forced interruption; stop on command error, inconsistent/inadequate observation, or unexpected state. No flashing, debugger attachment, register writes, extra resets/recovery, hardware rewiring, source/build changes, instruments, or Phase 4. Native permission is separate. APPROVE also confirms the same safe physical setup remains applicable and you are present and ready to observe now; otherwise DEFER. T04–T06 remain BLOCKED; this cannot establish quantitative timing. Full scope and resume state: docs/reports/evidence/TD-01/phase3-v1.1/resume-02/t07-checkpoint.md.",
+        "choices": [
+          "APPROVE",
+          "DENY",
+          "DEFER"
+        ],
+        "submissionResult": "accepted: true"
+      },
+      "response": {
+        "answer": "APPROVE H4 and confirm setup/ready to observe",
+        "approver": "Engineer/user in this conversation",
+        "reference": "request_user_input_async call_3578541d211048b0817b72103831af20 question 0",
+        "eventTimestamp": "Not supplied",
+        "scope": "As explicitly presented, including safe setup and present/ready-to-observe confirmation; no additional authority"
+      },
+      "responseRecordedAt": "2026-11-01T10:47:09.2895951+07:00",
+      "nativePermission": {
+        "reset1": "Concrete require_escalated invocation completed, exec chunk 0b1ca7",
+        "laterResets": "No further invocation permitted by H4",
+        "approverAndEventTimestamp": "Not exposed",
+        "reset2": "Concrete require_escalated invocation completed, exec chunk 306a3b",
+        "reset3": "Concrete require_escalated invocation completed, exec chunk be1236"
+      },
+      "subsequentActions": [
+        {
+          "executionId": "TD01-P3-T07-A01-R1",
+          "repetition": 1,
+          "state": "COMPLETED",
+          "exitCode": 0,
+          "evidence": [
+            "t07-reset1-operation.json",
+            "t07-reset1-result.json",
+            "t07-reset1-stdout.log",
+            "t07-reset1-stderr.log"
+          ],
+          "actualObservation": "Received: initial ON; at least three complete cycles over at least 5 s; no observed stalls/faults. t07-reset1-observation.json",
+          "tdTestStatus": "BLOCKED pending evidence and remaining planned repetitions",
+          "recoveryAttemptsConsumed": 0
+        },
+        {
+          "executionId": "TD01-P3-T07-A01-R2",
+          "repetition": 2,
+          "state": "COMPLETED",
+          "exitCode": 0,
+          "evidence": [
+            "t07-reset2-operation.json",
+            "t07-reset2-result.json",
+            "t07-reset2-stdout.log",
+            "t07-reset2-stderr.log",
+            "t07-reset2-observation.json"
+          ],
+          "actualObservation": "Received: initial ON; at least three complete cycles over at least 5 s; no observed stalls/faults",
+          "tdTestStatus": "BLOCKED pending third planned repetition/observation",
+          "recoveryAttemptsConsumed": 0
+        },
+        {
+          "executionId": "TD01-P3-T07-A01-R3",
+          "repetition": 3,
+          "state": "COMPLETED",
+          "exitCode": 0,
+          "evidence": [
+            "t07-reset3-operation.json",
+            "t07-reset3-result.json",
+            "t07-reset3-stdout.log",
+            "t07-reset3-stderr.log",
+            "t07-reset3-observation.json",
+            "t07-summary.json"
+          ],
+          "actualObservation": "Initial ON; ≥3 complete cycles over ≥5 s; no observed stalls/faults",
+          "tdTestStatus": "PASS",
+          "recoveryAttemptsConsumed": 0
+        }
+      ]
+    },
+    {
+      "checkpointId": "TD01-P3-H5",
+      "kind": "T09_DISRUPTIVE_DEBUG_PROGRAMMING_AND_REGISTER_CAPTURE",
+      "state": "CLIENT_SCOPE_EXHAUSTED_CAPABILITY_FAILURE",
+      "affectedTests": [
+        "T09"
+      ],
+      "requirements": [
+        "R5"
+      ],
+      "failureIds": [
+        "P3-F04",
+        "P3-F05"
+      ],
+      "requestText": "TD01-P3-H5 — APPROVE, DENY, or DEFER ONE bounded T09 debugger session, including ONE additional same-image GDB load, three-region byte-for-byte readback, ONE explicit monitor reset, two hardware-breakpoint captures/continues, and disconnect leaving the core halted? Same physical FRDM-MCXN236/probe SPOBEAQ0BCREX; working directory D:\\work_space\\Agent\\Agent. Exact Debug ELF: D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf, 199936 bytes, SHA-256 2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391. The installed LinkServer documentation requires a GDB load even in attach mode, so this is NEW programming authority, not reuse of H3. Exact server/client commands and frozen helpers are in docs/reports/evidence/TD-01/phase3-v1.1/resume-02/t09-checkpoint.md and t09-plan.json. Server uses private unused port 3337, probe updates disabled, semihosting port disabled, no IDE/build task. Helper disables mass erase, loads only this image, verifies all three regions before application execution, halts at PCs 0x1e7a/0x1ea4, and records actual priority, CTRL, LOAD and PRIMASK/BASEPRI/FAULTMASK. Effects: affected-sector erase/program/data loss, connection/driver resets and RAM support execution, one explicit test reset, halts/continues, hardware breakpoint changes, and CTRL reads clearing COUNTFLAG. Final normal state is HALTED after update; no restoration reset/run. Limits: one server/client, 15 s server readiness, 120 s client observation deadline, 10 s remote response timeout, no automatic retry/forced interruption. This distinct load-containing dispatch conservatively consumes P3-F05 attempt 2/3, leaving one; P3-F02 stays 2/3. Excludes mass erase/unlock, probe/boot changes, extra flash/reset/recovery, arbitrary patches, software breakpoints, wiring/instrument/source/build/image/design changes, rebuild/commit, and Phase 4. APPROVE also confirms unchanged safe physical setup and that all affected flash contents may be replaced and newly needed evidence is preserved; otherwise DEFER. R3 remains the separate accepted historical-risk disposition; native execution permission is still required.",
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "target": "Same engineer physical FRDM-MCXN236",
+      "probe": "SPOBEAQ0BCREX",
+      "firmwareReference": "approval-ledger.json image; exact unchanged Debug ELF/hash",
+      "plan": "t09-plan.json",
+      "checkpoint": "t09-checkpoint.md",
+      "finiteLimits": {
+        "serverLaunches": 1,
+        "clientLaunches": 1,
+        "gdbLoads": 1,
+        "validatingReadbackRegions": 3,
+        "explicitMonitorResets": 1,
+        "breakpointCapturePoints": 2,
+        "serverReadySeconds": 15,
+        "clientObservationSeconds": 120,
+        "remoteResponseTimeoutSeconds": 10,
+        "automaticRetry": false,
+        "forcedInterruption": false
+      },
+      "recoveryAccounting": {
+        "failureId": "P3-F05",
+        "consumedBefore": 1,
+        "limit": 3,
+        "loadContainingDispatchAttempt": 2,
+        "consumedNow": 2,
+        "remainingNow": 1,
+        "hostIssueP3F02Consumed": 2,
+        "hostIssueP3F02Limit": 3
+      },
+      "sideEffects": "Affected-sector programming/data loss; preconnect/driver reset-halt/SWD/mailbox/RAM support effects; one explicit test reset; two halts/continues, hardware breakpoints and actual readback including COUNTFLAG clear; disconnect stop leaves core halted",
+      "prerequisites": [
+        "Fresh H5 exact scope approval plus current safe physical setup/preservation confirmation",
+        "R3 scoped risk acceptance remains valid",
+        "Frozen input/image identities match; private port unused",
+        "Separate native permission before server/client launch"
+      ],
+      "exclusions": [
+        "mass erase",
+        "unlock/resurrection",
+        "probe update",
+        "boot changes",
+        "extra flash/reset/recovery",
+        "arbitrary memory/register patching",
+        "software breakpoints",
+        "wiring/power changes",
+        "instrument actions",
+        "application/image/build/design edits",
+        "rebuild",
+        "commit/push",
+        "Phase 4"
+      ],
+      "conversationRequest": {
+        "channel": "functions.request_user_input_async",
+        "reference": "call_eeda8c4a60c54461b4058c90df8118e6 question 0",
+        "requestRecordedAt": "2026-11-01T11:00:09.6538475+07:00",
+        "presentationTime": "Exact event time not supplied; request was accepted for presentation before engineer response",
+        "text": "TD01-P3-H5 — APPROVE, DENY, or DEFER ONE bounded T09 debugger session, including ONE additional same-image GDB load, three-region byte-for-byte readback, ONE explicit monitor reset, two hardware-breakpoint captures/continues, and disconnect leaving the core halted? Same physical FRDM-MCXN236/probe SPOBEAQ0BCREX; working directory D:\\work_space\\Agent\\Agent. Exact Debug ELF: D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf, 199936 bytes, SHA-256 2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391. The installed LinkServer documentation requires a GDB load even in attach mode, so this is NEW programming authority, not reuse of H3. Exact server/client commands and frozen helpers are in docs/reports/evidence/TD-01/phase3-v1.1/resume-02/t09-checkpoint.md and t09-plan.json. Server uses private unused port 3337, probe updates disabled, semihosting port disabled, no IDE/build task. Helper disables mass erase, loads only this image, verifies all three regions before application execution, halts at PCs 0x1e7a/0x1ea4, and records actual priority, CTRL, LOAD and PRIMASK/BASEPRI/FAULTMASK. Effects: affected-sector erase/program/data loss, connection/driver resets and RAM support execution, one explicit test reset, halts/continues, hardware breakpoint changes, and CTRL reads clearing COUNTFLAG. Final normal state is HALTED after update; no restoration reset/run. Limits: one server/client, 15 s server readiness, 120 s client observation deadline, 10 s remote response timeout, no automatic retry/forced interruption. This distinct load-containing dispatch conservatively consumes P3-F05 attempt 2/3, leaving one; P3-F02 stays 2/3. Excludes mass erase/unlock, probe/boot changes, extra flash/reset/recovery, arbitrary patches, software breakpoints, wiring/instrument/source/build/image/design changes, rebuild/commit, and Phase 4. APPROVE also confirms unchanged safe physical setup and that all affected flash contents may be replaced and newly needed evidence is preserved; otherwise DEFER. R3 remains the separate accepted historical-risk disposition; native execution permission is still required.",
+        "choices": [
+          "APPROVE",
+          "DENY",
+          "DEFER"
+        ],
+        "submissionResult": "accepted: true"
+      },
+      "response": {
+        "answer": "APPROVE H5 and confirm setup/preservation",
+        "approver": "Engineer/user in this conversation",
+        "reference": "request_user_input_async call_eeda8c4a60c54461b4058c90df8118e6 question 0",
+        "eventTimestamp": "Not supplied",
+        "scope": "Exactly presented H5, including safe unchanged setup and affected-flash/evidence-preservation confirmation; no extra recovery or restoration"
+      },
+      "responseRecordedAt": "2026-11-01T11:00:09.6538475+07:00",
+      "nativePermission": {
+        "state": "CONCRETE_H5_INVOCATION_COMPLETED",
+        "resultReference": "exec chunk 93d079",
+        "outerExitCode": 1,
+        "gdbClientExitCode": 1,
+        "approverAndEventTimestamp": "Not exposed"
+      },
+      "subsequentActions": [
+        {
+          "executionId": "TD01-P3-T09-A01",
+          "outcome": "BLOCKED_ENVIRONMENT_TOOL_NO_GDB_PYTHON",
+          "evidence": [
+            "t09-session-result.json",
+            "t09-gdb-stderr.log",
+            "t09-failure-P3-F07.json"
+          ],
+          "actualTargetCommands": "None issued by GDB; Python rejected before helper target connection",
+          "actualExtraProgramming": "Not performed",
+          "conservativeP3F05Budget": "Attempt2 charged on approved load-containing client dispatch; not refunded despite pre-connection failure",
+          "ownedServer": "PID22292 waits at port3337, native host state evidence",
+          "failureId": "P3-F07"
+        }
+      ]
+    },
+    {
+      "checkpointId": "TD01-P3-H6",
+      "kind": "NATIVE_GDB_MI_T09_RETEST_FINAL_EXISTING_LOAD_ALLOWANCE",
+      "state": "EXECUTED_SCOPE_EXHAUSTED_CAPTURE_BLOCKED",
+      "affectedTests": [
+        "T09"
+      ],
+      "requirements": [
+        "R5"
+      ],
+      "failureIds": [
+        "P3-F07",
+        "P3-F05",
+        "P3-F04"
+      ],
+      "requestText": "TD01-P3-H6 — APPROVE, DENY, or DEFER ONE T09 retest using the prepared native GDB/MI helper, explicitly reusing only our waiting H5 server PID22292 at 127.0.0.1:3337 (probe SPOBEAQ0BCREX, same FRDM-MCXN236)? H5 stopped before target connection because GDB has no Python; its original evidence is preserved. Exact new client: C:\\Users\\LENOVO\\.mcuxpressotools\\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gdb.exe --nx --nh --interpreter=mi3; cwd D:\\work_space\\Agent\\Agent. Native helper/commands and hashes are in docs/reports/evidence/TD-01/phase3-v1.1/resume-02/t09-native-checkpoint.md and t09-native-plan.json. Scope: one client, ONE same-image load with mass erase disabled, full three-region byte readback before execution, ONE explicit test monitor reset, hardware-breakpoint captures at 0x1e7a/0x1ea4 with actual priority/CTRL/LOAD/masks, then remove owned breakpoints and stop/disconnect. Exact Debug ELF: D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf; 199936 bytes; SHA-256 2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391. This permits the prepared capture-helper replacement; no Python/tool install, application/build/design change or rebuild. Effects include affected-sector programming/data loss, connection/driver resets and RAM support execution, explicit reset, halts/continues, hardware breakpoints, and reads clearing COUNTFLAG. Normal final core state is HALTED; no restoration reset/run. Limits: 10 s ordinary command/continue observation, 30 s load observation, 120 s whole client, no automatic retry or forced interruption. This is P3-F05's FINAL existing allowance, attempt 3/3; it also consumes P3-F07 retest 1/3. P3-F02 stays 2/3. No server relaunch or alternative server, extra flash/reset/recovery, mass erase/unlock, arbitrary patches/software breakpoints, probe/boot/wiring/instrument changes, commit or Phase 4. APPROVE also confirms unchanged safe physical setup, permission to replace affected flash contents, and preservation of newly needed flash/volatile evidence; otherwise DEFER. R3 risk acceptance remains separate, and concrete native permission is still required.",
+      "plan": "t09-native-plan.json",
+      "checkpoint": "t09-native-checkpoint.md",
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "ownedServer": {
+        "pid": 22292,
+        "address": "127.0.0.1",
+        "port": 3337,
+        "probe": "SPOBEAQ0BCREX",
+        "target": "MCXN236:FRDM-MCXN236",
+        "newServerLaunchAllowed": false
+      },
+      "clientCommand": {
+        "executable": "C:\\Users\\LENOVO\\.mcuxpressotools\\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gdb.exe",
+        "arguments": [
+          "--nx",
+          "--nh",
+          "--interpreter=mi3"
+        ]
+      },
+      "firmwareReference": "approval-ledger.json image; same unchanged Debug ELF/hash",
+      "finiteLimits": {
+        "clients": 1,
+        "gdbLoads": 1,
+        "validatingRegions": 3,
+        "explicitMonitorResets": 1,
+        "hardwareBreakpointCaptures": 2,
+        "ordinaryCommandAndContinueSeconds": 10,
+        "loadObservationSeconds": 30,
+        "wholeClientSeconds": 120,
+        "automaticRetry": false,
+        "forcedInterruption": false
+      },
+      "recoveryAccounting": {
+        "P3F05Before": 2,
+        "P3F05Limit": 3,
+        "P3F05DispatchAttempt": 3,
+        "P3F05AfterDispatchRemaining": 0,
+        "P3F07Before": 0,
+        "P3F07Limit": 3,
+        "P3F07DispatchAttempt": 1,
+        "P3F02Consumed": 2,
+        "P3F02Limit": 3
+      },
+      "scope": "Only native MI capture helper replaces unsupported Python helper; one extra load/readback, planned T09 reset/captures and stop/disconnect cleanup. No restoration or fourth image intervention.",
+      "prerequisites": [
+        "Fresh H6 approval with unchanged physical setup and affected-sector/preservation facts",
+        "R3 risk acceptance remains valid",
+        "Frozen helper/tool/source/image identity matches",
+        "Exact owned server identity/listener verified; no fallback server",
+        "Separate native permission"
+      ],
+      "conversationRequest": {
+        "channel": "functions.request_user_input_async",
+        "reference": "call_fa413468fce94f50b41283616b97cf7f question 0",
+        "requestRecordedAt": "2026-11-01T11:10:13.1192666+07:00",
+        "presentationTime": "Exact event timestamp not supplied; accepted for presentation before the engineer response",
+        "text": "TD01-P3-H6 — APPROVE, DENY, or DEFER ONE T09 retest using the prepared native GDB/MI helper, explicitly reusing only our waiting H5 server PID22292 at 127.0.0.1:3337 (probe SPOBEAQ0BCREX, same FRDM-MCXN236)? H5 stopped before target connection because GDB has no Python; its original evidence is preserved. Exact new client: C:\\Users\\LENOVO\\.mcuxpressotools\\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gdb.exe --nx --nh --interpreter=mi3; cwd D:\\work_space\\Agent\\Agent. Native helper/commands and hashes are in docs/reports/evidence/TD-01/phase3-v1.1/resume-02/t09-native-checkpoint.md and t09-native-plan.json. Scope: one client, ONE same-image load with mass erase disabled, full three-region byte readback before execution, ONE explicit test monitor reset, hardware-breakpoint captures at 0x1e7a/0x1ea4 with actual priority/CTRL/LOAD/masks, then remove owned breakpoints and stop/disconnect. Exact Debug ELF: D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf; 199936 bytes; SHA-256 2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391. This permits the prepared capture-helper replacement; no Python/tool install, application/build/design change or rebuild. Effects include affected-sector programming/data loss, connection/driver resets and RAM support execution, explicit reset, halts/continues, hardware breakpoints, and reads clearing COUNTFLAG. Normal final core state is HALTED; no restoration reset/run. Limits: 10 s ordinary command/continue observation, 30 s load observation, 120 s whole client, no automatic retry or forced interruption. This is P3-F05's FINAL existing allowance, attempt 3/3; it also consumes P3-F07 retest 1/3. P3-F02 stays 2/3. No server relaunch or alternative server, extra flash/reset/recovery, mass erase/unlock, arbitrary patches/software breakpoints, probe/boot/wiring/instrument changes, commit or Phase 4. APPROVE also confirms unchanged safe physical setup, permission to replace affected flash contents, and preservation of newly needed flash/volatile evidence; otherwise DEFER. R3 risk acceptance remains separate, and concrete native permission is still required.",
+        "choices": [
+          "APPROVE",
+          "DENY",
+          "DEFER"
+        ],
+        "submissionResult": "accepted: true"
+      },
+      "response": {
+        "answer": "APPROVE H6 and confirm setup/preservation",
+        "approver": "Engineer/user in this conversation",
+        "reference": "request_user_input_async call_fa413468fce94f50b41283616b97cf7f question 0",
+        "eventTimestamp": "Not supplied",
+        "scope": "Exactly presented H6 including owned-server reuse, native helper replacement, final existing load allowance, and setup/preservation confirmations; no extra retry or restoration"
+      },
+      "responseRecordedAt": "2026-11-01T11:10:13.1192666+07:00",
+      "nativePermission": {
+        "state": "CONCRETE_INVOCATION_COMPLETED",
+        "resultReference": "exec chunk c30dd7",
+        "outerExitCode": 1,
+        "approverAndEventTimestamp": "Not exposed"
+      },
+      "subsequentActions": [
+        {
+          "executionId": "TD01-P3-T09-A02",
+          "outcome": "IMAGE_REVERIFIED_T09_BLOCKED_P3F08",
+          "evidence": [
+            "t09-native-review.json",
+            "t09-failure-P3-F08.json",
+            "t09-native-capture.json"
+          ],
+          "P3F05Attempt": 3,
+          "P3F07Attempt": 1,
+          "lastState": "Halted at0x1e7a; stop/disconnect cleanup completed"
+        }
+      ]
+    },
+    {
+      "checkpointId": "TD01-P3-B7",
+      "kind": "EXPLICIT_FINITE_RECOVERY_BUDGET_EXTENSION",
+      "state": "APPROVED",
+      "failureIds": [
+        "P3-F05"
+      ],
+      "requestText": "TD01-P3-B7 — APPROVE, DENY, or DEFER increasing ONLY P3-F05's cumulative recovery/load-dispatch limit from 3 to 4, permitting exactly ONE additional attempt with its associated validating readback and T09 capture? All three consumed counts and failures remain recorded; this does not reset any counter or grant hardware authority. H5 consumed a conservatively charged dispatch but no actual load; L01 and H6 were the two actual programming operations. The latest T09 blocker is confirmed helper sign-extension of 0xE000ED23 to 0xFFFFFFFFE000ED23, not a firmware failure. A separate corrected helper now passes host-only high-address formatting/rejection regressions and preserves all original helpers/evidence. No fifth intervention or blanket retry is permitted. Hardware authority is the separate H7 decision. Full scope: docs/reports/evidence/TD-01/phase3-v1.1/resume-02/t09-fixed-checkpoint.md.",
+      "currentConsumed": 3,
+      "currentLimit": 3,
+      "requestedNewCumulativeLimit": 4,
+      "additionalAttempts": 1,
+      "notGranted": "No hardware action or fifth intervention; no count reset or provenance certification",
+      "conversationRequest": {
+        "channel": "functions.request_user_input_async",
+        "reference": "call_03ab4baeea754b52a7576fdcd0242b6f question 0",
+        "requestRecordedAt": "2026-11-01T11:17:52.062694+07:00",
+        "presentationTime": "Exact event time not supplied; accepted for presentation before engineer response",
+        "text": "TD01-P3-B7 — APPROVE, DENY, or DEFER increasing ONLY P3-F05's cumulative recovery/load-dispatch limit from 3 to 4, permitting exactly ONE additional attempt with its associated validating readback and T09 capture? All three consumed counts and failures remain recorded; this does not reset any counter or grant hardware authority. H5 consumed a conservatively charged dispatch but no actual load; L01 and H6 were the two actual programming operations. The latest T09 blocker is confirmed helper sign-extension of 0xE000ED23 to 0xFFFFFFFFE000ED23, not a firmware failure. A separate corrected helper now passes host-only high-address formatting/rejection regressions and preserves all original helpers/evidence. No fifth intervention or blanket retry is permitted. Hardware authority is the separate H7 decision. Full scope: docs/reports/evidence/TD-01/phase3-v1.1/resume-02/t09-fixed-checkpoint.md.",
+        "choices": [
+          "APPROVE",
+          "DENY",
+          "DEFER"
+        ],
+        "submissionResult": "accepted: true"
+      },
+      "response": {
+        "answer": "APPROVE B7 finite cumulative limit 4",
+        "approver": "Engineer/user in this conversation",
+        "reference": "request_user_input_async call_03ab4baeea754b52a7576fdcd0242b6f question 0",
+        "eventTimestamp": "Not supplied",
+        "scope": "Exactly presented individual decision; no blanket retry or additional hardware scope"
+      },
+      "responseRecordedAt": "2026-11-01T11:17:52.062694+07:00",
+      "subsequentActions": [
+        {
+          "recordedAt": "2026-11-01T11:25:26.3944595+07:00",
+          "executionId": "TD01-P3-T09-A03",
+          "consumed": 4,
+          "limit": 4,
+          "remaining": 0,
+          "outcome": "One explicitly added attempt completed with image validation and T09 PASS; prior counts retained"
+        }
+      ]
+    },
+    {
+      "checkpointId": "TD01-P3-H7",
+      "kind": "CORRECTED_T09_NATIVE_SESSION_AFTER_ADDRESS_DEFECT",
+      "state": "EXECUTED_SCOPE_EXHAUSTED_T09_PASS",
+      "failureIds": [
+        "P3-F08",
+        "P3-F05"
+      ],
+      "affectedTests": [
+        "T09"
+      ],
+      "requirements": [
+        "R5"
+      ],
+      "requestText": "TD01-P3-H7 — APPROVE, DENY, or DEFER ONE corrected native T09 session, conditional on B7? Same physical FRDM-MCXN236/probe SPOBEAQ0BCREX; cwd D:\\work_space\\Agent\\Agent. Exact Debug ELF: D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf; 199936 bytes; SHA-256 2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391. One new owned LinkServer gdbserver on unused private port3339 (updates disabled, semihosting port disabled), and one GDB --nx --nh --interpreter=mi3 client; exact commands/frozen corrected helper are in docs/reports/evidence/TD-01/phase3-v1.1/resume-02/t09-fixed-checkpoint.md and t09-fixed-plan.json. Scope: ONE same-image load with mass erase disabled, complete three-region byte readback before execution, ONE explicit planned monitor reset, hardware-breakpoint captures at0x1e7a/0x1ea4, actual priority at0xE000ED23, CTRL/LOAD and interrupt masks, then remove owned breakpoints and stop/disconnect. Corrected helper rejects negative/out-of-unsigned32 addresses before issuing a read; no application/source/build change. Effects: affected-sector erase/program/data loss, connection/driver resets and RAM support execution, planned reset, halts/continues, hardware breakpoints and reads clearing COUNTFLAG. Normal final core state HALTED; no restoration reset/run. Limits: one server/client, 15s server readiness, 10s ordinary command/continue, 30s load, 120s client observation; no automatic retry or forced interruption. On dispatch P3-F05 becomes4/4 under separately approved B7; P3-F08 correction/retest1/3; P3-F07 stays1/3 and P3-F02 stays2/3. Excludes extra flash/reset/recovery, mass erase/unlock, patches/software breakpoints, probe/boot/wiring/instrument changes, rebuild/commit or Phase4. APPROVE also confirms unchanged safe setup, affected-flash replacement permission and preservation of newly needed flash/volatile evidence; otherwise DEFER. R3 accepted historical risks remain separate; native permission is required.",
+      "plan": "t09-fixed-plan.json",
+      "checkpoint": "t09-fixed-checkpoint.md",
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "target": "Same engineer physical FRDM-MCXN236",
+      "probe": "SPOBEAQ0BCREX",
+      "firmwareReference": "approval-ledger.json image; unchanged Debug ELF/hash",
+      "finiteLimits": {
+        "newServers": 1,
+        "port": 3339,
+        "clients": 1,
+        "loads": 1,
+        "readbackRegions": 3,
+        "explicitMonitorResets": 1,
+        "hardwareBreakpointCaptures": 2,
+        "serverReadySeconds": 15,
+        "ordinaryCommandAndContinueSeconds": 10,
+        "loadObservationSeconds": 30,
+        "wholeClientSeconds": 120,
+        "automaticRetry": false,
+        "forcedInterruption": false
+      },
+      "recoveryAccounting": {
+        "P3F05Before": 3,
+        "P3F05RequestedLimit": 4,
+        "P3F05DispatchAttempt": 4,
+        "P3F08Before": 0,
+        "P3F08DispatchAttempt": 1,
+        "P3F07Consumed": 1,
+        "P3F02Consumed": 2
+      },
+      "prerequisites": [
+        "Separate explicit B7 cumulative limit4 approval",
+        "H7 new scoped operation authority with setup/preservation facts",
+        "Frozen helper/tool/source/image identities and free private port",
+        "R3 accepted risk scope remains valid",
+        "Separate concrete native permission"
+      ],
+      "conversationRequest": {
+        "channel": "functions.request_user_input_async",
+        "reference": "call_03ab4baeea754b52a7576fdcd0242b6f question 1",
+        "requestRecordedAt": "2026-11-01T11:17:52.062694+07:00",
+        "presentationTime": "Exact event time not supplied; accepted for presentation before engineer response",
+        "text": "TD01-P3-H7 — APPROVE, DENY, or DEFER ONE corrected native T09 session, conditional on B7? Same physical FRDM-MCXN236/probe SPOBEAQ0BCREX; cwd D:\\work_space\\Agent\\Agent. Exact Debug ELF: D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf; 199936 bytes; SHA-256 2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391. One new owned LinkServer gdbserver on unused private port3339 (updates disabled, semihosting port disabled), and one GDB --nx --nh --interpreter=mi3 client; exact commands/frozen corrected helper are in docs/reports/evidence/TD-01/phase3-v1.1/resume-02/t09-fixed-checkpoint.md and t09-fixed-plan.json. Scope: ONE same-image load with mass erase disabled, complete three-region byte readback before execution, ONE explicit planned monitor reset, hardware-breakpoint captures at0x1e7a/0x1ea4, actual priority at0xE000ED23, CTRL/LOAD and interrupt masks, then remove owned breakpoints and stop/disconnect. Corrected helper rejects negative/out-of-unsigned32 addresses before issuing a read; no application/source/build change. Effects: affected-sector erase/program/data loss, connection/driver resets and RAM support execution, planned reset, halts/continues, hardware breakpoints and reads clearing COUNTFLAG. Normal final core state HALTED; no restoration reset/run. Limits: one server/client, 15s server readiness, 10s ordinary command/continue, 30s load, 120s client observation; no automatic retry or forced interruption. On dispatch P3-F05 becomes4/4 under separately approved B7; P3-F08 correction/retest1/3; P3-F07 stays1/3 and P3-F02 stays2/3. Excludes extra flash/reset/recovery, mass erase/unlock, patches/software breakpoints, probe/boot/wiring/instrument changes, rebuild/commit or Phase4. APPROVE also confirms unchanged safe setup, affected-flash replacement permission and preservation of newly needed flash/volatile evidence; otherwise DEFER. R3 accepted historical risks remain separate; native permission is required.",
+        "choices": [
+          "APPROVE",
+          "DENY",
+          "DEFER"
+        ],
+        "submissionResult": "accepted: true"
+      },
+      "response": {
+        "answer": "APPROVE H7 and confirm setup/preservation",
+        "approver": "Engineer/user in this conversation",
+        "reference": "request_user_input_async call_03ab4baeea754b52a7576fdcd0242b6f question 1",
+        "eventTimestamp": "Not supplied",
+        "scope": "Exactly presented individual decision; no blanket retry or additional hardware scope"
+      },
+      "responseRecordedAt": "2026-11-01T11:17:52.062694+07:00",
+      "nativePermission": {
+        "state": "CONCRETE_INVOCATION_COMPLETED",
+        "resultReference": "exec chunk 6138c6",
+        "outerExitCode": 0,
+        "approverAndEventTimestamp": "Not exposed"
+      },
+      "subsequentActions": [
+        {
+          "executionId": "TD01-P3-T09-A03",
+          "outcome": "T09_PASS",
+          "evidence": [
+            "t09-fixed-operation.json",
+            "t09-fixed-capture.json",
+            "t09-fixed-gdb-stdout.log",
+            "t09-fixed-review.json"
+          ],
+          "P3F05Attempt": 4,
+          "P3F08Attempt": 1,
+          "lastState": "Halted at after-update PC0x1EA4; owned breakpoints removed, disconnect stop and GDB exit completed; owned server closed. No restoration reset/run."
+        }
+      ]
+    }
+  ],
+  "resumeAction": "Stop for engineer report review. Any later hardware operation, further image recovery, missing timing execution or earlier/later phase requires its appropriate new authority; do not reuse exhausted scopes.",
+  "events": [
+    {
+      "recordedAt": "2026-11-01T10:37:02+07:00",
+      "event": "NEW_RESUME_CHECKPOINT_PREPARED",
+      "detail": "Restored prior state, approvals/withdrawals and counters; performed only targeted file/Git checks and offline analysis of retained mismatch evidence. No repeated completed host/probe diagnostics and no new target action."
+    },
+    {
+      "recordedAt": "2026-11-01T10:39:46.0467537+07:00",
+      "event": "APPROVAL_REQUESTS_PRESENTED",
+      "checkpointIds": [
+        "TD01-P3-R3",
+        "TD01-P3-H3"
+      ],
+      "detail": "Two separate explicit APPROVE/DENY/DEFER requests accepted for conversation presentation. No engineer response received at recording; no native hardware permission prompt or target command issued. Requests/waiting consume no recovery attempts."
+    },
+    {
+      "recordedAt": "2026-11-01T10:40:26.5456739+07:00",
+      "event": "FRESH_R3_H3_APPROVALS_RECORDED",
+      "detail": "Engineer separately approved scoped risk disposition and one exact-image load plus associated verify, including stated current physical/setup/data-preservation confirmations. No hardware action has occurred yet; native permission still required."
+    },
+    {
+      "recordedAt": "2026-11-01T10:42:08.998703+07:00",
+      "event": "H3_OPERATION_ISSUED",
+      "executionId": "TD01-P3-L01",
+      "operation": "Load",
+      "detail": "Fresh H3 scope only; no automatic retry or subsequent unapproved target action"
+    },
+    {
+      "recordedAt": "2026-11-01T10:42:59.5002838+07:00",
+      "event": "H3_OPERATION_ISSUED",
+      "executionId": "TD01-P3-V02",
+      "operation": "Verify",
+      "detail": "Fresh H3 scope only; no automatic retry or subsequent unapproved target action"
+    },
+    {
+      "recordedAt": "2026-11-01T10:43:49.5816732+07:00",
+      "event": "H3_LOAD_AND_VALIDATION_COMPLETE",
+      "detail": "Exactly one load and one associated verify completed successfully; three image regions match, image mismatch recovered. P3-F05 consumes 1/3, two remain; normal running state and T07/T09 tests unverified. No further target command authorized by H3."
+    },
+    {
+      "recordedAt": "2026-11-01T10:47:09.2895951+07:00",
+      "event": "H4_REQUEST_AND_EXPLICIT_APPROVAL_RECORDED",
+      "detail": "Engineer approved up to three separately logged T07 resets with actual observations between, confirmed setup/readiness. No T07 reset issued yet; native permission still required."
+    },
+    {
+      "recordedAt": "2026-11-01T10:47:30.219281+07:00",
+      "event": "H4_T07_PLANNED_RESET_ISSUED",
+      "repetition": 1,
+      "executionId": "TD01-P3-T07-A01-R1",
+      "detail": "One planned repetition, not recovery retry; wait for actual engineer observation before any next reset"
+    },
+    {
+      "recordedAt": "2026-11-01T10:48:09.9854617+07:00",
+      "event": "T07_RESET1_COMPLETED_OBSERVATION_REQUEST_PRESENTED",
+      "executionId": "TD01-P3-T07-A01-R1",
+      "detail": "Reset command exit 0; raw output confirms named device/probe and wire reset, pin state 01. Explicit conversation request asks actual initial red state and at least 5 s / three complete cycles. No engineer observation received at recording. No subsequent reset issued."
+    },
+    {
+      "recordedAt": "2026-11-01T10:49:25.5423362+07:00",
+      "event": "T07_RESET1_ENGINEER_OBSERVATION_RECEIVED",
+      "reference": "request_user_input_async call_181ef0acd549475da89bf922b78015f0 question 0",
+      "evidence": "t07-reset1-observation.json",
+      "detail": "Actual response supports planned reset2 continuation; no quantitative timing assertion and no recovery attempt charged"
+    },
+    {
+      "recordedAt": "2026-11-01T10:49:35.8132121+07:00",
+      "event": "H4_T07_PLANNED_RESET_ISSUED",
+      "repetition": 2,
+      "executionId": "TD01-P3-T07-A01-R2",
+      "detail": "One planned repetition, not recovery retry; wait for actual engineer observation before any next reset"
+    },
+    {
+      "recordedAt": "2026-11-01T10:50:19.3819899+07:00",
+      "event": "T07_RESET2_COMPLETED_AND_ENGINEER_OBSERVATION_RECEIVED",
+      "reference": "request_user_input_async call_03ef60d1eda548b28546787921924ec3 question 0",
+      "evidence": "t07-reset2-observation.json",
+      "detail": "Native reset completed exit 0, raw output confirms named device/probe and wire reset. Actual engineer response supports final planned repetition. No quantitative timing assertion or recovery attempt charged."
+    },
+    {
+      "recordedAt": "2026-11-01T10:50:42.6124148+07:00",
+      "event": "H4_T07_PLANNED_RESET_ISSUED",
+      "repetition": 3,
+      "executionId": "TD01-P3-T07-A01-R3",
+      "detail": "One planned repetition, not recovery retry; wait for actual engineer observation before any next reset"
+    },
+    {
+      "recordedAt": "2026-11-01T10:52:38.6959997+07:00",
+      "event": "T07_THIRD_OBSERVATION_AND_RESULT_RECORDED",
+      "reference": "request_user_input_async call_70230a2d235b479a801afa28023946ea question 0",
+      "evidence": "t07-summary.json",
+      "detail": "Three reset commands and actual engineer observations satisfy the T07 qualitative startup/pattern criterion. H4 exhausted; no quantitative timing PASS. No recovery attempts charged."
+    },
+    {
+      "recordedAt": "2026-11-01T11:00:09.6538475+07:00",
+      "event": "H5_PRESENTATION_AND_EXPLICIT_APPROVAL_RECORDED",
+      "reference": "request_user_input_async call_eeda8c4a60c54461b4058c90df8118e6 question 0",
+      "detail": "Approved one bounded documented T09 session with additional exact-image load/readback, planned reset and two capture points. No T09 server/client launched before engineer approval; native permission remains separate."
+    },
+    {
+      "recordedAt": "2026-11-01T11:00:33.0049669+07:00",
+      "event": "H5_GDB_LOAD_AND_CAPTURE_DISPATCHED",
+      "executionId": "TD01-P3-T09-A01",
+      "recoveryAttempt": 2,
+      "detail": "One same-image load and validating readback counted separately; monitor reset and hardware-breakpoint captures are approved planned T09 steps, not extra hidden recovery retries"
+    },
+    {
+      "recordedAt": "2026-11-01T11:05:06.6713613+07:00",
+      "event": "H5_HOST_CAPABILITY_FAILURE_CLASSIFIED",
+      "detail": "GDB lacks Python; no helper target action occurred. Original raw result conservatively labels loadInterventionIssued=true at dispatch, which is NOT proof load executed. Actual evidence establishes no load. P3-F05 count2 retained per approved conservative rule. P3-F07=0/3, P3-F02=2/3 unchanged."
+    },
+    {
+      "recordedAt": "2026-11-01T11:10:13.1192666+07:00",
+      "event": "H6_PRESENTATION_AND_EXPLICIT_APPROVAL_RECORDED",
+      "reference": "request_user_input_async call_fa413468fce94f50b41283616b97cf7f question 0",
+      "detail": "One native MI retest through owned server approved, including final existing P3-F05 allowance and P3-F07 recovery1; no replacement client or target command issued yet"
+    },
+    {
+      "recordedAt": "2026-11-01T11:10:37.0549164+07:00",
+      "event": "H6_NATIVE_MI_RETEST_DISPATCHED",
+      "executionId": "TD01-P3-T09-A02",
+      "P3F05Attempt": 3,
+      "P3F07Attempt": 1,
+      "detail": "Final existing image/recovery allowance; no automatic retry, no counter renewal"
+    },
+    {
+      "recordedAt": "2026-11-01T11:13:11.7769744+07:00",
+      "event": "H6_RESULT_AND_CONFIRMED_HELPER_ADDRESS_DEFECT_RECORDED",
+      "detail": "P3-F05 count3/3 exhausted; three image regions verified, so image identity restored. P3-F07 native capability recovery validated. T09 snapshot blocked by P3-F08 wrong formatted read address. No further target command after approved cleanup."
+    },
+    {
+      "recordedAt": "2026-11-01T11:17:52.062694+07:00",
+      "event": "B7_AND_H7_EXPLICIT_APPROVALS_RECORDED",
+      "detail": "Separately approved P3-F05 finite cumulative limit4 and one corrected bounded T09 session, including current setup/preservation facts. Consumed3 retained; no fourth dispatch before native permission."
+    },
+    {
+      "recordedAt": "2026-11-01T11:18:03.3173004+07:00",
+      "event": "H7_NATIVE_MI_RETEST_DISPATCHED",
+      "executionId": "TD01-P3-T09-A03",
+      "P3F05Attempt": 4,
+      "P3F08Attempt": 1,
+      "detail": "Explicit finite extension to limit4; only one additional intervention, no automatic retry"
+    },
+    {
+      "recordedAt": "2026-11-01T11:20:22.1340676+07:00",
+      "event": "H7_T09_PASS_AND_VALID_REPORTING_CONDITION_RECORDED",
+      "detail": "All mandatory R5 fields captured/compared from exact image; owned cleanup/server close confirmed. T07 and T09 PASS; T04-T06 hard-blocked by explicit equipment absence. No pending operational approval remains. Authorized executable path complete; prepare partial Phase3 report and stop."
+    },
+    {
+      "recordedAt": "2026-11-01T11:25:26.3944595+07:00",
+      "event": "VERSIONED_PHASE3_REPORT_WRITTEN",
+      "report": "docs/reports/phase3-TD-01-v1.1.md",
+      "detail": "Authorized eligible execution complete; T07/T09 PASS, quantitative T04-T06 hard-blocked by explicit equipment absence. No pending operational decision. Stop for engineer review; no Phase4 or further hardware operation."
+    }
+  ],
+  "finalReport": "../../../../phase3-TD-01-v1.1.md",
+  "finalTestCounts": {
+    "PASS": 2,
+    "FAIL": 0,
+    "BLOCKED": 3,
+    "NOT_RUN": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "recordedAt": "2026-11-01T10:39:46.0467537+07:00",
+  "purpose": "Manifest of additive checkpoint files, excluding this manifest itself",
+  "entries": [
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\approval-ledger.json",
+      "bytes": 13983,
+      "sha256": "48CA6DF37D9FDBB8E55C3929930C0DA3E375C1AD45065445BB2F67C0869FBC8E"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\checkpoint-validation.json",
+      "bytes": 904,
+      "sha256": "04214A4F1B22E21DAC01EBF18E8DAE9E117CCB62E53A30835252C8DE247B8E11"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\checkpoint.md",
+      "bytes": 11436,
+      "sha256": "0B2717BA23DE6715FD3375E4E9D2CEE35EDB46453E5486D0340EED82A2B68212"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\execution-continuation.json",
+      "bytes": 24571,
+      "sha256": "615CE8E29706548CED232DAF0119360B199517972B02EF8F4337253920D0D887"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\mismatch-analysis.json",
+      "bytes": 6566,
+      "sha256": "B8CCE36FE0BD0C70A87597C8A8006FA08CE21BD8E57AEC4A9F36DD6270DDE54E"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\resume-identity.json",
+      "bytes": 22517,
+      "sha256": "885A4FA7A2CEBF1E5E2B45D6F3B5F507FEB9C337A7DAC35404A9B220187CF6A8"
+    }
+  ]
+}

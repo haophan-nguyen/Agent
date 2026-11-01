@@ -1,0 +1,16 @@
+{
+  "recordedAt": "2026-11-01T10:40:26.5456739+07:00",
+  "purpose": "Operation-critical freshness check after new engineer approval; no repeated discovery",
+  "imagePath": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf",
+  "imageBytes": 199936,
+  "imageSha256": "2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391",
+  "sourceSha256": "46AD8D67DE632F9FDFFB8D8366AA9E832FAC03D81BAAC0A44C8A4D1976E588AF",
+  "head": "b630da3bd67d84150d1cc574c2959be5e8e73039",
+  "probe": "SPOBEAQ0BCREX",
+  "target": "MCXN236:FRDM-MCXN236",
+  "engineerPhysicalSafetyAndPreservationConfirmation": "Explicit H3 approval, current conversation response",
+  "scope": "Load once; verify once only after successful expected load; no other target operation",
+  "nativePermission": "To be requested separately",
+  "criticalInputsMatch": true,
+  "imageMatchesApproval": true
+}

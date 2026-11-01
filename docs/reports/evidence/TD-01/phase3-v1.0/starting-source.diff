@@ -1,0 +1,25 @@
+diff --git a/frdmmcxn236_led_blinky/led_blinky.c b/frdmmcxn236_led_blinky/led_blinky.c
+index 57d7df65..a8ac886e 100644
+--- a/frdmmcxn236_led_blinky/led_blinky.c
++++ b/frdmmcxn236_led_blinky/led_blinky.c
+@@ -37,6 +37,20 @@ int main(void)
+     /* Board pin init */
+     BOARD_InitHardware();
+ 
++    /* Toggle every 500 ms using the configured processor clock. */
++    const uint32_t systickTicks = SystemCoreClock / 2U;
++    if ((systickTicks == 0U) || ((systickTicks - 1U) > SysTick_LOAD_RELOAD_Msk))
++    {
++        /* Reject an interval outside the 24-bit SysTick reload range. */
++        while (1)
++        {
++        }
++    }
++
++    /* Preserve the existing priority, control bits, and interrupt masks. */
++    SysTick->LOAD = systickTicks - 1U;
++    SysTick->VAL = 0U;
++
+     while (1)
+     {
+     }

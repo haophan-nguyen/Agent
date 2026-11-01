@@ -1,0 +1,43 @@
+{
+  "recordedAt": "2026-11-01T10:43:49.5816732+07:00",
+  "executionId": "TD01-P3-V02",
+  "operator": "Codex",
+  "nativeResultReference": "exec result chunk 8c1ed8",
+  "nativePermission": "Concrete require_escalated invocation completed; separate approver/event timestamp not exposed",
+  "rawEvidence": [
+    "verify-after-load-result.json",
+    "verify-after-load-stdout.log",
+    "verify-after-load-stderr.log"
+  ],
+  "imageContentVerified": true,
+  "verifiedRegions": [
+    {
+      "type": "code",
+      "index": "0",
+      "address": "0x00000400",
+      "bytesHex": "0x1F68"
+    },
+    {
+      "type": "data",
+      "index": "0",
+      "address": "0x00000000",
+      "bytesHex": "0x2B0"
+    },
+    {
+      "type": "data",
+      "index": "1",
+      "address": "0x00002368",
+      "bytesHex": "0x4"
+    }
+  ],
+  "probe": "SPOBEAQ0BCREX",
+  "observedTarget": "NXP MCXN236; Cortex-M33 CPU ID 00000D21; DAP DP ID 6BA02477",
+  "imageSha256": "2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391",
+  "recoveryAttempt": 1,
+  "limit": 3,
+  "remaining": 2,
+  "failureId": "P3-F05",
+  "disposition": "Image-content mismatch recovered with validating verification evidence. Original differently programmed image/history remain unknown. Normal running state and TD tests remain unverified.",
+  "targetPostState": "Unknown; log reports reset/halt and RAM-driver SOFTRESETs. No standalone reset/run/attach performed.",
+  "next": "Fresh scoped T07/T09 decisions required; H3 consumed, no further authority"
+}

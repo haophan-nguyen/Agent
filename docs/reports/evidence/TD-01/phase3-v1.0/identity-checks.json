@@ -1,0 +1,44 @@
+[
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\led_blinky.c",
+    "bytes": 1568,
+    "sha256": "46AD8D67DE632F9FDFFB8D8366AA9E832FAC03D81BAAC0A44C8A4D1976E588AF",
+    "matchesHistorical": true
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\docs\\test_design\\TD-01.md",
+    "bytes": 16172,
+    "sha256": "E47D6874068D5B06853D529028650B66BD6647CCD9B89B58328400FC0FF26623",
+    "matchesHistorical": true
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\AGENTS.md",
+    "bytes": 549,
+    "sha256": "C7F8FD1C44A4A15902930923DE8E797BDCCBE9EDB9113942DD284FA2A5A6FAB0",
+    "matchesHistorical": true
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf",
+    "bytes": 199936,
+    "sha256": "2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391",
+    "matchesHistorical": true
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.bin",
+    "bytes": 9068,
+    "sha256": "3096C02A4CE9642B7850AE649F0D1D66F3429E384E41BE5FEFFB19E130A634C2",
+    "matchesHistorical": true
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\release\\frdmmcxn236_led_blinky.elf",
+    "bytes": 31664,
+    "sha256": "31CE4BF2905F3CF5072FE19BAB1C0539614E88B3D8B513A173CE420A6A641BE2",
+    "matchesHistorical": true
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\release\\frdmmcxn236_led_blinky.bin",
+    "bytes": 4552,
+    "sha256": "B8756864777CFCAE470298D594838826959DAAC73792771E2F613048790DFC79",
+    "matchesHistorical": true
+  }
+]

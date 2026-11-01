@@ -1,0 +1,30 @@
+{
+  "recordedAt": "2026-11-01T10:48:09.9854617+07:00",
+  "state": "AWAITING_T07_RESET1_OBSERVATION",
+  "priorEvidenceFilesPreserved": 41,
+  "protectedEntries": 87,
+  "changedProtectedPaths": [],
+  "headUnchanged": true,
+  "stagedUnchanged": true,
+  "imageVerified": "V02 three regions, exact SHA-256 in verify-after-load-review.json",
+  "P3F05RecoveryConsumed": 1,
+  "P3F02RecoveryConsumed": 2,
+  "actualTDTestAttempts": 1,
+  "T07PlannedResetsIssued": 1,
+  "newTargetInvocations": 3,
+  "uniqueTestCounts": {
+    "applicablePhase3UniqueTests": 5,
+    "PASS": 0,
+    "FAIL": 0,
+    "BLOCKED": 5,
+    "NOT_RUN": 0,
+    "tdHardwareTestAttempts": 1,
+    "historicalInitialTargetIdentityDiagnosticInvocations": 1,
+    "newTargetInvocations": 3,
+    "hardwareRecoveryInterventions": 1
+  },
+  "operationsStillInProgress": "None known; L01/V02/T07-R1 all completed",
+  "lastKnownTargetState": "Wire reset issued, pin state 01 reported; actual LED/running state pending engineer observation",
+  "terminalReportIssued": false,
+  "retention": "Local uncommitted evidence; raw logs are ignored by repository rules. No durable remote retention claimed."
+}

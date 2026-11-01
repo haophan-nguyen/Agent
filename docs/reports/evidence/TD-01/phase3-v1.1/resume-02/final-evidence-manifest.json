@@ -1,0 +1,427 @@
+{
+  "recordedAt": "2026-11-01T11:26:07.7403646+07:00",
+  "purpose": "Final snapshot after authorized execution/report closure; excludes this manifest itself",
+  "report": {
+    "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\phase3-TD-01-v1.1.md",
+    "bytes": 39966,
+    "sha256": "0D1B8F035E531855753313C63B7A3A07947F4C17456F737CDC5DF807E2B737A9"
+  },
+  "entries": [
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\approval-ledger.json",
+      "bytes": 61545,
+      "sha256": "8585B2A390CE92B279ADC97C22FF9024F6DF48A08A1A60D45180CDCC940C1AF5"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\b7-h7-requests-prepared.json",
+      "bytes": 5239,
+      "sha256": "FC74E76301B879407761AE6C38398DB494D5173CFAEE39473C448EE7D7DF1741"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\checkpoint-validation.json",
+      "bytes": 904,
+      "sha256": "04214A4F1B22E21DAC01EBF18E8DAE9E117CCB62E53A30835252C8DE247B8E11"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\checkpoint.md",
+      "bytes": 11436,
+      "sha256": "0B2717BA23DE6715FD3375E4E9D2CEE35EDB46453E5486D0340EED82A2B68212"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\evidence-manifest.json",
+      "bytes": 1654,
+      "sha256": "849D6BD8B68AAEF7FFEFB70A238E43A38FA8C0DC6732F1E2D5E0425363D5B8B9"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\execution-continuation.json",
+      "bytes": 36091,
+      "sha256": "92DBD376923789D2A80A1A5C98C611A146F5AE8D4642BE3C82BCD214327BB1E4"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\final-validation.json",
+      "bytes": 4185,
+      "sha256": "724E493886C7F7D806F5484655C210CA1EF86F8C78AF9B5254DB0CAD99CFDC88"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\h4-request-prepared.json",
+      "bytes": 3581,
+      "sha256": "CEE329C2B61FD2714C66345904FE14DA64647EFB610717DB7ACE3FDD2C726CBB"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\h5-owned-server-host-state.json",
+      "bytes": 1274,
+      "sha256": "7D9B24FE8C5C59E04B3DF135E30554A84DE5CB255ED077680DB23083DF24A71A"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\h5-request-prepared.json",
+      "bytes": 4457,
+      "sha256": "1D984A454566C72B14E82ACC14F13D7A524ECC46198447D65A710AAFBF79CFD2"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\h6-request-prepared.json",
+      "bytes": 4473,
+      "sha256": "8E4FF3EBA7363F8DE41150299D6C72CF88474CA222B428058F7121552040E4A9"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\load-operation.json",
+      "bytes": 1275,
+      "sha256": "61E8C8009E0DC96968255CCC1C2D48184B96CBB549040C3D305477DEC0CFA61B"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\load-preflight.json",
+      "bytes": 918,
+      "sha256": "7BA04357D6DB890C52A757BFBC890B95DB3FAD8877FB0112D540F583B0288884"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\load-result.json",
+      "bytes": 1497,
+      "sha256": "A3E5A248C54953D4C8F706A8A9D504815B0E6944FA5A105236F9041F8C526708"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\load-review.json",
+      "bytes": 961,
+      "sha256": "B2A2C9EE2A95B99DE79156913481D3626061D65937555EF4772AFA5E6182CD3F"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\load-stderr.log",
+      "bytes": 247,
+      "sha256": "62115D481961357633BE984B854B947E5F722A7109CE850ACF7BAD34592A759A"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\load-stdout.log",
+      "bytes": 4877,
+      "sha256": "DBF635A60F723215C807B1047619FBD6E92542DF3369114105DF4307A0D45B72"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\mismatch-analysis.json",
+      "bytes": 6566,
+      "sha256": "B8CCE36FE0BD0C70A87597C8A8006FA08CE21BD8E57AEC4A9F36DD6270DDE54E"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\post-reset1-evidence-manifest.json",
+      "bytes": 7195,
+      "sha256": "C8B41A371A4FC3AC24AEBA909F1B5F3A97C4CC7FE391E3446BFF74CD8708C368"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\post-reset1-validation.json",
+      "bytes": 1172,
+      "sha256": "AE0FFDF8F81A6D6614EF48B253A2F091770BA844EDE9DEC3D0A7FF82BCB4D5CB"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\resume-identity.json",
+      "bytes": 22517,
+      "sha256": "885A4FA7A2CEBF1E5E2B45D6F3B5F507FEB9C337A7DAC35404A9B220187CF6A8"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\run-approved-image-operation.ps1",
+      "bytes": 6380,
+      "sha256": "C34D4EA99848B42051E0ED744EBC1D5DFEA64AB48B9CDFAD7FD937FB6E8FE0DA"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\run-approved-t07-reset.ps1",
+      "bytes": 5621,
+      "sha256": "AD5884ADF6662E5126949818A838239C2742D515AFE86FBA07C0C13417300875"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\run-approved-t09-fixed.ps1",
+      "bytes": 19840,
+      "sha256": "0FC57C08EA547593DAA5A615AF5C8B8EF628A03CEA11AF9FC2468FEB57080E98"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\run-approved-t09-native.ps1",
+      "bytes": 17720,
+      "sha256": "67C90FB9E51E70266CC14548656F29F0B0C564132498590EF5DBF0B027875DA8"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\run-approved-t09.ps1",
+      "bytes": 7705,
+      "sha256": "1310845F73154C45A7B7F0D15350F87349E8D21A2A5D68B15A80CCC678714868"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t07-checkpoint.md",
+      "bytes": 5996,
+      "sha256": "8B7CC04D86B6A961CD75317BB01E6834AABA6448B59C43090A0AD4ACAF7C6926"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t07-reset1-observation-request.json",
+      "bytes": 1037,
+      "sha256": "2369964C37191FB116716F5DF4AF38D63D3AA1D6C02BDA90B5DA3F70FDCB30A0"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t07-reset1-observation.json",
+      "bytes": 1205,
+      "sha256": "4E2AF9A257722F85B290170F0893FE3F878AC6960D424729789CD39FEFBF7A23"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t07-reset1-operation.json",
+      "bytes": 1348,
+      "sha256": "04A97D42694F8DDDF7792FC75D54BAD4AADED3E3D1FAB115C884313FC954A512"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t07-reset1-result.json",
+      "bytes": 1502,
+      "sha256": "CB9955FFFEA3751B87B0F04E8AB4625A735575D0A767262898D8E230F3F5F324"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t07-reset1-stderr.log",
+      "bytes": 325,
+      "sha256": "7665B2B05B6C841384C155060C493C377497AD8889BC18AC254535174890014D"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t07-reset1-stdout.log",
+      "bytes": 21,
+      "sha256": "E2AEA72546E0E32B345ACC8FC9143E742B3DF63A870BACA796E3F2F924FEF295"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t07-reset2-observation.json",
+      "bytes": 1198,
+      "sha256": "C5784B08226AE591685704DCBB2B94366FE3F8774549B0257B2049D8ADF2A077"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t07-reset2-operation.json",
+      "bytes": 1348,
+      "sha256": "625636F7D28CF669CD3C3AF71364D066F0D409DD78A274C249A16C8EC3314F97"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t07-reset2-result.json",
+      "bytes": 1502,
+      "sha256": "75151E8EE2B71B01A1E35326797CF205C8349E49D9EA2D23F20C9F85D1835F57"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t07-reset2-stderr.log",
+      "bytes": 325,
+      "sha256": "7665B2B05B6C841384C155060C493C377497AD8889BC18AC254535174890014D"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t07-reset2-stdout.log",
+      "bytes": 21,
+      "sha256": "E2AEA72546E0E32B345ACC8FC9143E742B3DF63A870BACA796E3F2F924FEF295"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t07-reset3-observation.json",
+      "bytes": 1192,
+      "sha256": "B508C50EBB13603CF70112856D469AA10009D5C5DBC6506B59231041212375DB"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t07-reset3-operation.json",
+      "bytes": 1348,
+      "sha256": "A7C2BCFD98BBEFF636FD27CF18B71603635A65CA5DCDF14943FAA7FF6C53A10F"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t07-reset3-result.json",
+      "bytes": 1502,
+      "sha256": "AB41AD6712067C2C08514EA32F3E73D9B48D8004BDE1368295053AD04B496614"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t07-reset3-stderr.log",
+      "bytes": 325,
+      "sha256": "7665B2B05B6C841384C155060C493C377497AD8889BC18AC254535174890014D"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t07-reset3-stdout.log",
+      "bytes": 21,
+      "sha256": "E2AEA72546E0E32B345ACC8FC9143E742B3DF63A870BACA796E3F2F924FEF295"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t07-summary.json",
+      "bytes": 1913,
+      "sha256": "2B492123297BD34201F30E466AD4D714C3EF3634EF58688B2DD0C3B2D664F83F"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-capture.gdb",
+      "bytes": 295,
+      "sha256": "26954A2A6EAF69425684766C56BA27B8A8A932E143650F9D248F2FF360FEF792"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-capture.py",
+      "bytes": 6569,
+      "sha256": "1893F7BA1557679439F638FD677B669245523507014FF4F0D67907A12F9C47BA"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-checkpoint.md",
+      "bytes": 8733,
+      "sha256": "1853B16EB65734DC2EB55DE4F388BD527FF7B85763E6ADD0FD79923FA87F70AE"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-failure-P3-F07.json",
+      "bytes": 1830,
+      "sha256": "1138A2BE16BAEB8289ED32BDEB8234BD8FBEBF079C2B89C0C2D099F244A88450"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-failure-P3-F08.json",
+      "bytes": 2353,
+      "sha256": "C6332164942122F2F4CCB9BDFEBF70CEBC523212C367ED0A60F80203F35547EA"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-fixed-capture.json",
+      "bytes": 41888,
+      "sha256": "64C3930BBF4FC850DBD653FF45541E405BEC74AAC8AD18162F17BEA7DD638E7E"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-fixed-checkpoint.md",
+      "bytes": 7747,
+      "sha256": "7F15759216B368C2BA890399F7C5DCC12AB0D9C8E334D6C763C3CC08027B262F"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-fixed-gdb-stderr.log",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-fixed-gdb-stdout.log",
+      "bytes": 29409,
+      "sha256": "2FC35E58A7B37A4A582C7875AE070367F48DB46543494A6E59324AA0EB474D5F"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-fixed-operation.json",
+      "bytes": 842,
+      "sha256": "27EAEC1FD596113AE03B70FBEABAA661FFFAEF02E70B6F746AEC77667B071A90"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-fixed-plan.json",
+      "bytes": 3428,
+      "sha256": "6E9AD8F60B4758A766EEF8A4AD0297E40ED86028E36219569116C521039D4D60"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-fixed-preflight.json",
+      "bytes": 356,
+      "sha256": "74ED75F036D9078DE6B8CBE470B15B935D2F74B60F65FC5E9F95BABB788AEF81"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-fixed-review.json",
+      "bytes": 2819,
+      "sha256": "4B9D3E1FE9247D140ABB0C027DC09214D844068AD3F8D2AB57FA672E03EDAD4B"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-fixed-server-operation.json",
+      "bytes": 560,
+      "sha256": "090969FCFC858AD1B63D2443C64B3A7B5690880AA84D8DC0682E87DB1AD8CE76"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-fixed-server-stderr.log",
+      "bytes": 7294,
+      "sha256": "BAC913409072B8A79D5CF6D80B3C88B5B8034E4AAC5F631B56F81F4DA1BDAB2F"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-fixed-server-stdout.log",
+      "bytes": 96,
+      "sha256": "C734EC305B6F3A535C08C547FCC56BD448DC62CE40E2E4BA9406503E2CD5868A"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-gdb-stderr.log",
+      "bytes": 201,
+      "sha256": "0C2C36203084B8D5BE52B14741F70C4A010697C64F4E5C0FF7CCCED60749F2AF"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-gdb-stdout.log",
+      "bytes": 803,
+      "sha256": "DD6FEF3213D74A634DAFFFB1405F58B0123D595A46C348392A53952CD0E960F0"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-native-capture.json",
+      "bytes": 29501,
+      "sha256": "655E46D0A89C0693723787E6BA175CFB794149234CA6610A1EB4AC42D717D194"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-native-checkpoint.md",
+      "bytes": 8046,
+      "sha256": "211D07C90207E113346F89D65CFA1FA1132BD3C4846C1C38B0D8F35D8C2B471C"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-native-gdb-stderr.log",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-native-gdb-stdout.log",
+      "bytes": 24498,
+      "sha256": "E6EEE0ED26AC142ED0BE296CB9B3B186180260FD2D5800B1F587307C99961BA0"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-native-operation.json",
+      "bytes": 845,
+      "sha256": "A551D6178C53FC9ECFF69270044F21D7D1BAA8ECFA84976906A7C1EFA60C44BB"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-native-plan.json",
+      "bytes": 3027,
+      "sha256": "BF7A14B3EAB0A2AF2C5274C25B22C4C774EED541EC565EB430E9ECAE0B3EF315"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-native-preflight.json",
+      "bytes": 304,
+      "sha256": "7AD340306755A16686046668739F172DD76A202047C993DC8464D03CFE32CE6F"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-native-review.json",
+      "bytes": 1432,
+      "sha256": "9520B061F4E4BA3E31D9920FD0067799E979C90618F73F5EB892D33FE70C1A0F"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-plan.json",
+      "bytes": 3953,
+      "sha256": "264BEC07981924BF7963391DF9FF54407732F8CB3AA71F8D849977A89D58BB88"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-preflight.json",
+      "bytes": 451,
+      "sha256": "F455DB72760D60BEA041C223BDBEF737BA6BA4276CD492EBEBF5BB16297444C8"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-server-stderr-h5-boundary.log",
+      "bytes": 368,
+      "sha256": "D50051A06D9A549933813EDB64B6B1E135067D31AF052B3A6B8F8510CD575087"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-server-stderr.log",
+      "bytes": 7274,
+      "sha256": "B293437043A48628CF9B090B49A32CECE0A65E5F79A6096E86FC2BE098166899"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-server-stdout-h5-boundary.log",
+      "bytes": 61,
+      "sha256": "41C6C0D7048E9FA54CDB2FF1D607FB23118DBB979F26DE7C30EBD8AFAAEBBAA8"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-server-stdout.log",
+      "bytes": 96,
+      "sha256": "3988A9F60781F56BE5E4DE4DEF33A9A03DC762C790B0E8F4F522742A24192142"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-session-operation.json",
+      "bytes": 1630,
+      "sha256": "CAF57810CB249DD8098DAC54F45CD22BAFC3C7A3CA4ACA782DCAB2E4EFA8DA6D"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\t09-session-result.json",
+      "bytes": 2013,
+      "sha256": "234DC13BDFBB3BBCA5CE22E93E5C07A2236286EE3BBAE62565040EB052BE9793"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\verify-after-load-operation.json",
+      "bytes": 1286,
+      "sha256": "613F69B74862B33FF66341DC0B422998D33B271FE64959150C6577F208770B96"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\verify-after-load-result.json",
+      "bytes": 1509,
+      "sha256": "130F9475AED45F04801F35D09789B50E7A4890E4969969E6D8E099D8883BC953"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\verify-after-load-review.json",
+      "bytes": 1552,
+      "sha256": "6971D75F63D4A8D18A000AFD4C2BA597DA9665B6EA98FE0B693D2122A1B3F070"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\verify-after-load-stderr.log",
+      "bytes": 247,
+      "sha256": "62115D481961357633BE984B854B947E5F722A7109CE850ACF7BAD34592A759A"
+    },
+    {
+      "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\evidence\\TD-01\\phase3-v1.1\\resume-02\\verify-after-load-stdout.log",
+      "bytes": 4969,
+      "sha256": "59FDF82E79CBF4A7CE1D3D95E7381F09E592B9D47DBC67788E323B26537C6CB9"
+    }
+  ],
+  "historicalManifestCaveat": "Earlier manifests are point-in-time snapshots; authorized additive ledgers and active server logs legitimately changed after those snapshots. Original starting evidence preservation is checked separately."
+}

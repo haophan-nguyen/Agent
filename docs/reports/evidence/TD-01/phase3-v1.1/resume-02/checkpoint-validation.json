@@ -1,0 +1,25 @@
+{
+  "recordedAt": "2026-11-01T10:39:46.0467537+07:00",
+  "workflowState": "AWAITING_RESPONSE",
+  "terminalReportIssued": false,
+  "priorEvidenceFiles": 41,
+  "protectedEntries": 87,
+  "changedProtectedPaths": [],
+  "priorEvidenceAndInputsPreserved": true,
+  "headUnchanged": true,
+  "stagedUnchanged": true,
+  "sourceBlobUnchanged": true,
+  "checkpointLocalLinksMissing": [],
+  "jsonFilesParsed": 4,
+  "newTargetOperations": 0,
+  "hardwareRecoveryConsumed": 0,
+  "hostIssueP3F02Consumed": 2,
+  "hostIssueP3F02Limit": 3,
+  "pendingDecisions": [
+    "TD01-P3-R3",
+    "TD01-P3-H3"
+  ],
+  "engineerResponses": "None received at recording",
+  "nativeHardwarePermission": "Not requested while task authority pending",
+  "retention": "Prior raw verify-output.log remains ignored. New checkpoint/JSON evidence is local and uncommitted; no durable remote retention or commit claimed."
+}

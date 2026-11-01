@@ -1,0 +1,19 @@
+{
+  "recordedAt": "2026-11-01T09:41:00.4382775+07:00",
+  "root": "D:\\work_space\\Agent\\Agent",
+  "head": "fcc0898c30a32d0091f347dc434029f9debec17c",
+  "status": [
+    " M frdmmcxn236_led_blinky/led_blinky.c",
+    "?? .agents/skills/phase2-development-build/SKILL.md",
+    "?? .agents/skills/phase2-development-build/references/report-format.md",
+    "?? .agents/skills/phase3-execution-debug/SKILL.md",
+    "?? .agents/skills/phase3-execution-debug/references/failure-playbook.md",
+    "?? .agents/skills/phase3-execution-debug/references/report-format.md",
+    "?? .vscode/settings.json",
+    "?? docs/reports/phase2-TD-01-v1.0.md"
+  ],
+  "stagedDiff": [],
+  "applicationBlob": "a8ac886e5385cf0ffd0421ac1f0dec0322523e55",
+  "powerShell": "7.6.5",
+  "inventoryFileCount": 998
+}

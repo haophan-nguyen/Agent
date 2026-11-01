@@ -1,0 +1,42 @@
+{
+  "failureId": "P3-F08",
+  "testIds": [
+    "T09"
+  ],
+  "executionIds": [
+    "TD01-P3-T09-A02"
+  ],
+  "primaryCategory": "TEST_INFRASTRUCTURE",
+  "contributingCategories": [],
+  "confidence": "Confirmed host address formatting defect",
+  "classificationHistory": [
+    {
+      "category": "TEST_INFRASTRUCTURE",
+      "recordedAt": "2026-11-01T11:13:11.7769744+07:00",
+      "evidence": "t09-native-capture.json event token21 and t09-native-gdb-stdout.log"
+    }
+  ],
+  "relatedIssues": [
+    "P3-F05",
+    "P3-F07"
+  ],
+  "symptom": "Priority read command used 0xFFFFFFFFE000ED23 instead of approved 32-bit address0xE000ED23; GDB returned Unable to read memory",
+  "testStatus": "BLOCKED; no firmware criterion violation established",
+  "supportingEvidence": [
+    "t09-native-capture.json",
+    "t09-native-gdb-stdout.log",
+    "run-approved-t09-native.ps1"
+  ],
+  "rootCauseHypothesis": "Verified host defect: PowerShell parsed high-bit hex literal as signed Int32 and sign-extended it when passed to Int64 address parameter, then X formatting emitted 64-bit address. No evidence of unsupported byte access or firmware defect.",
+  "diagnosticActions": "Inspect actual token21 and source, preserve raw address error. First three image regions matched; hardware breakpoint hit PC0x1e7a, actual core masks were read. Priority/memory snapshot did not complete. No live diagnostic or retry after cleanup.",
+  "scopeDeviation": "An unintended out-of-range read address was issued and rejected. No write/patch at that address was issued. Preserve this deviation rather than presenting it as an application failure.",
+  "recoveryAttempts": [],
+  "consumed": 0,
+  "limit": 3,
+  "remaining": 3,
+  "humanApprovals": "H6 one client used and exhausted; no remaining P3-F05 allowance for another load",
+  "retestResults": "Not performed",
+  "finalDisposition": "Awaiting separately answerable finite budget extension and one corrected bounded session",
+  "nextDecision": "Prepare explicit unsigned32 address formatting/guard and host-only high-address regression; request P3-F05 limit4 (one extra attempt) plus one H7 session",
+  "residualRisk": "Last captured target PC0x1e7a, halted before update; owned breakpoints removed and stop/disconnect completed. T09 lacks complete actual before/after register evidence."
+}

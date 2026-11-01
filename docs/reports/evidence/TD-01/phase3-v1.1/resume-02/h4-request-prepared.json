@@ -1,0 +1,73 @@
+{
+  "checkpointId": "TD01-P3-H4",
+  "kind": "T07_ENGINEER_CONTROLLED_RESET_AND_OBSERVATION",
+  "state": "PREPARED",
+  "affectedTests": [
+    "T07"
+  ],
+  "requirements": [
+    "R4"
+  ],
+  "failureIds": [
+    "P3-F04"
+  ],
+  "requestText": "TD01-P3-H4 — APPROVE, DENY, or DEFER up to THREE separately logged T07 wire resets, one at a time, with your actual LED observations after each before the next reset? Exact command from D:\\work_space\\Agent\\Agent: & 'C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe' reset --probe SPOBEAQ0BCREX --update-mode none --no-boot --type wire --ms 50 MCXN236:FRDM-MCXN236. Same physical FRDM-MCXN236/probe; designated Debug ELF is now loaded and all three flash regions verified, SHA-256 2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391. Effects: reset disrupts execution and clears volatile state; final running/halt state must be observed. You watch initial red LED state and at least 5 s of subsequent complete blink pattern per reset; actual observations are required before proceeding. Limits: at most three planned test resets, 30 s observation deadline per invocation, no automatic retry or forced interruption; stop on command error, inconsistent/inadequate observation, or unexpected state. No flashing, debugger attachment, register writes, extra resets/recovery, hardware rewiring, source/build changes, instruments, or Phase 4. Native permission is separate. APPROVE also confirms the same safe physical setup remains applicable and you are present and ready to observe now; otherwise DEFER. T04–T06 remain BLOCKED; this cannot establish quantitative timing. Full scope and resume state: docs/reports/evidence/TD-01/phase3-v1.1/resume-02/t07-checkpoint.md.",
+  "workingDirectory": "D:\\work_space\\Agent\\Agent",
+  "target": "Engineer same physical FRDM-MCXN236",
+  "probe": "SPOBEAQ0BCREX",
+  "firmwareReference": "approval-ledger.json image; verify-after-load-review.json confirms three regions",
+  "command": {
+    "executable": "C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe",
+    "arguments": [
+      "reset",
+      "--probe",
+      "SPOBEAQ0BCREX",
+      "--update-mode",
+      "none",
+      "--no-boot",
+      "--type",
+      "wire",
+      "--ms",
+      "50",
+      "MCXN236:FRDM-MCXN236"
+    ]
+  },
+  "finiteLimits": {
+    "plannedInvocations": 3,
+    "observationDeadlineSecondsPerInvocation": 30,
+    "minimumVisualObservationSecondsPerReset": 5,
+    "automaticRetry": false,
+    "forcedInterruptionAuthorized": false,
+    "waitForActualEngineerObservationBetweenResets": true
+  },
+  "scope": "Three planned T07 repetitions, not recovery retries; stop remaining sequence on unexpected/error/inadequate or inconsistent observation; no fourth reset",
+  "exclusions": [
+    "flash/erase",
+    "GDB attachment",
+    "memory/register writes",
+    "extra reset/recovery",
+    "power cycling/rewiring",
+    "probe update",
+    "boot setting change",
+    "instrument action",
+    "source/image/build/design changes",
+    "rebuild",
+    "commit/push",
+    "Phase 4"
+  ],
+  "prerequisites": [
+    "Explicit fresh H4 approval and same safe physical setup",
+    "Engineer present and ready to observe initial and subsequent LED states",
+    "No changed programmed image/target association after V02",
+    "Any new fault evidence preserved before reset",
+    "Separate native permission before command"
+  ],
+  "conversationRequest": null,
+  "response": null,
+  "responseRecordedAt": null,
+  "nativePermission": {
+    "state": "NOT_REQUESTED",
+    "reason": "H4 engineer authority pending"
+  },
+  "subsequentActions": []
+}

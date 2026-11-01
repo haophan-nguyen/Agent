@@ -1,0 +1,164 @@
+[
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\AGENTS.md",
+    "bytes": 549,
+    "sha256": "C7F8FD1C44A4A15902930923DE8E797BDCCBE9EDB9113942DD284FA2A5A6FAB0",
+    "identityScope": "Current inspected file only; not proof of historical dependency immutability"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\docs\\test_design\\TD-01.md",
+    "bytes": 16172,
+    "sha256": "E47D6874068D5B06853D529028650B66BD6647CCD9B89B58328400FC0FF26623",
+    "identityScope": "Current inspected file only; not proof of historical dependency immutability"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\docs\\reports\\phase2-TD-01-v1.0.md",
+    "bytes": 36007,
+    "sha256": "2896D3EDF7A56C631AB78BE0642E04DF89E3E33B76C8669E509E9AAE132A6B08",
+    "identityScope": "Current inspected file only; not proof of historical dependency immutability"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\.agents\\skills\\phase3-execution-debug\\SKILL.md",
+    "bytes": 14904,
+    "sha256": "34935E494D41B6C85B14AC6843EC0146BE0221C902DB8E6E8B06C1B417F72193",
+    "identityScope": "Current inspected file only; not proof of historical dependency immutability"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\.agents\\skills\\phase3-execution-debug\\references\\report-format.md",
+    "bytes": 15841,
+    "sha256": "2EE92AB8437A3761659E50ADAADAB9438EC4BB0A20D5CFE09F11B721A86D7120",
+    "identityScope": "Current inspected file only; not proof of historical dependency immutability"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\.agents\\skills\\phase3-execution-debug\\references\\failure-playbook.md",
+    "bytes": 16779,
+    "sha256": "E7DC1EEEF84492FD0907B31FD2FC4BCC0EF6B87699CC8FA9B7CB0787B908BB47",
+    "identityScope": "Current inspected file only; not proof of historical dependency immutability"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\.vscode\\launch.json",
+    "bytes": 606,
+    "sha256": "F3D63715EFD6F2B507FA03824EFEFE4753EC575919A68619F3D72D4B4A111FFE",
+    "identityScope": "Current inspected file only; not proof of historical dependency immutability"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\.vscode\\tasks.json",
+    "bytes": 596,
+    "sha256": "22B657A1E9FF396845BF821F1FB67FF286FE4964ADEF4230D369C6EF31820648",
+    "identityScope": "Current inspected file only; not proof of historical dependency immutability"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\.vscode\\mcuxpresso-tools.json",
+    "bytes": 473,
+    "sha256": "D85EE71F3F9B642945D800BB668BE3339B6EAFBD1D9092DA7EF5C7CE7033F84A",
+    "identityScope": "Current inspected file only; not proof of historical dependency immutability"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\.vscode\\settings.json",
+    "bytes": 422,
+    "sha256": "3C8CCD307FCE14C9F49FBEBE078FB953EAACE4F2F2131A9C50CAEA1D27D8D30A",
+    "identityScope": "Current inspected file only; not proof of historical dependency immutability"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\.vscode\\settings.json",
+    "bytes": 85,
+    "sha256": "948AE00546B1308DFAA985AC096FDE35FFF2F954F1E922D9C2555C4E87FB05F0",
+    "identityScope": "Current inspected file only; not proof of historical dependency immutability"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\CMakePresets.json",
+    "bytes": 1962,
+    "sha256": "17F964BE092257EC0C7DEE6D53B0BC8A5C4E08B5AFCAC9D80D51590CCC528DC7",
+    "identityScope": "Current inspected file only; not proof of historical dependency immutability"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\mcux_include.json",
+    "bytes": 1390,
+    "sha256": "CD103AC112F81B6C058D4CAE8C5E179AA7ED1AA3F6018C9597458DD727038FF3",
+    "identityScope": "Current inspected file only; not proof of historical dependency immutability"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\CMakeCache.txt",
+    "bytes": 24516,
+    "sha256": "B5DDFE3306EE488491294AF9D3E6891AE9387397B94B13100B6CDB0DE9C4A647",
+    "identityScope": "Current inspected file only; not proof of historical dependency immutability"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\compile_commands.json",
+    "bytes": 57332,
+    "sha256": "406296FF5335C5DF37EE2719C831C715B867D36FEAFB1B25A71AAD649635D1BF",
+    "identityScope": "Current inspected file only; not proof of historical dependency immutability"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\build.ninja",
+    "bytes": 673526,
+    "sha256": "EB1A6CF3398DE06525A43548A3E662D4F9936AF611A0874F7AA702018BB38DA6",
+    "identityScope": "Current inspected file only; not proof of historical dependency immutability"
+  },
+  {
+    "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\mcuxsdk_version.h",
+    "bytes": 459,
+    "sha256": "18AF5C2C38EDE2326CEF92FF596304E778ED10DDA24BEE5E4F9D5B695043AFEE",
+    "identityScope": "Current inspected file only; not proof of historical dependency immutability"
+  },
+  {
+    "path": "C:\\NXP\\LinkServer_26.9.130\\Readme.md",
+    "bytes": 35047,
+    "sha256": "32B5D06B8997EBA47FE826506DCDE26A3BF5FD3322A6F926FD66F8F2969A8F13",
+    "identityScope": "Current inspected file only; not proof of historical dependency immutability"
+  },
+  {
+    "path": "C:\\NXP\\LinkServer_26.9.130\\dist\\build_info.json",
+    "bytes": 120,
+    "sha256": "79E42DECA30DBB459BE564FD124042E9FBDF7DDF76676C64F126A8789B4FC019",
+    "identityScope": "Current inspected file only; not proof of historical dependency immutability"
+  },
+  {
+    "path": "C:\\NXP\\LinkServer_26.9.130\\devices\\MCX\\MCXN\\MCXN236.json",
+    "bytes": 1915,
+    "sha256": "BA4A006105644B7A291C682A5121DED230C14DE1BC0F452A576BDB882E27244B",
+    "identityScope": "Current inspected file only; not proof of historical dependency immutability"
+  },
+  {
+    "path": "C:\\NXP\\LinkServer_26.9.130\\devices\\MCX\\MCXN\\FRDM-MCXN236.json",
+    "bytes": 428,
+    "sha256": "34E23A53A4689BE9EB0AEA254E20900F0F63BBEC767B6BAFB779789FD7001538",
+    "identityScope": "Current inspected file only; not proof of historical dependency immutability"
+  },
+  {
+    "path": "C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe",
+    "bytes": 313240,
+    "sha256": "0C1C8B614C4763FD1A75C86A5937A3FBDA99FCEF11F8A72AC5D2C8CA8CE177C2",
+    "identityScope": "Current inspected file only; not proof of historical dependency immutability"
+  },
+  {
+    "path": "C:\\Users\\LENOVO\\.mcuxpressotools\\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-readelf.exe",
+    "bytes": 1438768,
+    "sha256": "0516A948576D1154EF72C0AD5EE40596A91D9FCC453B88753AA48C49C22C1C02",
+    "identityScope": "Current inspected file only; not proof of historical dependency immutability"
+  },
+  {
+    "path": "C:\\Users\\LENOVO\\.mcuxpressotools\\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-objdump.exe",
+    "bytes": 2234328,
+    "sha256": "EA29F18C0C590B6F515658EDEB1F1C1633D63B432FA7F0EEEBD9E23BD2809B5B",
+    "identityScope": "Current inspected file only; not proof of historical dependency immutability"
+  },
+  {
+    "path": "C:\\Users\\LENOVO\\.mcuxpressotools\\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gdb.exe",
+    "bytes": 12201936,
+    "sha256": "36AE2E715FDBF7AFBD2F58CA992486E73AA3E7111BBC9C552AFBE93A3C66A7E1",
+    "identityScope": "Current inspected file only; not proof of historical dependency immutability"
+  },
+  {
+    "path": "C:\\Users\\LENOVO\\.mcuxpressotools\\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe",
+    "bytes": 4208544,
+    "sha256": "3AE18C728A53BE59486634213DC19BFEDBFCC3E57A8D59C91A27E496049819D5",
+    "identityScope": "Current inspected file only; not proof of historical dependency immutability"
+  },
+  {
+    "path": "D:\\work_space\\NXP\\SDK\\frdm_mcxn236\\mcuxsdk\\arch\\arm\\CMSIS\\Core\\Include\\core_cm33.h",
+    "bytes": 180986,
+    "sha256": "B0599FE9BB927D97B4825C5BDAA7D3B31FB17AED6FB4AECC93AEE7A76FBB8A37",
+    "identityScope": "Current inspected file only; not proof of historical dependency immutability"
+  }
+]

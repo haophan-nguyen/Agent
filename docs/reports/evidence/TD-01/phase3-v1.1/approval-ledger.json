@@ -1,0 +1,422 @@
+{
+  "schema": "TD-01 Phase 3 continuation approval ledger v1.1",
+  "preparedAt": "2026-11-01T10:09:27+07:00",
+  "mode": "execute",
+  "workflowState": "STOPPED_BY_ENGINEER",
+  "terminalReportIssued": false,
+  "purpose": "Resume at the pending engineer decisions using retained evidence; no repeat discovery or host diagnostics and no restricted hardware operation before explicit approval.",
+  "priorRecords": {
+    "report": "../../../phase3-TD-01-v1.0.md",
+    "executionLedger": "../phase3-v1.0/execution-ledger.json",
+    "failureLedger": "../phase3-v1.0/failure-ledger.json",
+    "authorityAndSetup": "../phase3-v1.0/authorizations-and-setup.md",
+    "provenanceComparison": "../phase3-v1.0/phase2-audit-hash-comparison.json",
+    "cacheDiagnostic": "../phase3-v1.0/cache-diagnostic.json",
+    "hookInputs": "../phase3-v1.0/hardware-hook-inputs.json"
+  },
+  "retainedContext": {
+    "design": "TD-01 v1.1",
+    "sourceRevision": "fcc0898c30a32d0091f347dc434029f9debec17c",
+    "sourceWorkingBlob": "a8ac886e5385cf0ffd0421ac1f0dec0322523e55",
+    "sourceWorkingSha256": "46AD8D67DE632F9FDFFB8D8366AA9E832FAC03D81BAAC0A44C8A4D1976E588AF",
+    "identityBasis": "Copied from retained v1.0 records, not a new identity check; targeted freshness and safety prerequisites still apply before an approved operation.",
+    "candidateImage": {
+      "path": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf",
+      "bytes": 199936,
+      "sha256": "2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391",
+      "configuration": "debug; -g -O0; Cortex-M33 MCXN236VDF",
+      "loadedRunningImageIdentity": "Unknown; no target access has occurred"
+    },
+    "target": "Engineer personal FRDM-MCXN236; physical board revision unverified",
+    "probe": "SPOBEAQ0BCREX",
+    "existingAuthority": "A-P3-ENTRY and A-P3-SETUP permit preparation and non-invasive diagnostics; no disruptive hardware authority. Historical A-NATIVE grants cover only their concrete host diagnostic operations.",
+    "completedWork": "Retained 21 diagnostic events and source/image/provenance inspection; not repeated during this continuation.",
+    "pendingTests": [
+      "T04",
+      "T05",
+      "T06",
+      "T07",
+      "T09"
+    ],
+    "testCountsFromPriorLedger": {
+      "PASS": 0,
+      "FAIL": 0,
+      "BLOCKED": 5,
+      "NOT_RUN": 0,
+      "targetAttempts": 0,
+      "targetRecoveryAttempts": 0
+    },
+    "recoveryCounters": [
+      {
+        "failureId": "P3-F01",
+        "consumed": 0,
+        "limit": 3,
+        "remaining": 3
+      },
+      {
+        "failureId": "P3-F02",
+        "consumed": 2,
+        "limit": 3,
+        "remaining": 1
+      },
+      {
+        "failureId": "P3-F03",
+        "consumed": 0,
+        "limit": 3,
+        "remaining": 3
+      },
+      {
+        "failureId": "P3-F04",
+        "consumed": 0,
+        "limit": 3,
+        "remaining": 3
+      },
+      {
+        "failureId": "P3-F05",
+        "consumed": 0,
+        "limit": 3,
+        "remaining": 3
+      },
+      {
+        "failureId": "P3-F06",
+        "consumed": 0,
+        "limit": 3,
+        "remaining": 3
+      },
+      {
+        "failureId": "A01",
+        "consumed": 0,
+        "limit": 3,
+        "remaining": 3
+      },
+      {
+        "failureId": "A02",
+        "consumed": 0,
+        "limit": 3,
+        "remaining": 3
+      }
+    ]
+  },
+  "checkpoints": [
+    {
+      "checkpointId": "TD01-P3-R1",
+      "kind": "REVIEWABLE_RISK_DISPOSITION",
+      "state": "HISTORICAL_ACCEPTANCE_RETAINED_NO_FUTURE_AUTHORITY",
+      "failureIds": [
+        "A01",
+        "A02",
+        "P3-F03"
+      ],
+      "affectedTests": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "evidence": "Retained report sections 1, 4 and 8; Phase 2 audit; provenanceComparison and cacheDiagnostic above.",
+      "knownFacts": "Retained checks matched source and the 199936-byte Debug ELF to Phase 2; 24 of 25 audit table file identities matched. Debug CMakeCache.txt differs, without original cache bytes or an established cause/time/author.",
+      "uncertainties": [
+        "A01: historical native escalation decision is not attributable from retained evidence.",
+        "A02: complete historical SDK/toolchain/dependency immutability is not established.",
+        "P3-F03: Debug cache hash changed; the cause and affected historical settings cannot be reconstructed."
+      ],
+      "requestedDisposition": "Accept these historical uncertainties solely to allow one separately approved identity-verification invocation against the exact retained Debug ELF; retain all findings. Later testing still requires its own prerequisites and authority.",
+      "mitigation": "Exact retained ELF identity; named target/probe; verification only with no programming or automatic retry; stop on mismatch/error. Native permission and safe physical target identification remain mandatory.",
+      "notGrantedByAcceptance": "No historical approval/provenance certification, waiver of critical target/safety identity, missing test evidence, test PASS, programming authority, reset test, T09 session, or Phase 4 entry.",
+      "requestedChoices": [
+        "APPROVE",
+        "DENY",
+        "DEFER"
+      ],
+      "conversationRequest": {
+        "channel": "Conversation input request, TD01-P3-R1 question",
+        "requestRecordedAt": "2026-11-01T10:11:24+07:00",
+        "presentationTime": "Exact event timestamp not exposed; request was presented before requestRecordedAt",
+        "text": "TD01-P3-R1 — Do you APPROVE, DENY, or DEFER accepting A01 (unverified historical permission record), A02 (incomplete historical build-input provenance), and P3-F03 (changed Debug CMake cache, cause unknown) solely for ONE separately authorized image-verification invocation? Retained checks matched the source and Debug ELF to Phase 2; 24/25 audit file identities matched. Candidate ELF: D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf; 199936 bytes; SHA-256 2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391. Acceptance preserves the findings and does not certify historical approvals/provenance, waive target/safety prerequisites, authorize other operations, or establish any test PASS. Hardware authority is a separate H1 decision.",
+        "options": [
+          "APPROVE R1 scoped risk acceptance",
+          "DENY R1",
+          "DEFER R1"
+        ],
+        "submissionResult": "Input request accepted for presentation; this is not an engineer approval"
+      },
+      "response": {
+        "answer": "APPROVE R1 scoped risk acceptance",
+        "approver": "Engineer/user in this conversation",
+        "reference": "request_user_input_async call_1189a8591b564536b348679a0cf17a98 question index 0",
+        "eventTimestamp": "Not supplied",
+        "scope": "As explicitly presented in this checkpoint; no additional authority"
+      },
+      "responseRecordedAt": "2026-11-01T10:12:09.3091585+07:00",
+      "subsequentActions": []
+    },
+    {
+      "checkpointId": "TD01-P3-H1",
+      "kind": "HARDWARE_OPERATION_AUTHORIZATION",
+      "state": "EXECUTED_SCOPE_EXHAUSTED_NO_FUTURE_AUTHORITY",
+      "failureIds": [
+        "P3-F04",
+        "P3-F05"
+      ],
+      "affectedTests": [
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T09"
+      ],
+      "purpose": "Establish compared flash-image identity; this is not a test PASS or proof of subsequent normal execution.",
+      "target": "Engineer personal FRDM-MCXN236 via probe SPOBEAQ0BCREX",
+      "firmwareReference": "retainedContext.candidateImage",
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "command": {
+        "executable": "C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe",
+        "arguments": [
+          "flash",
+          "--probe",
+          "SPOBEAQ0BCREX",
+          "--update-mode",
+          "none",
+          "--no-boot",
+          "MCXN236:FRDM-MCXN236",
+          "verify",
+          "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf"
+        ]
+      },
+      "scope": "One verify invocation only, no automatic retry. Retain full output and exit/termination state; stop further operations on error or mismatch.",
+      "sideEffectsAndRisks": [
+        "Saved preconnect hook asserts a 50 ms wire reset, connects SWD, and sends debug-mailbox request 7.",
+        "Flash support may load/run a RAM driver and halt or disturb target state; volatile state or runtime/fault evidence can be lost and the target may remain halted/reset.",
+        "Probe/target operation compatibility is not yet demonstrated; no probe firmware update is authorized."
+      ],
+      "deadline": "30 s observation deadline from retained proposal; if still active or termination state is uncertain, issue no additional target commands and obtain engineer disposition. No forced interruption or automatic reset is authorized.",
+      "exclusions": [
+        "erase",
+        "firmware programming",
+        "unlock/resurrection",
+        "boot-setting changes",
+        "probe firmware update",
+        "additional resets or automatic recovery",
+        "GDB session or register-test execution",
+        "instrument connection/control or timing capture",
+        "firmware/source/build/design changes",
+        "Phase 4"
+      ],
+      "prerequisites": [
+        "Explicit APPROVE for H1 and scoped APPROVE for R1; approval alone does not establish the following physical facts.",
+        "Engineer confirms this physical FRDM-MCXN236 is associated with SPOBEAQ0BCREX, its power/setup is safe for the described reset/debug interaction, and any volatile evidence requiring preservation has been retained.",
+        "Resolve any critical physical target mismatch before connecting. Unknown loaded-image identity is what this verification is intended to investigate, not a waived test prerequisite.",
+        "Confirm exact file identity and approved command inputs remain applicable before execution, without rerunning completed discovery or host diagnostics.",
+        "Obtain the concrete native tool/sandbox permission if required; prior host-only grants do not cover this operation."
+      ],
+      "requestedChoices": [
+        "APPROVE",
+        "DENY",
+        "DEFER"
+      ],
+      "conversationRequest": {
+        "channel": "Conversation input request, TD01-P3-H1 question",
+        "requestRecordedAt": "2026-11-01T10:11:24+07:00",
+        "presentationTime": "Exact event timestamp not exposed; request was presented before requestRecordedAt",
+        "text": "TD01-P3-H1 — Do you APPROVE, DENY, or DEFER ONE LinkServer verification invocation, subject to R1 acceptance and separate native permission? Target: your physical FRDM-MCXN236, probe SPOBEAQ0BCREX; exact Debug ELF/hash in R1. Working directory: D:\\work_space\\Agent\\Agent. Exact PowerShell command: & 'C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe' flash --probe SPOBEAQ0BCREX --update-mode none --no-boot MCXN236:FRDM-MCXN236 verify 'D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf'. Effects: 50 ms wire reset, SWD/debug-mailbox interaction; may load/run a RAM driver, halt/disturb the target, erase volatile evidence, or leave it halted/reset. Scope: one invocation, no automatic retry; stop further commands on error/mismatch or a 30 s observation deadline, without forced interruption/reset. Excludes erase/programming/unlock, probe updates, additional resets, GDB/register tests, instruments, rebuilds, or Phase 4. APPROVE also confirms that this board is physically associated with SPOBEAQ0BCREX, power/setup is safe for these effects, and any volatile evidence needing preservation has been retained; otherwise DEFER and provide the missing confirmation.",
+        "options": [
+          "APPROVE H1 and confirm stated physical/safety facts",
+          "DENY H1",
+          "DEFER H1"
+        ],
+        "submissionResult": "Input request accepted for presentation; this is not an engineer approval"
+      },
+      "response": {
+        "answer": "APPROVE H1 and confirm stated physical/safety facts",
+        "approver": "Engineer/user in this conversation",
+        "reference": "request_user_input_async call_1189a8591b564536b348679a0cf17a98 question index 1",
+        "eventTimestamp": "Not supplied",
+        "scope": "As explicitly presented in this checkpoint; no additional authority"
+      },
+      "responseRecordedAt": "2026-11-01T10:12:09.3091585+07:00",
+      "nativePermission": "Concrete require_escalated command completed through native mechanism; exec result chunk c7c951. Separate approver/event timestamp not exposed.",
+      "subsequentActions": [
+        {
+          "executionId": "TD01-P3-V01",
+          "startedAt": "2026-11-01T10:12:44.1504142+07:00",
+          "endedAt": "2026-11-01T10:12:47.439404+07:00",
+          "nativeExitCode": -1,
+          "driverReportedExitCode": 1,
+          "outerLoggingShellExitCode": 0,
+          "outcome": "FLASH_IMAGE_MISMATCH",
+          "evidence": [
+            "verify-preflight.json",
+            "verify-operation.json",
+            "verify-output.log",
+            "verify-result.json"
+          ],
+          "scopeConsumed": "One authorized verify invocation; no programming or automatic retry",
+          "postState": "Unknown; log reports reset/halt and driver SOFTRESETs. No restore/reset command was issued."
+        }
+      ]
+    },
+    {
+      "checkpointId": "TD01-P3-R2",
+      "kind": "REVIEWABLE_RISK_SCOPE_EXTENSION",
+      "state": "CANCELLED_BY_ENGINEER_BEFORE_PRESENTATION",
+      "failureIds": [
+        "A01",
+        "A02",
+        "P3-F03"
+      ],
+      "requestedDisposition": "Extend acceptance of the retained historical permission/build-input/cache uncertainties to use of the exact unchanged Debug ELF for the remaining TD-01 v1.1 Phase 3 work, including separately approved programming, verification and tests. No hardware operation is authorized by risk acceptance; mandatory target/safety/measurement evidence and all approved test criteria remain required.",
+      "firmwareReference": "retainedContext.candidateImage",
+      "requestedChoices": [
+        "APPROVE",
+        "DENY",
+        "DEFER"
+      ],
+      "conversationRequest": null,
+      "response": null,
+      "responseRecordedAt": null,
+      "subsequentActions": []
+    },
+    {
+      "checkpointId": "TD01-P3-H2",
+      "kind": "NEW_DEVICE_PROGRAMMING_AND_VALIDATION_AUTHORIZATION",
+      "state": "CANCELLED_BY_ENGINEER_BEFORE_PRESENTATION",
+      "failureIds": [
+        "P3-F05"
+      ],
+      "target": "Engineer physical FRDM-MCXN236 via SPOBEAQ0BCREX",
+      "firmwareReference": "retainedContext.candidateImage",
+      "workingDirectory": "D:\\work_space\\Agent\\Agent",
+      "commands": [
+        {
+          "sequence": 1,
+          "executable": "C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe",
+          "arguments": [
+            "flash",
+            "--probe",
+            "SPOBEAQ0BCREX",
+            "--update-mode",
+            "none",
+            "--no-boot",
+            "MCXN236:FRDM-MCXN236",
+            "load",
+            "--no-reset",
+            "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf"
+          ]
+        },
+        {
+          "sequence": 2,
+          "condition": "Only after the first invocation completes successfully and without an unexpected state",
+          "executable": "C:\\NXP\\LinkServer_26.9.130\\LinkServer.exe",
+          "arguments": [
+            "flash",
+            "--probe",
+            "SPOBEAQ0BCREX",
+            "--update-mode",
+            "none",
+            "--no-boot",
+            "MCXN236:FRDM-MCXN236",
+            "verify",
+            "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf"
+          ]
+        }
+      ],
+      "scope": "One load --no-reset invocation plus one associated validating verify. No automatic retry. This is one P3-F05 recovery attempt when load is issued; validating verify belongs to the same attempt.",
+      "scopeChange": "Explicit new authorization to change programmed device flash to the unchanged retained image; this is outside H1 and the earlier no-firmware-change scope. Application source, image bytes, build inputs and design remain unchanged; no rebuild.",
+      "sideEffectsAndRisks": [
+        "Erase/program affected flash sectors and replace current firmware; data in affected sectors can be lost. No full erase option is included.",
+        "Reset/SWD/debug-mailbox activity and RAM flash-driver execution; actual prior verify log additionally reported SOFTRESETs. The target can halt or retain an unverified post-operation state.",
+        "A failed/interrupted programming operation can leave a partially programmed device. No forced interruption, unlock or recovery sequence is authorized."
+      ],
+      "deadline": "30 s observation deadline per invocation; issue no subsequent command on timeout/unknown completion and request engineer guidance without forced interruption/reset.",
+      "exclusions": [
+        "mass erase --erase-all",
+        "unlock/resurrection",
+        "probe update",
+        "boot setting change",
+        "further recovery/retry",
+        "standalone reset/run",
+        "GDB/register tests",
+        "instrument actions",
+        "source/image/build/design edits",
+        "Phase 4"
+      ],
+      "prerequisites": [
+        "Explicit R2 and H2 approvals plus native command permission",
+        "Engineer confirms the existing programmed image/data may be replaced and nothing in affected flash needs preservation; otherwise defer for a preservation decision",
+        "Same physically confirmed target/probe and safe setup remain applicable",
+        "Exact designated ELF identity must remain applicable before programming"
+      ],
+      "requestedChoices": [
+        "APPROVE",
+        "DENY",
+        "DEFER"
+      ],
+      "conversationRequest": null,
+      "response": null,
+      "responseRecordedAt": null,
+      "nativePermission": "Not requested; new engineer scope pending",
+      "subsequentActions": []
+    }
+  ],
+  "hardPrerequisitesStillUnresolved": [
+    "Operation-specific engineer authority and any required native permission.",
+    "Physical target/probe association and safe reset/debug setup confirmation.",
+    "Loaded/running image linkage required before later tests; verify alone does not prove normal running state.",
+    "Instrument, wiring, actual timing/reset/register evidence and separate operation authority for subsequent tests."
+  ],
+  "nextAction": "No Phase 3 execution or further target operation. Engineer states current objective is skill improvement only. R1/H1 are withdrawn for unstarted operations; retain historical completed verification and its actual authorization record. R2/H2 proposals are cancelled without presentation or approval. No new Phase 3 report or testing.",
+  "events": [
+    {
+      "recordedAt": "2026-11-01T10:09:27+07:00",
+      "event": "CHECKPOINTS_PREPARED",
+      "detail": "Retained report and ledgers read; no completed diagnostics rerun and no hardware operation attempted. Skill approval workflow updated; pending requests are not responses or executions."
+    },
+    {
+      "recordedAt": "2026-11-01T10:11:24+07:00",
+      "event": "APPROVAL_REQUESTS_PRESENTED",
+      "checkpointIds": [
+        "TD01-P3-R1",
+        "TD01-P3-H1"
+      ],
+      "detail": "Both explicit requests were submitted together through the conversation input mechanism with separately answerable APPROVE/DENY/DEFER options. No engineer response received at this recording; no restricted operation, native hardware prompt, or recovery attempt followed. Counters and prior evidence remain unchanged."
+    },
+    {
+      "recordedAt": "2026-11-01T10:12:09.3091585+07:00",
+      "event": "ENGINEER_APPROVALS_RECORDED",
+      "checkpointIds": [
+        "TD01-P3-R1",
+        "TD01-P3-H1"
+      ],
+      "detail": "Explicit responses approve scoped risk acceptance and one verify operation and confirm the stated physical/safety facts. Engineer event times not supplied. No hardware operation executed yet."
+    },
+    {
+      "recordedAt": "2026-11-01T10:12:09.3091585+07:00",
+      "event": "DESIGNATED_IMAGE_PREFLIGHT",
+      "evidence": "verify-preflight.json",
+      "matchesApprovedIdentity": true
+    },
+    {
+      "recordedAt": "2026-11-01T10:14:30.3968357+07:00",
+      "event": "AUTHORIZED_VERIFY_COMPLETED_WITH_MISMATCH",
+      "executionId": "TD01-P3-V01",
+      "detail": "One approved invocation completed. Native exit -1, inner driver reported 1, logging shell 0. Actual target recognized as NXP MCXN236 / Cortex-M33; flash differs from exact candidate. No program/erase/retry or later target command issued. Original recovery counters unchanged."
+    },
+    {
+      "recordedAt": "2026-11-01T10:15:37.2511479+07:00",
+      "event": "NEW_SCOPE_CHECKPOINTS_PREPARED",
+      "checkpointIds": [
+        "TD01-P3-R2",
+        "TD01-P3-H2"
+      ],
+      "detail": "Mismatch preserved. Programming proposal was prepared from retained P3-D07/P3-D08 help, without rerunning help or hardware diagnostics. No new restricted operation performed."
+    },
+    {
+      "recordedAt": "2026-11-01T10:16:34.4914464+07:00",
+      "event": "ENGINEER_STOP_AND_WITHDRAWAL_RECORDED",
+      "reference": "Current user message beginning STOP Phase 3 execution",
+      "eventTimestamp": "Not supplied",
+      "detail": "No further hardware operations or tests authorized. Completed V01 ended at 2026-11-01T10:12:47.4394040+07:00; no operation is in progress in this continuation. Unstarted scope withdrawn and unpresented R2/H2 proposals cancelled. Only this metadata ledger was updated; no report or hardware/tool diagnostic performed."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "recordedAt": "2026-11-01T10:52:38.6959997+07:00",
+  "testId": "T07",
+  "requirementId": "R4",
+  "executionId": "TD01-P3-T07-A01",
+  "status": "PASS",
+  "criterion": "Three engineer-controlled resets consistently preserve initial ON and required subsequent blink pattern without observed stalls/faults",
+  "method": "H4-authorized 50 ms wire reset, one at a time, each followed by attributable engineer visual observation",
+  "repetitionsCompleted": 3,
+  "repetitions": [
+    {
+      "executionId": "TD01-P3-T07-A01-R1",
+      "commandResult": "t07-reset1-result.json",
+      "observation": "t07-reset1-observation.json"
+    },
+    {
+      "executionId": "TD01-P3-T07-A01-R2",
+      "commandResult": "t07-reset2-result.json",
+      "observation": "t07-reset2-observation.json"
+    },
+    {
+      "executionId": "TD01-P3-T07-A01-R3",
+      "commandResult": "t07-reset3-result.json",
+      "observation": "t07-reset3-observation.json"
+    }
+  ],
+  "image": "D:\\work_space\\Agent\\Agent\\frdmmcxn236_led_blinky\\debug\\frdmmcxn236_led_blinky.elf",
+  "imageSha256": "2859DB1162705BF6567EDB235DE6A05AC08153268E00B64B7248AC382E36E391",
+  "loadedImageEvidence": "L01 load plus V02 three-region verification; no subsequent image programming before T07",
+  "sourceRevision": "b630da3bd67d84150d1cc574c2959be5e8e73039",
+  "workingSourceSha256": "46AD8D67DE632F9FDFFB8D8366AA9E832FAC03D81BAAC0A44C8A4D1976E588AF",
+  "target": "Engineer same FRDM-MCXN236 via probe SPOBEAQ0BCREX, physical revision unknown",
+  "actual": "Each reset: initial red ON, at least three complete cycles over at least 5 s, no observed stalls/faults",
+  "limitations": "Qualitative observation only; no measured ON/OFF/cycle/duty limits or hidden-fault exclusion established. T04-T06 stay BLOCKED.",
+  "recoveryAttemptsConsumed": 0,
+  "H4": "Three planned invocations consumed; no fourth reset authorized"
+}
